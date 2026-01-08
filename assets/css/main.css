@@ -387,11 +387,12 @@
 /* TOP Products Section */
 .top-products {
     background: linear-gradient(135deg,
-        rgba(234, 91, 12, 0.05) 0%,
-        rgba(76, 86, 92, 0.05) 100%);
+        rgba(234, 91, 12, 0.15) 0%,
+        rgba(76, 86, 92, 0.15) 100%);
     padding: var(--spacing-xl);
     border-radius: var(--radius-md);
     margin-bottom: var(--spacing-xxl);
+    border: 2px solid rgba(234, 91, 12, 0.2);
 }
 
 .top-products__title {
