@@ -1,0 +1,269 @@
+/* Admin Panel Styles */
+
+.admin {
+    min-height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.admin__header {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: var(--spacing-md);
+    box-shadow: var(--shadow-md);
+}
+
+.admin__header h1 {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+}
+
+.admin__link {
+    color: white;
+    text-decoration: underline;
+}
+
+.admin__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--spacing-md);
+}
+
+.admin__info {
+    background-color: #e3f2fd;
+    border-left: 4px solid #2196f3;
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    border-radius: var(--radius-sm);
+}
+
+.admin__info h2 {
+    color: #1976d2;
+    margin-bottom: var(--spacing-sm);
+}
+
+/* Tabs */
+.admin__tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: var(--spacing-md);
+    border-bottom: 2px solid #ddd;
+    flex-wrap: wrap;
+}
+
+.admin__tab {
+    padding: var(--spacing-sm) var(--spacing-md);
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all var(--transition-fast);
+}
+
+.admin__tab:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.admin__tab.active {
+    border-bottom-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+.admin__tab-content {
+    display: none;
+    background-color: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+}
+
+.admin__tab-content.active {
+    display: block;
+}
+
+.admin__tab-content h2 {
+    margin-bottom: var(--spacing-lg);
+    color: var(--color-secondary);
+}
+
+/* Sections */
+.admin__section {
+    margin-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-lg);
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.admin__section:last-child {
+    border-bottom: none;
+}
+
+.admin__section h3 {
+    color: var(--color-text);
+    margin-bottom: var(--spacing-md);
+}
+
+/* Form Elements */
+.admin__form-group {
+    margin-bottom: var(--spacing-md);
+}
+
+.admin__form-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: var(--spacing-xs);
+    color: var(--color-text);
+}
+
+.admin__form-group input[type="text"],
+.admin__form-group input[type="email"],
+.admin__form-group input[type="tel"],
+.admin__form-group input[type="url"],
+.admin__form-group textarea {
+    width: 100%;
+    padding: var(--spacing-sm);
+    border: 1px solid #ddd;
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-base);
+    transition: border-color var(--transition-fast);
+}
+
+.admin__form-group input:focus,
+.admin__form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+.admin__form-group input[type="color"] {
+    width: 80px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    margin-right: var(--spacing-sm);
+}
+
+/* Color Grid */
+.admin__color-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.admin__color-grid .admin__form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin__color-grid input[type="text"] {
+    margin-top: var(--spacing-xs);
+}
+
+/* Buttons */
+.admin__btn {
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: none;
+    border-radius: var(--radius-sm);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    margin-right: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+}
+
+.admin__btn--primary {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.admin__btn--primary:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.admin__btn--secondary {
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+.admin__btn--secondary:hover {
+    background-color: #1a1a1a;
+}
+
+.admin__btn--success {
+    background-color: #4caf50;
+    color: white;
+}
+
+.admin__btn--success:hover {
+    background-color: #45a049;
+}
+
+.admin__btn--danger {
+    background-color: #f44336;
+    color: white;
+}
+
+.admin__btn--danger:hover {
+    background-color: #da190b;
+}
+
+.admin__btn--small {
+    padding: 6px 12px;
+    font-size: 13px;
+}
+
+/* Category Item */
+.category-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.category-item__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-sm);
+}
+
+.category-item__header h4 {
+    margin: 0;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: var(--radius-sm);
+    padding: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+}
+
+.product-item__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Preview */
+#navigation-preview {
+    background-color: #f9f9f9;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-sm);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .admin__tabs {
+        overflow-x: auto;
+    }
+
+    .admin__tab {
+        flex-shrink: 0;
+    }
+
+    .admin__color-grid {
+        grid-template-columns: 1fr;
+    }
+}

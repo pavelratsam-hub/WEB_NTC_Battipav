@@ -1,0 +1,30 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Node modules (pokud budete používat build tools)
+node_modules/
+package-lock.json
+
+# Build files
+dist/
+build/
+
+# Claude
+.claude/
+
+# Windows errors
+nul

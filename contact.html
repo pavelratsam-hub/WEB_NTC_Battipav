@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | BATTIPAV</title>
+
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <script src="assets/js/config-loader.js"></script>
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__main">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img id="main-logo" src="assets/images/battipav/logo.svg" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="header__info">
+                        <div class="header__official"><span id="brand-name-header">Battipav</span> Česká republika</div>
+                        <div class="header__distributor" id="distributor-name">NTC STAVEBNÍ TECHNIKA spol. s r.o.</div>
+                        <div class="header__contact">
+                            <a href="tel:" id="header-phone"></a>
+                            <span style="color: var(--color-text-light); margin: 0 4px;">|</span>
+                            <a href="mailto:" id="header-email"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <div class="container">
+                <button class="nav__toggle" id="nav-toggle">☰ Menu</button>
+                <ul class="nav__list" id="nav-list"></ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding: var(--spacing-xl) 0;">
+        <div class="container">
+            <h1 class="hero__title">Kontakt</h1>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section">
+        <div class="container">
+            <div class="grid grid--2">
+                <!-- Contact Form -->
+                <div>
+                    <h2>Kontaktní formulář</h2>
+                    <p style="margin-bottom: var(--spacing-lg); color: var(--color-text-light);">
+                        Máte dotaz? Vyplňte formulář níže a my se vám ozveme co nejdříve.
+                    </p>
+
+                    <form id="contact-form" class="contact-form">
+                        <div class="form__group">
+                            <label for="name" class="form__label">Jméno a příjmení *</label>
+                            <input type="text" id="name" name="name" class="form__input" required>
+                        </div>
+
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email *</label>
+                            <input type="email" id="email" name="email" class="form__input" required>
+                        </div>
+
+                        <div class="form__group">
+                            <label for="phone" class="form__label">Telefon</label>
+                            <input type="tel" id="phone" name="phone" class="form__input">
+                        </div>
+
+                        <div class="form__group">
+                            <label for="subject" class="form__label">Předmět *</label>
+                            <input type="text" id="subject" name="subject" class="form__input" required>
+                        </div>
+
+                        <div class="form__group">
+                            <label for="message" class="form__label">Zpráva *</label>
+                            <textarea id="message" name="message" class="form__textarea" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn--primary">Odeslat zprávu</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h2>Kontaktní údaje</h2>
+                    <p style="margin-bottom: var(--spacing-lg); color: var(--color-text-light);">
+                        Neváhejte nás kontaktovat telefonicky nebo emailem.
+                    </p>
+
+                    <div class="contact-info" style="background-color: var(--color-background-gray); padding: var(--spacing-md); border-radius: var(--radius-md);">
+                        <h3 id="contact-distributor-name" style="margin-bottom: var(--spacing-md);"></h3>
+
+                        <div style="margin-bottom: var(--spacing-sm);">
+                            <strong>Adresa:</strong><br>
+                            <span id="contact-address"></span>
+                        </div>
+
+                        <div style="margin-bottom: var(--spacing-sm);">
+                            <strong>Telefon:</strong><br>
+                            <a href="tel:" id="contact-phone"></a>
+                        </div>
+
+                        <div style="margin-bottom: var(--spacing-sm);">
+                            <strong>Email:</strong><br>
+                            <a href="mailto:" id="contact-email"></a>
+                        </div>
+
+                        <div style="margin-bottom: var(--spacing-sm);">
+                            <strong>IČO:</strong> <span id="contact-ico"></span><br>
+                            <strong>DIČ:</strong> <span id="contact-dic"></span>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: var(--spacing-lg);">
+                        <h3>Provozní doba</h3>
+                        <p>
+                            Pondělí - Pátek: 8:00 - 16:00<br>
+                            Sobota - Neděle: Zavřeno
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__main">
+                <div class="grid grid--4">
+                    <div class="footer__col">
+                        <h3 class="footer__title" id="footer-brand-name">BATTIPAV</h3>
+                        <p id="footer-brand-description"></p>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Produkty</h3>
+                        <a href="electric-saws.html" class="footer__link">Elektrické pily</a>
+                        <a href="manual-cutters.html" class="footer__link">Ruční řezačky</a>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Informace</h3>
+                        <a href="about.html" class="footer__link">O společnosti</a>
+                        <a href="catalogue.html" class="footer__link">Katalog</a>
+                        <a href="contact.html" class="footer__link">Kontakt</a>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Kontakt</h3>
+                        <p id="footer-distributor-name"></p>
+                        <p id="footer-address"></p>
+                        <p id="footer-phone"></p>
+                        <p id="footer-email"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; <span id="current-year"></span> <span id="footer-copyright"></span>. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Naplnění kontaktních údajů
+        document.addEventListener('brandConfigLoaded', (e) => {
+            const config = e.detail;
+            const distributor = config.getDistributor();
+
+            const contactDistributorName = document.getElementById('contact-distributor-name');
+            if (contactDistributorName) contactDistributorName.textContent = distributor.name;
+
+            const contactAddress = document.getElementById('contact-address');
+            if (contactAddress) contactAddress.textContent = distributor.address || 'Adresa bude doplněna';
+
+            const contactPhone = document.getElementById('contact-phone');
+            if (contactPhone && distributor.phone) {
+                contactPhone.href = `tel:${distributor.phone}`;
+                contactPhone.textContent = distributor.phone;
+            } else if (contactPhone) {
+                contactPhone.textContent = 'Telefon bude doplněn';
+            }
+
+            const contactEmail = document.getElementById('contact-email');
+            if (contactEmail && distributor.email) {
+                contactEmail.href = `mailto:${distributor.email}`;
+                contactEmail.textContent = distributor.email;
+            } else if (contactEmail) {
+                contactEmail.textContent = 'Email bude doplněn';
+            }
+
+            const contactIco = document.getElementById('contact-ico');
+            if (contactIco) contactIco.textContent = distributor.ico || 'Bude doplněno';
+
+            const contactDic = document.getElementById('contact-dic');
+            if (contactDic) contactDic.textContent = distributor.dic || 'Bude doplněno';
+        });
+
+        // Zpracování formuláře
+        document.getElementById('contact-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Formulář byl odeslán! (V produkční verzi by byl odeslán na server)');
+            e.target.reset();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Správa obsahu</title>
+    <link rel="stylesheet" href="../assets/css/variables.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="admin">
+        <header class="admin__header">
+            <div class="admin__container">
+                <h1>⚙️ Admin Panel - Správa obsahu webu</h1>
+                <a href="../index.html" class="admin__link">← Zpět na web</a>
+            </div>
+        </header>
+
+        <div class="admin__container">
+            <div class="admin__info">
+                <h2>📋 Instrukce</h2>
+                <p>
+                    Tento admin panel umožňuje upravovat konfiguraci webu a produkty.
+                    Po provedení změn klikněte na "Uložit změny" a stáhne se vám nový JSON soubor,
+                    který nahradíte za původní v příslušné složce.
+                </p>
+            </div>
+
+            <!-- Tabs -->
+            <div class="admin__tabs">
+                <button class="admin__tab active" data-tab="brand">Značka & Distribuce</button>
+                <button class="admin__tab" data-tab="colors">Barvy & Design</button>
+                <button class="admin__tab" data-tab="carousel">Carousel</button>
+                <button class="admin__tab" data-tab="navigation">Navigace</button>
+                <button class="admin__tab" data-tab="products">Produkty</button>
+                <button class="admin__tab" data-tab="export">Export/Import</button>
+            </div>
+
+            <!-- Tab Content: Brand & Distributor -->
+            <div class="admin__tab-content active" data-content="brand">
+                <h2>Informace o značce a distributorovi</h2>
+
+                <div class="admin__section">
+                    <h3>Značka</h3>
+                    <div class="admin__form-group">
+                        <label>Název značky:</label>
+                        <input type="text" id="brand-name" placeholder="BATTIPAV">
+                    </div>
+                    <div class="admin__form-group">
+                        <label>Plný název:</label>
+                        <input type="text" id="brand-fullName" placeholder="Battipav S.r.l.">
+                    </div>
+                    <div class="admin__form-group">
+                        <label>Země původu:</label>
+                        <input type="text" id="brand-country" placeholder="Itálie">
+                    </div>
+                    <div class="admin__form-group">
+                        <label>Popis:</label>
+                        <textarea id="brand-description" rows="4"></textarea>
+                    </div>
+                    <div class="admin__form-group">
+                        <label>Website:</label>
+                        <input type="url" id="brand-website" placeholder="https://battipav.com">
+                    </div>
+                </div>
+
+                <div class="admin__section">
+                    <h3>Distributor</h3>
+                    <div class="admin__form-group">
+                        <label>Název distributora:</label>
+                        <input type="text" id="distributor-name" placeholder="NTC STAVEBNÍ TECHNIKA spol. s r.o.">
+                    </div>
+                    <div class="admin__form-group">
+                        <label>Role:</label>
+                        <input type="text" id="distributor-role" placeholder="Oficiální a exkluzivní dovozce">
+                    </div>
+                    <div class="admin__form-group">
+                        <label>Země:</label>
+                        <input type="text" id="distributor-country" placeholder="Česká republika">
+                    </div>
+                    <div class="admin__form-group">
+                        <label>Telefon:</label>
+                        <input type="tel" id="distributor-phone" placeholder="+420 xxx xxx xxx">
+                    </div>
+                    <div class="admin__form-group">
+                        <label>Email:</label>
+                        <input type="email" id="distributor-email" placeholder="info@ntc.cz">
+                    </div>
+                    <div class="admin__form-group">
+                        <label>Adresa:</label>
+                        <textarea id="distributor-address" rows="2"></textarea>
+                    </div>
+                    <div class="admin__form-group">
+                        <label>IČO:</label>
+                        <input type="text" id="distributor-ico">
+                    </div>
+                    <div class="admin__form-group">
+                        <label>DIČ:</label>
+                        <input type="text" id="distributor-dic">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content: Colors & Design -->
+            <div class="admin__tab-content" data-content="colors">
+                <h2>Barvy a design</h2>
+
+                <div class="admin__section">
+                    <h3>Barevné schema</h3>
+                    <div class="admin__color-grid">
+                        <div class="admin__form-group">
+                            <label>Primární barva:</label>
+                            <input type="color" id="color-primary">
+                            <input type="text" id="color-primary-text" placeholder="#E31E24">
+                        </div>
+                        <div class="admin__form-group">
+                            <label>Primární barva (tmavá):</label>
+                            <input type="color" id="color-primaryDark">
+                            <input type="text" id="color-primaryDark-text" placeholder="#B71820">
+                        </div>
+                        <div class="admin__form-group">
+                            <label>Sekundární barva:</label>
+                            <input type="color" id="color-secondary">
+                            <input type="text" id="color-secondary-text" placeholder="#2C2C2C">
+                        </div>
+                        <div class="admin__form-group">
+                            <label>Accent barva:</label>
+                            <input type="color" id="color-accent">
+                            <input type="text" id="color-accent-text" placeholder="#F5F5F5">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="admin__section">
+                    <h3>Logo a favicon</h3>
+                    <div class="admin__form-group">
+                        <label>Hlavní logo (cesta):</label>
+                        <input type="text" id="logo-main" placeholder="assets/images/battipav/logo.svg">
+                    </div>
+                    <div class="admin__form-group">
+                        <label>Alternativní logo:</label>
+                        <input type="text" id="logo-alt" placeholder="assets/images/battipav/logo-alt.png">
+                    </div>
+                    <div class="admin__form-group">
+                        <label>Favicon:</label>
+                        <input type="text" id="logo-favicon" placeholder="assets/images/battipav/favicon.ico">
+                    </div>
+                </div>
+
+                <div class="admin__section">
+                    <h3>SEO</h3>
+                    <div class="admin__form-group">
+                        <label>Title (titulek stránky):</label>
+                        <input type="text" id="seo-title">
+                    </div>
+                    <div class="admin__form-group">
+                        <label>Meta description:</label>
+                        <textarea id="seo-description" rows="2"></textarea>
+                    </div>
+                    <div class="admin__form-group">
+                        <label>Keywords:</label>
+                        <input type="text" id="seo-keywords">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content: Carousel -->
+            <div class="admin__tab-content" data-content="carousel">
+                <h2>Carousel - Hlavní banner</h2>
+
+                <div class="admin__section">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                        <h3>Slidy</h3>
+                        <button class="admin__btn admin__btn--primary" onclick="addSlide()">+ Přidat slide</button>
+                    </div>
+                    <div id="slides-list"></div>
+                </div>
+
+                <div class="admin__section">
+                    <h3>Nastavení</h3>
+                    <div class="admin__form-group">
+                        <label>Rychlost automatického přepínání (ms):</label>
+                        <input type="number" id="carousel-autoplay" value="5000" min="1000" max="30000" step="1000">
+                        <small style="color: var(--color-text-light);">1000 ms = 1 sekunda. Doporučeno: 5000 ms</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content: Navigation -->
+            <div class="admin__tab-content" data-content="navigation">
+                <h2>Navigace</h2>
+                <p>Navigace je automaticky generována z konfigurace. Můžete upravit odkazy v JSON konfiguraci.</p>
+                <div id="navigation-preview"></div>
+            </div>
+
+            <!-- Tab Content: Products -->
+            <div class="admin__tab-content" data-content="products">
+                <h2>Produkty</h2>
+                <div class="admin__section">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                        <h3>Kategorie produktů</h3>
+                        <button class="admin__btn admin__btn--primary" onclick="addCategory()">+ Přidat kategorii</button>
+                    </div>
+                    <div id="categories-list"></div>
+                </div>
+            </div>
+
+            <!-- Tab Content: Export/Import -->
+            <div class="admin__tab-content" data-content="export">
+                <h2>Export a Import konfigurace</h2>
+
+                <div class="admin__section">
+                    <h3>💾 Uložit změny</h3>
+                    <p>Klikněte na tlačítko pro stažení aktualizovaných konfiguračních souborů:</p>
+                    <button class="admin__btn admin__btn--success" onclick="downloadConfig()">📥 Stáhnout config/battipav.json</button>
+                    <button class="admin__btn admin__btn--success" onclick="downloadProducts()">📥 Stáhnout products/products.json</button>
+                </div>
+
+                <div class="admin__section">
+                    <h3>📤 Načíst konfiguraci</h3>
+                    <p>Nahrajte existující konfigurační soubory:</p>
+                    <input type="file" id="import-config" accept=".json">
+                    <button class="admin__btn admin__btn--secondary" onclick="importConfig()">Načíst config</button>
+                    <br><br>
+                    <input type="file" id="import-products" accept=".json">
+                    <button class="admin__btn admin__btn--secondary" onclick="importProducts()">Načíst produkty</button>
+                </div>
+
+                <div class="admin__section">
+                    <h3>🔄 Vytvořit novou značku</h3>
+                    <p>Pro vytvoření webu pro novou značku:</p>
+                    <ol style="line-height: 1.8;">
+                        <li>Upravte všechny údaje značky a distributora</li>
+                        <li>Nastavte nové barvy a logo</li>
+                        <li>Upravte produkty</li>
+                        <li>Stáhněte oba JSON soubory</li>
+                        <li>Přejmenujte config/battipav.json na config/nova-znacka.json</li>
+                        <li>Nahraďte v config-loader.js název souboru při načítání</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+    <script src="admin-carousel.js"></script>
+</body>
+</html>

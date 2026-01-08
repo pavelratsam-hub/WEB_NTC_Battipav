@@ -1,0 +1,260 @@
+{
+  "categories": [
+    {
+      "id": "electric-saws",
+      "name": "Elektrické pily",
+      "description": "Výkonné elektrické pily pro stavebníky, kameníky, obkladače a ostatní řemeslníky.",
+      "image": "assets/images/products/electric-saws.jpg",
+      "subcategories": [
+        {
+          "id": "block-saws",
+          "name": "Pily blokové",
+          "description": "Kompaktní blokové pily pro přesné řezání cihel, kamene a betonu.",
+          "products": [
+            {
+              "id": "elite-80s",
+              "name": "ELITE 80S",
+              "description": "Bloková pila pro cihly, kámen, betonové bloky, žulu a mramor.",
+              "image": "assets/images/products/elite-80s.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "features": [
+                "Výkon motoru: 2200 W",
+                "Průměr kotouče: ø350 mm",
+                "Max. hloubka řezu (90°): 110 mm",
+                "Max. hloubka řezu (45°): 80 mm",
+                "Hmotnost: 68 kg",
+                "Naváděcí laser: ANO"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/elite_80_technick___list_.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-blokova-battipav-elite-80s/"
+            }
+          ]
+        },
+        {
+          "id": "portal-block-saws",
+          "name": "Pily portálové blokové",
+          "description": "Portálové pily s blokovým designem pro řezání různých materiálů.",
+          "products": [
+            {
+              "id": "prime-700",
+              "name": "PRIME 700",
+              "description": "Portálová bloková pila pro řezání cihel, kamene, pórobetonu a betonu.",
+              "image": "assets/images/products/prime-700.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "features": [
+                "Výkon motoru: 4000 W",
+                "Průměr kotouče: ø700 mm",
+                "Max. hloubka řezu (90°): 275 mm",
+                "Max. hloubka řezu (45°): 180 mm",
+                "Hmotnost: 113 kg"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/prime700_technick___list_-1.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-blokova-battipav-prime-700/"
+            }
+          ]
+        },
+        {
+          "id": "portal-construction-saws",
+          "name": "Pily portálové stavební",
+          "description": "Robustní portálové pily pro stavebnictví.",
+          "products": []
+        },
+        {
+          "id": "portal-tile-saws",
+          "name": "Pily portálové na obklady a dlažbu",
+          "description": "Portálové pily určené pro řezání obkladů a dlažby.",
+          "products": [
+            {
+              "id": "vip-260",
+              "name": "VIP 260",
+              "description": "Profesionální elektrická řezačka VIP série.",
+              "topProduct": false,
+              "features": [
+                "Průměr kotouče: 260 mm",
+                "Robustní konstrukce",
+                "Přesné řezy"
+              ],
+              "image": "assets/images/products/vip-260.jpg",
+              "brochure": "",
+              "technicalSheet": "",
+              "eshopUrl": ""
+            },
+            {
+              "id": "class-plus",
+              "name": "CLASS PLUS",
+              "description": "Elektrická řezačka dlaždic s vodním chlazením.",
+              "image": "assets/images/products/class-plus.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "topVariantIndex": 1,
+              "variants": [
+                {
+                  "id": "850s",
+                  "name": "850S",
+                  "features": [
+                    "Výkon motoru: 1400W",
+                    "Maximální délka řezu: 85 cm",
+                    "Nastavitelný úhel řezu 0-45°",
+                    "Hmotnost: 48,5 kg",
+					"Naváděcí laser: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/class_plus_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-class-plus-850s/"
+                },
+                {
+                  "id": "1050s",
+                  "name": "1050S",
+                  "features": [
+                    "Výkon motoru: 1400W",
+                    "Maximální délka řezu: 105 cm",
+                    "Nastavitelný úhel řezu 0-45°",
+                    "Hmotnost: 52 kg",
+					"Naváděcí laser: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/class_plus_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-class-plus-1050s/"
+                },
+                {
+                  "id": "1300s",
+                  "name": "1300S",
+                  "features": [
+                    "Výkon motoru: 1400W",
+                    "Maximální délka řezu: 130 cm",
+                    "Nastavitelný úhel řezu 0-45°",
+                    "Hmotnost: 58,5 kg",
+					"Naváděcí laser: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/class_plus_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-class-plus-1300s/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "portal-large-format-saws",
+          "name": "Pily portálové na velkoformátové obklady",
+          "description": "Pily pro velkoformátové obklady a dlažbu.",
+          "products": [
+            {
+              "id": "extra-superlunga-3300s",
+              "name": "Extra Superlunga 3300S",
+              "description": "Portálová pila na velkoformátové obklady a dlažbu.",
+              "image": "assets/images/products/extra-superlunga-3300s.png",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Výkon motoru: 1400 W",
+                "Průměr kotouče: ø200 mm",
+                "Max. délka řezu: 3300 mm",
+                "Max. hloubka řezu (90°): 40 mm",
+                "Max. hloubka řezu (45°): 35 mm",
+                "Hmotnost: 181 kg",
+                "Naváděcí laser: ANO"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/extra_3300s_superlunga.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-extra-superlunga-3300s/"
+            }
+          ]
+        },
+        {
+          "id": "table-saws",
+          "name": "Pily stolové",
+          "description": "Stolové pily pro různé typy řezání.",
+          "products": []
+        }
+      ]
+    },
+    {
+      "id": "manual-cutters",
+      "name": "Ruční řezačky obkladů",
+      "description": "Profesionální ruční řezačky pro přesné řezání keramických obkladů a dlažby.",
+      "image": "assets/images/products/manual-cutters.png",
+      "products": [
+        {
+          "id": "profi-evo",
+          "name": "PROFI EVO",
+          "description": "Ruční řezačka s hliníkovým pojezdem a kuličkovými ložisky pro maximální přesnost.",
+          "image": "assets/images/products/profi-evo.jpg",
+          "brochure": "",
+          "topProduct": true,
+          "topVariantIndex": 2,
+          "variants": [
+            {
+              "id": "63",
+              "name": "63",
+              "features": [
+                "Řezná délka: 630 mm",
+                "Tloušťka obkladů: 5-15 mm",
+                "Max. diagonální řez: 440×440 mm",
+                "Hmotnost: 9,5 kg",
+                "Kuličková ložiska pro plynulost",
+                "Goniometrický čtverec -45° až +45°"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-63/"
+            },
+            {
+              "id": "88",
+              "name": "88",
+              "features": [
+                "Řezná délka: 880 mm",
+                "Tloušťka obkladů: 5-15 mm",
+                "Max. diagonální řez: 620×620 mm",
+                "Hmotnost: 13 kg",
+                "Kuličková ložiska pro plynulost",
+                "Goniometrický čtverec -45° až +45°"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-88/"
+            },
+            {
+              "id": "103",
+              "name": "103",
+              "features": [
+                "Řezná délka: 1030 mm",
+                "Tloušťka obkladů: 5-15 mm",
+                "Max. diagonální řez: 720×720 mm",
+                "Hmotnost: 14,1 kg",
+                "Kuličková ložiska pro plynulost",
+                "Goniometrický čtverec -45° až +45°"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-103/"
+            },
+            {
+              "id": "133",
+              "name": "133",
+              "features": [
+                "Řezná délka: 1330 mm",
+                "Tloušťka obkladů: 5-15 mm",
+                "Max. diagonální řez: 940×940 mm",
+                "Hmotnost: 17 kg",
+                "Kuličková ložiska pro plynulost",
+                "Goniometrický čtverec -45° až +45°"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-133/"
+            },
+            {
+              "id": "163",
+              "name": "163",
+              "features": [
+                "Řezná délka: 1630 mm",
+                "Tloušťka obkladů: 5-15 mm",
+                "Max. diagonální řez: 1150×1150 mm",
+                "Hmotnost: 19,9 kg",
+                "Kuličková ložiska pro plynulost",
+                "Goniometrický čtverec -45° až +45°"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-163/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

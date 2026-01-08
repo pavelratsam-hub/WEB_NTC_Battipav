@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog | BATTIPAV</title>
+
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <script src="assets/js/config-loader.js"></script>
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__main">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img id="main-logo" src="assets/images/battipav/logo.svg" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="header__info">
+                        <div class="header__official"><span id="brand-name-header">Battipav</span> Česká republika</div>
+                        <div class="header__distributor" id="distributor-name">NTC STAVEBNÍ TECHNIKA spol. s r.o.</div>
+                        <div class="header__contact">
+                            <a href="tel:" id="header-phone"></a>
+                            <span style="color: var(--color-text-light); margin: 0 4px;">|</span>
+                            <a href="mailto:" id="header-email"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <div class="container">
+                <button class="nav__toggle" id="nav-toggle">☰ Menu</button>
+                <ul class="nav__list" id="nav-list"></ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding: var(--spacing-xl) 0;">
+        <div class="container">
+            <h1 class="hero__title">Katalog produktů</h1>
+        </div>
+    </section>
+
+    <!-- Catalogue Content -->
+    <section class="section">
+        <div class="container">
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <div style="background-color: var(--color-background-gray); padding: var(--spacing-xl); border-radius: var(--radius-md); margin-bottom: var(--spacing-xl);">
+                    <h2>Aktuální katalog</h2>
+                    <p style="margin: var(--spacing-md) 0; color: var(--color-text-light);">
+                        Kompletní katalog produktů Battipav ke stažení.
+                    </p>
+                    <p style="margin-bottom: var(--spacing-lg); font-size: var(--font-size-small); color: var(--color-text-light);">
+                        Formát: PDF | Velikost: cca 15 MB
+                    </p>
+                    <a href="#" class="btn btn--primary" onclick="alert('Katalog bude dostupný ke stažení'); return false;">
+                        Stáhnout katalog
+                    </a>
+                </div>
+
+                <div style="margin-top: var(--spacing-xl); padding: var(--spacing-lg); background-color: var(--color-primary); color: white; border-radius: var(--radius-md);">
+                    <h3>Potřebujete více informací?</h3>
+                    <p style="margin: var(--spacing-sm) 0;">
+                        Rádi vám pomůžeme s výběrem vhodného stroje.
+                    </p>
+                    <a href="contact.html" class="btn btn--secondary" style="margin-top: var(--spacing-sm);">
+                        Kontaktujte nás
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__main">
+                <div class="grid grid--4">
+                    <div class="footer__col">
+                        <h3 class="footer__title" id="footer-brand-name">BATTIPAV</h3>
+                        <p id="footer-brand-description"></p>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Produkty</h3>
+                        <a href="electric-saws.html" class="footer__link">Elektrické pily</a>
+                        <a href="manual-cutters.html" class="footer__link">Ruční řezačky</a>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Informace</h3>
+                        <a href="about.html" class="footer__link">O společnosti</a>
+                        <a href="catalogue.html" class="footer__link">Katalog</a>
+                        <a href="contact.html" class="footer__link">Kontakt</a>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Kontakt</h3>
+                        <p id="footer-distributor-name"></p>
+                        <p id="footer-address"></p>
+                        <p id="footer-phone"></p>
+                        <p id="footer-email"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; <span id="current-year"></span> <span id="footer-copyright"></span>. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('brandConfigLoaded', (e) => {
+            const config = e.detail;
+            const brand = config.getBrand();
+
+            const catalogueBrandName = document.getElementById('catalogue-brand-name');
+            if (catalogueBrandName) catalogueBrandName.textContent = brand.name;
+
+            const catalogueBrandName2 = document.getElementById('catalogue-brand-name-2');
+            if (catalogueBrandName2) catalogueBrandName2.textContent = brand.name;
+        });
+    </script>
+</body>
+</html>

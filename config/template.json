@@ -1,0 +1,90 @@
+{
+  "brand": {
+    "name": "NÁZEV_ZNAČKY",
+    "fullName": "Plný název společnosti",
+    "country": "Země původu",
+    "website": "https://example.com",
+    "description": "Popis značky a její historie..."
+  },
+  "distributor": {
+    "name": "NTC STAVEBNÍ TECHNIKA spol. s r.o.",
+    "role": "Oficiální a exkluzivní dovozce",
+    "country": "Česká republika",
+    "phone": "+420 XXX XXX XXX",
+    "email": "info@ntc.cz",
+    "address": "Ulice 123, 123 45 Město",
+    "ico": "12345678",
+    "dic": "CZ12345678"
+  },
+  "colors": {
+    "primary": "#E31E24",
+    "primaryDark": "#B71820",
+    "secondary": "#2C2C2C",
+    "accent": "#F5F5F5",
+    "text": "#333333",
+    "textLight": "#666666",
+    "background": "#FFFFFF",
+    "backgroundGray": "#F8F8F8"
+  },
+  "typography": {
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "headingFont": "Arial, Helvetica, sans-serif",
+    "fontSize": {
+      "base": "16px",
+      "h1": "48px",
+      "h2": "36px",
+      "h3": "28px",
+      "h4": "24px"
+    }
+  },
+  "logo": {
+    "main": "assets/images/BRAND_NAME/logo.svg",
+    "alt": "assets/images/BRAND_NAME/logo-alt.png",
+    "favicon": "assets/images/BRAND_NAME/favicon.ico"
+  },
+  "navigation": [
+    {
+      "id": "home",
+      "label": "Domů",
+      "url": "index.html"
+    },
+    {
+      "id": "about",
+      "label": "O společnosti",
+      "url": "about.html"
+    },
+    {
+      "id": "products",
+      "label": "Produkty",
+      "url": "products.html",
+      "submenu": [
+        {
+          "id": "category-1",
+          "label": "Kategorie 1",
+          "url": "products.html#category-1"
+        }
+      ]
+    },
+    {
+      "id": "catalogue",
+      "label": "Katalog",
+      "url": "catalogue.html"
+    },
+    {
+      "id": "contact",
+      "label": "Kontakt",
+      "url": "contact.html"
+    }
+  ],
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "youtube": "",
+    "linkedin": ""
+  },
+  "seo": {
+    "title": "NÁZEV_ZNAČKY - Popis | NTC STAVEBNÍ TECHNIKA",
+    "description": "Oficiální dovozce produktů NÁZEV_ZNAČKY do ČR. Popis produktů...",
+    "keywords": "klíčová slova, značka, produkty"
+  }
+}

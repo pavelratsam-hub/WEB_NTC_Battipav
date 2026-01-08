@@ -1,0 +1,150 @@
+{
+  "brand": {
+    "name": "BATTIPAV",
+    "fullName": "Battipav S.r.l.",
+    "country": "Itálie",
+    "website": "https://battipav.com",
+    "description": "Italská firma Battipav S.r.l. z Cotignola (RA) je světovým lídrem ve výrobě profesionálních řezacích strojů a nářadí pro zpracování keramiky, kamene a betonu."
+  },
+  "distributor": {
+    "name": "NTC STAVEBNÍ TECHNIKA spol. s r.o.",
+    "role": "Battipav Česká republika",
+    "country": "Česká republika",
+    "phone": "+420 491 452 184",
+    "email": "info@ntc.cz",
+    "address": "Jiřinková 120",
+    "ico": "63221152",
+    "dic": "CZ63221152"
+  },
+  "colors": {
+    "primary": "#ea5b0c",
+    "primaryDark": "#4c565c",
+    "secondary": "#777777",
+    "accent": "#eeeeee",
+    "text": "#333333",
+    "textLight": "#666666",
+    "background": "#FFFFFF",
+    "backgroundGray": "#F8F8F8"
+  },
+  "typography": {
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "headingFont": "Arial, Helvetica, sans-serif",
+    "fontSize": {
+      "base": "16px",
+      "h1": "48px",
+      "h2": "36px",
+      "h3": "28px",
+      "h4": "24px"
+    }
+  },
+  "logo": {
+    "main": "assets/images/battipav/Battipav logo.png",
+    "alt": "assets/images/battipav/logo-alt.png",
+    "favicon": "assets/images/battipav/favicon.ico"
+  },
+  "navigation": [
+    {
+      "id": "home",
+      "label": "Domů",
+      "url": "index.html"
+    },
+    {
+      "id": "about",
+      "label": "O společnosti",
+      "url": "about.html",
+      "submenu": [
+        {
+          "id": "about-battipav",
+          "label": "Battipav",
+          "url": "about.html#battipav"
+        },
+        {
+          "id": "about-ntc",
+          "label": "NTC",
+          "url": "about.html#ntc"
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "label": "Produkty",
+      "url": "products.html",
+      "submenu": [
+        {
+          "id": "electric-saws",
+          "label": "Elektrické pily",
+          "url": "electric-saws.html"
+        },
+        {
+          "id": "manual-cutters",
+          "label": "Ruční řezačky",
+          "url": "manual-cutters.html"
+        }
+      ]
+    },
+    {
+      "id": "catalogue",
+      "label": "Katalog",
+      "url": "catalogue.html"
+    },
+    {
+      "id": "contact",
+      "label": "Kontakt",
+      "url": "contact.html"
+    },
+    {
+      "id": "eshop",
+      "label": "E-shop",
+      "url": "https://www.ntcshop.cz/znacka/battipav/"
+    }
+  ],
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "youtube": "",
+    "linkedin": ""
+  },
+  "seo": {
+    "title": "BATTIPAV - Profesionální řezací stroje | NTC STAVEBNÍ TECHNIKA",
+    "description": "Oficiální dovozce italských profesionálních strojů BATTIPAV do ČR. Ruční a elektrické řezačky dlaždic, diamantové nástroje a příslušenství.",
+    "keywords": "battipav, řezačka dlaždic, elektrická pila, diamantové nástroje, italské stroje"
+  },
+  "carousel": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "badge": "🇮🇹 Made in Italy",
+        "title": "BATTIPAV",
+        "subtitle": "Profesionální řezací stroje a nářadí<br>pro zpracování keramiky, kamene a betonu",
+        "ctaText": "Zobrazit produkty",
+        "ctaLink": "products.html",
+        "background": "assets/images/battipav/Textura BATTIPAV LOGO_ŠEDÁ.jpg",
+        "gradientStart": "",
+        "gradientEnd": ""
+      },
+      {
+        "id": "slide-2",
+        "badge": "⚡ Výkonné a přesné",
+        "title": "Elektrické řezačky<br>CLASS & VIP série",
+        "subtitle": "Profesionální elektrické pily s vodním chlazením<br>pro náročné řezání keramiky a velkých formátů",
+        "ctaText": "Elektrické pily",
+        "ctaLink": "electric-saws.html",
+        "background": "assets/images/battipav/slide2-bg.jpg",
+        "gradientStart": "",
+        "gradientEnd": ""
+      },
+      {
+        "id": "slide-3",
+        "badge": "",
+        "title": "",
+        "subtitle": "",
+        "ctaText": "Ruční řezačky",
+        "ctaLink": "manual-cutters.html",
+        "background": "assets/images/battipav/slide3-bg.jpg",
+        "gradientStart": "",
+        "gradientEnd": ""
+      }
+    ],
+    "autoPlayDelay": 5000
+  }
+}
