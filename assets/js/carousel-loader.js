@@ -104,13 +104,13 @@ function updateCarouselStyles(slides) {
 .carousel__slide--${index + 1} {
     background:
         linear-gradient(135deg, ${slide.gradientStart} 0%, ${slide.gradientEnd} 100%),
-        url('../${slide.background}') center center / cover no-repeat;
+        url('${slide.background}') center center / cover no-repeat;
 }
             `;
         } else {
             css += `
 .carousel__slide--${index + 1} {
-    background: url('../${slide.background}') center center / cover no-repeat;
+    background: url('${slide.background}') center center / cover no-repeat;
 }
             `;
         }
