@@ -32,7 +32,7 @@ function loadProductsPage(config) {
         // Zobrazit nadpis kategorie pouze pokud zobrazujeme více kategorií
         if (categoriesToShow.length > 1) {
             const header = document.createElement('div');
-            header.className = 'section__header';
+            header.className = 'section__header section__header--highlighted';
             header.innerHTML = `
                 <h2 class="section__title">${category.name}</h2>
             `;
