@@ -223,16 +223,23 @@
 .section__header {
     text-align: center;
     margin-bottom: var(--spacing-xl);
+    background: rgba(234, 91, 12, 0.15);
+    padding: 20px;
+    border-radius: var(--radius-md);
+    border: 2px solid rgba(234, 91, 12, 0.3);
 }
 
 .section__title {
     color: var(--color-secondary);
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1.2;
 }
 
 .section__subtitle {
     color: var(--color-text-light);
     font-size: 18px;
+    line-height: 1.2;
 }
 
 /* Grid */
@@ -386,12 +393,11 @@
 
 /* TOP Products Section */
 .top-products {
-    background: linear-gradient(135deg,
-        rgba(234, 91, 12, 0.15) 0%,
-        rgba(76, 86, 92, 0.15) 100%);
+    background: rgba(234, 91, 12, 0.15);
     padding: var(--spacing-xl);
     border-radius: var(--radius-md);
     margin-bottom: var(--spacing-xxl);
+    border: 2px solid rgba(234, 91, 12, 0.3);
 }
 
 .top-products__title {

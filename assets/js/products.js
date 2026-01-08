@@ -35,7 +35,6 @@ function loadProductsPage(config) {
             header.className = 'section__header';
             header.innerHTML = `
                 <h2 class="section__title">${category.name}</h2>
-                <p class="section__subtitle">${category.description}</p>
             `;
             categorySection.appendChild(header);
         }
