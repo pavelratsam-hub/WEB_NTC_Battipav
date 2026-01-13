@@ -89,6 +89,7 @@ function renderSubcategories(category, container) {
         // Subcategory header
         const subHeader = document.createElement('div');
         subHeader.className = 'subcategory-header';
+        subHeader.id = subcategory.id; // ID pro kotvy
         subHeader.innerHTML = `
             <h3 class="subcategory-title">${subcategory.name}</h3>
             ${subcategory.description ? `<p class="subcategory-description">${subcategory.description}</p>` : ''}

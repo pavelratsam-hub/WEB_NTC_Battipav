@@ -123,55 +123,54 @@ function loadNavigation(config) {
     navList.innerHTML = '';
 
     navigation.forEach(item => {
-        const li = document.createElement('li');
-        li.className = 'nav__item';
-
-        const link = document.createElement('a');
-        link.href = item.url;
-        link.className = 'nav__link';
-        link.textContent = item.label;
-
-        // Externí odkazy otevřít v nové záložce
-        if (item.url.startsWith('http://') || item.url.startsWith('https://')) {
-            link.target = '_blank';
-            link.rel = 'noopener noreferrer';
-        }
-
-        // Aktivní stránka
-        if (window.location.pathname.includes(item.url) ||
-            (item.url === 'index.html' && window.location.pathname === '/')) {
-            link.classList.add('active');
-        }
-
-        li.appendChild(link);
-
-        // Submenu
-        if (item.submenu && item.submenu.length > 0) {
-            const submenu = document.createElement('ul');
-            submenu.className = 'nav__submenu';
-
-            item.submenu.forEach(subitem => {
-                const subLi = document.createElement('li');
-                const subLink = document.createElement('a');
-                subLink.href = subitem.url;
-                subLink.className = 'nav__submenu-link';
-                subLink.textContent = subitem.label;
-
-                // Externí odkazy otevřít v nové záložce
-                if (subitem.url.startsWith('http://') || subitem.url.startsWith('https://')) {
-                    subLink.target = '_blank';
-                    subLink.rel = 'noopener noreferrer';
-                }
-
-                subLi.appendChild(subLink);
-                submenu.appendChild(subLi);
-            });
-
-            li.appendChild(submenu);
-        }
-
+        const li = createMenuItem(item);
         navList.appendChild(li);
     });
+}
+
+// Rekurzivní vytvoření menu položky
+function createMenuItem(item, level = 1) {
+    const li = document.createElement('li');
+    li.className = level === 1 ? 'nav__item' : '';
+
+    const link = document.createElement('a');
+    link.href = item.url;
+    link.className = level === 1 ? 'nav__link' : 'nav__submenu-link';
+    link.textContent = item.label;
+
+    // Externí odkazy otevřít v nové záložce
+    if (item.url.startsWith('http://') || item.url.startsWith('https://')) {
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+    }
+
+    // Aktivní stránka
+    if (window.location.pathname.includes(item.url) ||
+        (item.url === 'index.html' && window.location.pathname === '/')) {
+        link.classList.add('active');
+    }
+
+    // Pokud má submenu, přidej indikátor
+    if (item.submenu && item.submenu.length > 0) {
+        link.classList.add('has-submenu');
+    }
+
+    li.appendChild(link);
+
+    // Submenu - rekurzivně
+    if (item.submenu && item.submenu.length > 0) {
+        const submenu = document.createElement('ul');
+        submenu.className = level === 1 ? 'nav__submenu' : 'nav__submenu nav__submenu--level' + (level + 1);
+
+        item.submenu.forEach(subitem => {
+            const subLi = createMenuItem(subitem, level + 1);
+            submenu.appendChild(subLi);
+        });
+
+        li.appendChild(submenu);
+    }
+
+    return li;
 }
 
 // Načtení kategorií na hlavní stránce

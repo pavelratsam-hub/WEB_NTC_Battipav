@@ -323,6 +323,32 @@ Pro technickou podporu kontaktujte vývojáře nebo vytvořte issue v repozitá�
 
 ## 📝 Historie změn
 
+### Verze 1.2 (Leden 2025)
+
+#### Navigace
+- ✅ **3-level menu** - rozbalitelné podmenu s podkategoriemi
+- ✅ Rekurzivní generování menu libovolné hloubky
+- ✅ Postupné rozbalování (jen při hoveru)
+- ✅ Šipky (›) u položek s dalším submenu
+- ✅ Responzivní pro desktop i mobil
+
+#### Produkty
+- ✅ **6 podkategorií Elektrických pil:**
+  - Pily blokové, Pily portálové blokové, Pily portálové stavební
+  - Pily portálové na obklady, Pily portálové na velkoformáty, Pily stolové
+- ✅ **2 podkategorie Ručních řezaček:**
+  - Řezání tlakem (PROFI EVO), Řezání tahem
+- ✅ Přesunutí produktů do podkategorií v products.json
+
+#### Kotvy a scroll
+- ✅ ID kotvy pro všechny podkategorie
+- ✅ Automatický scroll na správnou sekci při kliknutí v menu
+- ✅ Scroll offset 175px pro správné odsazení pod hlavičkou
+
+#### Technické
+- ✅ SSH autentizace pro GitHub
+- ✅ Aktualizace dokumentace (README.md, ToDo.md)
+
 ### Verze 1.1 (Leden 2025)
 
 #### Hlavička
@@ -370,13 +396,18 @@ Pro technickou podporu kontaktujte vývojáře nebo vytvořte issue v repozitá�
 - contact.html
 - catalogue.html
 
-**Produktové kategorie:** 1 aktivní
-- Elektrické stroje (CLASS PLUS, VIP 265)
+**Produktové kategorie:** 2 aktivní
+- Elektrické pily (6 podkategorií, 5 produktů)
+  - Pily blokové: ELITE 80S
+  - Pily portálové blokové: PRIME 700
+  - Pily portálové na obklady: VIP 260, CLASS PLUS (3 varianty)
+  - Pily portálové na velkoformáty: Extra Superlunga 3300S
+- Ruční řezačky obkladů (2 podkategorie, 1 produkt)
+  - Řezání tlakem: PROFI EVO (5 variant)
 
 **Připraveno k rozšíření:**
-- Doplnění produktů CLASS série
-- Doplnění produktů VIP série
-- Doplnění produktů SUPREME série
+- Doplnění produktů do prázdných podkategorií
+- Doplnění produktů do kategorie "Řezání tahem"
 - Kamenické pily
 - Příslušenství
 

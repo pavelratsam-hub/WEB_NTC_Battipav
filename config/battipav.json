@@ -73,12 +73,56 @@
         {
           "id": "electric-saws",
           "label": "Elektrické pily",
-          "url": "electric-saws.html"
+          "url": "electric-saws.html",
+          "submenu": [
+            {
+              "id": "block-saws",
+              "label": "Pily blokové",
+              "url": "electric-saws.html#block-saws"
+            },
+            {
+              "id": "portal-block-saws",
+              "label": "Pily portálové blokové",
+              "url": "electric-saws.html#portal-block-saws"
+            },
+            {
+              "id": "portal-construction-saws",
+              "label": "Pily portálové stavební",
+              "url": "electric-saws.html#portal-construction-saws"
+            },
+            {
+              "id": "portal-tile-saws",
+              "label": "Pily portálové na obklady",
+              "url": "electric-saws.html#portal-tile-saws"
+            },
+            {
+              "id": "portal-large-format-saws",
+              "label": "Pily portálové na velkoformáty",
+              "url": "electric-saws.html#portal-large-format-saws"
+            },
+            {
+              "id": "table-saws",
+              "label": "Pily stolové",
+              "url": "electric-saws.html#table-saws"
+            }
+          ]
         },
         {
           "id": "manual-cutters",
           "label": "Ruční řezačky",
-          "url": "manual-cutters.html"
+          "url": "manual-cutters.html",
+          "submenu": [
+            {
+              "id": "push-cutters",
+              "label": "Řezání tlakem",
+              "url": "manual-cutters.html#push-cutters"
+            },
+            {
+              "id": "pull-cutters",
+              "label": "Řezání tahem",
+              "url": "manual-cutters.html#pull-cutters"
+            }
+          ]
         }
       ]
     },

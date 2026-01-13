@@ -19,41 +19,44 @@ Tento dokument obsahuje aktuální stav projektu a plánované úkoly.
 - ✅ GitHub repozitář a GitHub Pages hosting
 - ✅ Živý web: https://pavelratsam-hub.github.io/WEB_NTC_Battipav/
 - ✅ **Vylepšené styly TOP produktů a kategorií** (oranžové pozadí, rámečky)
+- ✅ **3-level menu navigace** (rozbalitelné podmenu s podkategoriemi)
+- ✅ **Kotvy pro scroll na podkategorie** (funkční proklik z menu)
 
 ### 📁 Struktura obsahu:
 
 **Produktové kategorie:**
 - Elektrické pily
-  - Subcategory: CLASS série, VIP série, SUPREME série
-- Ruční řezačky
-  - Produkty: SUPER PRO, PROFI, BASIC série
+  - Podkategorie: Pily blokové, Pily portálové blokové, Pily portálové stavební, Pily portálové na obklady, Pily portálové na velkoformáty, Pily stolové
+  - Produkty: ELITE 80S, PRIME 700, CLASS PLUS, VIP 260, Extra Superlunga 3300S
+- Ruční řezačky obkladů
+  - Podkategorie: Řezání tlakem, Řezání tahem
+  - Produkty: PROFI EVO (5 variant: 63, 88, 103, 133, 163)
 
 ---
 
 ## 🎯 Priority a plánované úkoly
 
-### 🔴 **PRIORITA 1: Rozbalitelné podmenu Produkty**
+### ✅ **PRIORITA 1: Rozbalitelné podmenu Produkty** - HOTOVO
 
 **Požadavek:**
 - Při najetí na menu **"Produkty"** → pak na podmenu **"Elektrické pily"**
-- Vpravo se má rozbalit **další úroveň podmenu** s podkategoriemi:
-  - "Pily blokové"
-  - "CLASS série"
-  - "VIP série"
-  - "SUPREME série"
-  - atd.
+- Vpravo se má rozbalit **další úroveň podmenu** s podkategoriemi
 
 **Implementace:**
-- [ ] Rozšířit strukturu navigace v `config/battipav.json` o třetí úroveň menu
-- [ ] Upravit `assets/js/main.js` pro načítání víceúrovňového menu
-- [ ] Přidat CSS pro 3-level dropdown (šipky doprava, rozbalení vpravo)
-- [ ] Otestovat na desktop i mobilní verzi
-- [ ] Zajistit správné odkazy na produktové podkategorie
+- [x] Rozšířit strukturu navigace v `config/battipav.json` o třetí úroveň menu
+- [x] Upravit `assets/js/main.js` pro načítání víceúrovňového menu (rekurzivní funkce)
+- [x] Přidat CSS pro 3-level dropdown (šipky doprava, rozbalení vpravo)
+- [x] Otestovat na desktop i mobilní verzi
+- [x] Zajistit správné odkazy na produktové podkategorie
+- [x] Přidat ID kotvy k podkategoriím pro scroll
+- [x] Nastavit scroll-margin-top pro správné odsazení (175px)
 
-**Soubory k úpravě:**
-- `config/battipav.json` - přidat submenu do submenu
-- `assets/js/main.js` - logika pro 3-level menu
-- `assets/css/main.css` - styling pro 3-level dropdown
+**Upravené soubory:**
+- `config/battipav.json` - přidáno submenu 3. úrovně
+- `assets/js/main.js` - rekurzivní createMenuItem() funkce
+- `assets/css/main.css` - 3-level dropdown styly, scroll-margin
+- `assets/js/products.js` - ID kotvy pro podkategorie
+- `products/products.json` - přidány podkategorie pro Ruční řezačky
 
 ---
 
@@ -451,6 +454,24 @@ Při načtení stránky nebo refreshi se na krátkou chvíli zobrazí:
 
 ## 🔄 Historie změn
 
+### 2025-01-13
+- ✅ **Implementace 3-level menu navigace**
+  - Rekurzivní generování menu libovolné hloubky
+  - Postupné rozbalování submenu (jen při hoveru)
+  - Šipky (›) u položek s dalším submenu
+  - Responzivní design (desktop + mobil)
+- ✅ **Přidány podkategorie k "Elektrické pily"** (6 podkategorií)
+  - Pily blokové, Pily portálové blokové, Pily portálové stavební
+  - Pily portálové na obklady, Pily portálové na velkoformáty, Pily stolové
+- ✅ **Přidány podkategorie k "Ruční řezačky"** (2 podkategorie)
+  - Řezání tlakem (s produktem PROFI EVO)
+  - Řezání tahem
+- ✅ **Implementace kotev pro scroll na podkategorie**
+  - Automatický scroll na správnou sekci při kliknutí v menu
+  - Nastavení scroll-margin-top: 175px pro správné odsazení
+- ✅ **Nastavení SSH autentizace na GitHubu**
+- 📝 Aktualizace dokumentace (ToDo.md, README.md)
+
 ### 2025-01-08
 - ✅ Vylepšení stylů TOP produktů (oranžové pozadí, rámečky)
 - ✅ Vylepšení stylů kategorií (padding, line-height, margins)
@@ -468,5 +489,5 @@ Při načtení stránky nebo refreshi se na krátkou chvíli zobrazí:
 
 ---
 
-**Poslední aktualizace:** 2025-01-08
+**Poslední aktualizace:** 2025-01-13
 **Autor:** Pavel Ratšam + Claude Sonnet 4.5
