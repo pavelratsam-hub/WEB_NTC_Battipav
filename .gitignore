@@ -27,5 +27,8 @@ build/
 .claude/
 tmpclaude-*
 
+# Error screenshots
+errors/
+
 # Windows errors
 nul
