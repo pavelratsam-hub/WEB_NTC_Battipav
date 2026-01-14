@@ -25,6 +25,7 @@ build/
 
 # Claude
 .claude/
+tmpclaude-*
 
 # Windows errors
 nul
