@@ -667,6 +667,8 @@
     .nav__list {
         display: none;
         flex-direction: column;
+        max-height: calc(100vh - 120px);
+        overflow-y: auto;
     }
 
     .nav__list.active {
@@ -679,10 +681,68 @@
 
     .nav__submenu {
         position: static;
-        opacity: 1;
-        visibility: visible;
+        display: none;
         transform: none;
         box-shadow: none;
+        background-color: var(--color-primary-dark);
+    }
+
+    /* Vypnout hover efekty pro submenu na mobilu */
+    .nav__item:hover > .nav__submenu,
+    .nav__submenu li:hover > .nav__submenu {
+        display: none;
+    }
+
+    .nav__submenu.open {
+        display: block !important;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* Wrapper pro link + toggle button */
+    .nav__link-wrapper {
+        display: flex;
+        width: 100%;
+        background-color: var(--color-primary);
+    }
+
+    .nav__link-wrapper .nav__link,
+    .nav__link-wrapper .nav__submenu-link {
+        flex: 1;
+    }
+
+    /* Toggle button pro rozbalení - obdélníček */
+    .nav__toggle-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 12px;
+        cursor: pointer;
+        min-width: 40px;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.15);
+        border-radius: 4px;
+        margin: 4px;
+    }
+
+    .nav__toggle-btn::after {
+        content: '▼';
+        font-size: 10px;
+        transition: transform 0.2s;
+    }
+
+    .nav__toggle-btn.open::after {
+        transform: rotate(180deg);
+    }
+
+    /* Aktivní stránka - celý řádek včetně toggle buttonu */
+    .nav__link-wrapper:has(.nav__link.active),
+    .nav__link-wrapper:has(.nav__submenu-link.active) {
+        background-color: var(--color-primary-dark);
+    }
+
+    /* Submenu wrapper */
+    .nav__submenu .nav__link-wrapper {
         background-color: var(--color-primary-dark);
     }
 
@@ -695,12 +755,18 @@
     .nav__submenu .nav__submenu {
         position: static;
         background-color: rgba(0, 0, 0, 0.2);
-        margin-left: var(--spacing-md);
+        transform: none;
+        opacity: 1;
+        visibility: visible;
     }
 
     .nav__submenu .nav__submenu .nav__submenu-link {
         font-size: 14px;
-        padding-left: var(--spacing-lg);
+    }
+
+    /* 3. úroveň wrapper */
+    .nav__submenu .nav__submenu .nav__link-wrapper {
+        background-color: rgba(0, 0, 0, 0.2);
     }
 
     .header__content {

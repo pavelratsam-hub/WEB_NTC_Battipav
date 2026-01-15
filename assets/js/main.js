@@ -150,15 +150,20 @@ function createMenuItem(item, level = 1) {
         link.classList.add('active');
     }
 
-    // Pokud má submenu, přidej indikátor
+    // Pokud má submenu, vytvoř wrapper s toggle buttonem (pro mobil)
     if (item.submenu && item.submenu.length > 0) {
-        link.classList.add('has-submenu');
-    }
+        const wrapper = document.createElement('div');
+        wrapper.className = 'nav__link-wrapper';
+        wrapper.appendChild(link);
 
-    li.appendChild(link);
+        // Toggle button pro rozbalení
+        const toggleBtn = document.createElement('span');
+        toggleBtn.className = 'nav__toggle-btn';
+        wrapper.appendChild(toggleBtn);
 
-    // Submenu - rekurzivně
-    if (item.submenu && item.submenu.length > 0) {
+        li.appendChild(wrapper);
+
+        // Submenu - rekurzivně
         const submenu = document.createElement('ul');
         submenu.className = level === 1 ? 'nav__submenu' : 'nav__submenu nav__submenu--level' + (level + 1);
 
@@ -168,6 +173,8 @@ function createMenuItem(item, level = 1) {
         });
 
         li.appendChild(submenu);
+    } else {
+        li.appendChild(link);
     }
 
     return li;
@@ -210,6 +217,38 @@ document.addEventListener('DOMContentLoaded', () => {
             navList.classList.toggle('active');
         });
     }
+
+    // Mobile submenu toggle s accordion chováním
+    document.addEventListener('click', (e) => {
+        if (window.innerWidth > 768) return;
+
+        const toggleBtn = e.target.closest('.nav__toggle-btn');
+        if (!toggleBtn) return;
+
+        e.preventDefault();
+        e.stopPropagation();
+
+        const wrapper = toggleBtn.closest('.nav__link-wrapper');
+        const parent = wrapper.parentElement;
+        const submenu = parent.querySelector(':scope > .nav__submenu');
+        const isOpening = !submenu.classList.contains('open');
+
+        // Accordion: zavřít ostatní na stejné úrovni
+        if (isOpening) {
+            const siblingItems = parent.parentElement.children;
+            for (const sibling of siblingItems) {
+                if (sibling !== parent) {
+                    const sibToggle = sibling.querySelector(':scope > .nav__link-wrapper > .nav__toggle-btn');
+                    const sibSubmenu = sibling.querySelector(':scope > .nav__submenu');
+                    if (sibToggle) sibToggle.classList.remove('open');
+                    if (sibSubmenu) sibSubmenu.classList.remove('open');
+                }
+            }
+        }
+
+        toggleBtn.classList.toggle('open');
+        submenu.classList.toggle('open');
+    });
 
     // Hide header on scroll - DISABLED for now due to issues
     // Můžeme to zapnout později až bude web hotový
