@@ -207,6 +207,25 @@
     border-radius: var(--radius-sm);
 }
 
+/* Wrapper pro menu tlačítka */
+.nav__controls {
+    display: flex;
+    gap: 8px;
+}
+
+/* Tlačítko pro sbalení hlavičky */
+.nav__header-toggle {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-size: 12px;
+    min-width: 40px;
+    border: none;
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, rgba(234, 91, 12, 0.3) 0%, rgba(76, 86, 92, 0.3) 100%),
@@ -660,8 +679,26 @@
 }
 
 @media (max-width: 768px) {
+    .nav__controls {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
     .nav__toggle {
         display: block;
+    }
+
+    .nav__header-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.15);
+        border-radius: 4px;
+        margin: 4px;
+        padding: 16px 12px;
+        min-width: 40px;
     }
 
     .nav__list {

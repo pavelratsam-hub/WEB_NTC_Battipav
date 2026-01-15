@@ -218,6 +218,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Header collapse toggle
+    const headerToggle = document.getElementById('header-toggle');
+    const headerMain = document.querySelector('.header__main');
+
+    if (headerToggle && headerMain) {
+        headerToggle.addEventListener('click', () => {
+            headerMain.classList.toggle('header__main--hidden');
+            headerToggle.textContent = headerMain.classList.contains('header__main--hidden') ? '▼' : '▲';
+        });
+    }
+
     // Mobile submenu toggle s accordion chováním
     document.addEventListener('click', (e) => {
         if (window.innerWidth > 768) return;
