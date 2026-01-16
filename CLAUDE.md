@@ -33,13 +33,16 @@ Když uživatel řekne "budeme končit", "konec relace", "končíme" nebo před 
 3. Zapiš případné nedokončené úkoly
 
 ## Aktuální stav
-**Poslední relace: 2026-01-16**
+**Poslední relace: 2026-01-17**
 
 Provedené změny:
 - Oprava FOUC (blikání obsahu při načítání) - přidán loading stav s plynulým zobrazením
 - Inline critical CSS ve všech HTML souborech pro okamžité skrytí během načítání
 - Odstraněno tmavé pozadí z titulku a subtitulku v carouselu (badge zůstává)
 - Oprava zalamování názvu firmy v patičce (white-space: nowrap)
+- Stránka Kontakt: přidána mapa Mapy.cz (celá šířka), aktualizována adresa a provozní doba (7-15)
+- Přidán produkt QUEEN 180 do kategorie Pily stolové
+- Přidán produkt SUPREME (6 variant: 85S-260S) do kategorie Pily portálové na obklady
 
 ## Nedokončené úkoly
 _Žádné_
