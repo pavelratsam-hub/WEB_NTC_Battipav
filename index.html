@@ -6,6 +6,12 @@
     <meta name="description" content="Oficiální dovozce profesionálních strojů BATTIPAV do ČR">
     <title>BATTIPAV | NTC STAVEBNÍ TECHNIKA</title>
 
+    <!-- Critical CSS - okamžité skrytí obsahu během načítání -->
+    <style>
+        .config-loading { opacity: 0; }
+        body { transition: opacity 0.15s ease-in; }
+    </style>
+
     <!-- Styles -->
     <link rel="stylesheet" href="assets/css/variables.css">
     <link rel="stylesheet" href="assets/css/reset.css">
@@ -18,7 +24,7 @@
     <script src="assets/js/carousel.js" defer></script>
     <script src="assets/js/main.js" defer></script>
 </head>
-<body>
+<body class="config-loading">
     <!-- Header -->
     <header class="header">
         <!-- Main Header -->

@@ -123,7 +123,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.dispatchEvent(new CustomEvent('brandConfigLoaded', {
             detail: brandConfig
         }));
+
+        // Odstranit loading stav - zobrazit obsah
+        document.body.classList.remove('config-loading');
     } catch (error) {
         console.error('Nepodařilo se načíst konfiguraci značky');
+        // I při chybě odstranit loading stav
+        document.body.classList.remove('config-loading');
     }
 });

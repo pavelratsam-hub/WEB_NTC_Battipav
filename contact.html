@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt | BATTIPAV</title>
 
+    <!-- Critical CSS - okamžité skrytí obsahu během načítání -->
+    <style>
+        .config-loading { opacity: 0; }
+        body { transition: opacity 0.15s ease-in; }
+    </style>
+
     <link rel="stylesheet" href="assets/css/variables.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -12,7 +18,7 @@
     <script src="assets/js/config-loader.js"></script>
     <script src="assets/js/main.js" defer></script>
 </head>
-<body>
+<body class="config-loading">
     <!-- Header -->
     <header class="header">
         <div class="header__main">
