@@ -39,6 +39,7 @@ Provedené změny:
 - Oprava FOUC (blikání obsahu při načítání) - přidán loading stav s plynulým zobrazením
 - Inline critical CSS ve všech HTML souborech pro okamžité skrytí během načítání
 - Odstraněno tmavé pozadí z titulku a subtitulku v carouselu (badge zůstává)
+- Oprava zalamování názvu firmy v patičce (white-space: nowrap)
 
 ## Nedokončené úkoly
 _Žádné_
