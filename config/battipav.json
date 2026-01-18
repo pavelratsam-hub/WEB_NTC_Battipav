@@ -77,8 +77,13 @@
           "submenu": [
             {
               "id": "block-saws",
-              "label": "Pily blokové",
+              "label": "Pily stolové blokové",
               "url": "electric-saws.html#block-saws"
+            },
+            {
+              "id": "table-construction-saws",
+              "label": "Pily stolové stavební",
+              "url": "electric-saws.html#table-construction-saws"
             },
             {
               "id": "portal-block-saws",
@@ -102,7 +107,7 @@
             },
             {
               "id": "table-saws",
-              "label": "Pily stolové",
+              "label": "Pily kompaktní na obklady",
               "url": "electric-saws.html#table-saws"
             }
           ]

@@ -329,6 +329,9 @@
     overflow: hidden;
     box-shadow: var(--shadow-sm);
     transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .card:hover {
@@ -345,6 +348,9 @@
 
 .card__content {
     padding: var(--spacing-sm);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .card__title {
@@ -400,7 +406,8 @@
     display: flex;
     flex-direction: row;
     gap: var(--spacing-xs);
-    margin-top: var(--spacing-sm);
+    margin-top: auto;
+    padding-top: var(--spacing-sm);
 }
 
 .product-card__buttons .btn {

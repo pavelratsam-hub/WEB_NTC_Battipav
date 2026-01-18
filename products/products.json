@@ -8,26 +8,181 @@
       "subcategories": [
         {
           "id": "block-saws",
-          "name": "Pily blokové",
+          "name": "Pily stolové blokové",
           "description": "Kompaktní blokové pily pro přesné řezání cihel, kamene a betonu.",
+          "products": [
+            {
+              "id": "expert",
+              "name": "EXPERT",
+              "description": "Stolová bloková pila pro řezání cihel, betonů, kamenů a jiných materiálů.",
+              "image": "assets/images/products/expert-700.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "variants": [
+                {
+                  "id": "700",
+                  "name": "700",
+                  "features": [
+                    "Výkon motoru: 4000 W (400V)",
+                    "Průměr kotouče: ø700 mm",
+                    "Max. délka řezu: 550 mm",
+                    "Max. hloubka řezu (90°): 270 mm",
+                    "Max. hloubka řezu oboustranný: 340 mm",
+                    "Hmotnost: 100,5 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/expert_700_technick___list_.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-blokova-battipav-expert-700/"
+                },
+                {
+                  "id": "600s",
+                  "name": "600S",
+                  "features": [
+                    "Výkon motoru: 4000 W (400V)",
+                    "Průměr kotouče: ø600 mm",
+                    "Max. délka řezu: 750 mm",
+                    "Max. hloubka řezu (90°): 220 mm",
+                    "Max. hloubka řezu oboustranný: 285 mm",
+                    "Hmotnost: 85 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": ""
+                },
+                {
+                  "id": "600",
+                  "name": "600",
+                  "features": [
+                    "Výkon motoru: 4000 W (400V)",
+                    "Průměr kotouče: ø600 mm",
+                    "Max. délka řezu: 750 mm",
+                    "Max. hloubka řezu (90°): 220 mm",
+                    "Max. hloubka řezu oboustranný: 285 mm",
+                    "Hmotnost: 81 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: NE"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-battipav-expert-600/"
+                },
+                {
+                  "id": "500s",
+                  "name": "500S",
+                  "features": [
+                    "Výkon motoru: 4000 W (400V)",
+                    "Průměr kotouče: ø500 mm",
+                    "Max. délka řezu: 750 mm",
+                    "Max. hloubka řezu (90°): 170 mm",
+                    "Max. hloubka řezu oboustranný: 235 mm",
+                    "Hmotnost: 85 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-battipav-expert-500s/"
+                },
+                {
+                  "id": "500",
+                  "name": "500",
+                  "features": [
+                    "Výkon motoru: 4000 W (400V)",
+                    "Průměr kotouče: ø500 mm",
+                    "Max. délka řezu: 750 mm",
+                    "Max. hloubka řezu (90°): 170 mm",
+                    "Max. hloubka řezu oboustranný: 235 mm",
+                    "Hmotnost: 79,5 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: NE"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-battipav-expert-500/"
+                },
+                {
+                  "id": "400s",
+                  "name": "400S",
+                  "features": [
+                    "Výkon motoru: 2800 W (230V)",
+                    "Průměr kotouče: ø400 mm",
+                    "Max. délka řezu: 570 mm",
+                    "Max. hloubka řezu (90°): 135 mm",
+                    "Max. hloubka řezu oboustranný: 155 mm",
+                    "Hmotnost: 78,5 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/expert_400.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-battipav-expert-400s/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "table-construction-saws",
+          "name": "Pily stolové stavební",
+          "description": "Stolové pily pro stavební materiály.",
           "products": [
             {
               "id": "elite-80s",
               "name": "ELITE 80S",
-              "description": "Bloková pila pro cihly, kámen, betonové bloky, žulu a mramor.",
+              "description": "Stavební pila hliníkové konstrukce s plastovou vodní vanou.",
               "image": "assets/images/products/elite-80s.jpg",
               "brochure": "",
               "topProduct": true,
               "features": [
                 "Výkon motoru: 2200 W",
                 "Průměr kotouče: ø350 mm",
+                "Max. délka řezu: 800 mm",
                 "Max. hloubka řezu (90°): 110 mm",
                 "Max. hloubka řezu (45°): 80 mm",
                 "Hmotnost: 68 kg",
-                "Naváděcí laser: ANO"
+                "Naváděcí laser: ANO",
+                "Podvozek: ANO"
               ],
               "technicalSheet": "https://www.ntcshop.cz/user/related_files/elite_80_technick___list_.pdf",
               "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-blokova-battipav-elite-80s/"
+            },
+            {
+              "id": "eletta",
+              "name": "ELETTA",
+              "description": "Stavební pila ocelové konstrukce s plastovou vodní vanou.",
+              "image": "assets/images/products/eletta.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Výkon motoru: 2200 W",
+                "Průměr kotouče: ø350-400 mm",
+                "Max. délka řezu: 800 mm",
+                "Max. hloubka řezu (90°): 135 mm",
+                "Max. hloubka řezu (45°): 110 mm",
+                "Hmotnost: 65 kg",
+                "Naváděcí laser: NE",
+                "Přepravní kolečka a sklopné nohy"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": ""
+            },
+            {
+              "id": "ego-plus",
+              "name": "EGO PLUS",
+              "description": "Stavební pila ocelové konstrukce.",
+              "image": "assets/images/products/ego-plus.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Výkon motoru: 2200 W",
+                "Průměr kotouče: ø300-350 mm",
+                "Max. délka řezu: 800 mm",
+                "Max. hloubka řezu (90°): 110 mm",
+                "Max. hloubka řezu (45°): 80 mm",
+                "Hmotnost: 62,5 kg",
+                "Naváděcí laser: NE",
+                "Přepravní kolečka a sklopné nohy"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/ego_plus_technick___list.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-blokova-battipav-e--go-plus/"
             }
           ]
         },
@@ -48,7 +203,8 @@
                 "Průměr kotouče: ø700 mm",
                 "Max. hloubka řezu (90°): 275 mm",
                 "Max. hloubka řezu (45°): 180 mm",
-                "Hmotnost: 113 kg"
+                "Hmotnost: 113 kg",
+                "Podvozek: ANO"
               ],
               "technicalSheet": "https://www.ntcshop.cz/user/related_files/prime700_technick___list_-1.pdf",
               "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-blokova-battipav-prime-700/"
@@ -59,7 +215,98 @@
           "id": "portal-construction-saws",
           "name": "Pily portálové stavební",
           "description": "Robustní portálové pily pro stavebnictví.",
-          "products": []
+          "products": [
+            {
+              "id": "prime",
+              "name": "PRIME",
+              "description": "Portálová pila pro řezání cihel, kamene, betonových bloků, žuly a mramoru.",
+              "image": "assets/images/products/prime-150S.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "variants": [
+                {
+                  "id": "200s",
+                  "name": "200S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø350 mm",
+                    "Max. délka řezu: 2000 mm",
+                    "Max. hloubka řezu (90°): 110 mm",
+                    "Max. hloubka řezu (45°): 80 mm",
+                    "Hmotnost: 132 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/prime_technick___list-4.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-battipav-prime-200s/"
+                },
+                {
+                  "id": "150s",
+                  "name": "150S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø350 mm",
+                    "Max. délka řezu: 1500 mm",
+                    "Max. hloubka řezu (90°): 110 mm",
+                    "Max. hloubka řezu (45°): 80 mm",
+                    "Hmotnost: 114,5 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/prime_technick___list-2.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-battipav-prime-150s/"
+                },
+                {
+                  "id": "120s",
+                  "name": "120S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø350 mm",
+                    "Max. délka řezu: 1200 mm",
+                    "Max. hloubka řezu (90°): 110 mm",
+                    "Max. hloubka řezu (45°): 80 mm",
+                    "Hmotnost: 105 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/prime_technick___list-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-battipav-prime-120s/"
+                },
+                {
+                  "id": "100s",
+                  "name": "100S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø350 mm",
+                    "Max. délka řezu: 1000 mm",
+                    "Max. hloubka řezu (90°): 110 mm",
+                    "Max. hloubka řezu (45°): 80 mm",
+                    "Hmotnost: 97,3 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-battipav-prime-100s/"
+                },
+                {
+                  "id": "85s",
+                  "name": "85S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø350 mm",
+                    "Max. délka řezu: 850 mm",
+                    "Max. hloubka řezu (90°): 110 mm",
+                    "Max. hloubka řezu (45°): 80 mm",
+                    "Hmotnost: 85 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/prime_technick___list-5.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-battipav-prime-85s/"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "portal-tile-saws",
@@ -67,87 +314,29 @@
           "description": "Portálové pily určené pro řezání obkladů a dlažby.",
           "products": [
             {
-              "id": "vip-260",
-              "name": "VIP 260",
-              "description": "Profesionální elektrická řezačka VIP série.",
-              "topProduct": false,
-              "features": [
-                "Průměr kotouče: 260 mm",
-                "Robustní konstrukce",
-                "Přesné řezy"
-              ],
-              "image": "assets/images/products/vip-260.jpg",
-              "brochure": "",
-              "technicalSheet": "",
-              "eshopUrl": ""
-            },
-            {
               "id": "supreme",
               "name": "SUPREME",
               "description": "Portálová řezací pila pro přírodní kámen, žulu a mramor. Laserové zaměření, nastavitelný úhel řezu 0-45°.",
               "image": "assets/images/products/supreme-150s.jpg",
               "brochure": "",
-              "topProduct": false,
+              "topProduct": true,
+              "topVariantIndex": 3,
               "variants": [
                 {
-                  "id": "85s",
-                  "name": "85S",
+                  "id": "260s",
+                  "name": "260S",
                   "features": [
                     "Výkon motoru: 2200 W",
                     "Průměr kotouče: ø300 mm",
-                    "Max. délka řezu: 850 mm",
+                    "Max. délka řezu: 2600 mm",
                     "Max. hloubka řezu (90°): 85 mm",
                     "Max. hloubka řezu (45°): 60 mm",
-                    "Hmotnost: 93,4 kg",
-                    "Naváděcí laser: ANO"
+                    "Hmotnost: 151 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
                   ],
-                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-5.pdf",
-                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-85s/"
-                },
-                {
-                  "id": "100s",
-                  "name": "100S",
-                  "features": [
-                    "Výkon motoru: 2200 W",
-                    "Průměr kotouče: ø300 mm",
-                    "Max. délka řezu: 1000 mm",
-                    "Max. hloubka řezu (90°): 85 mm",
-                    "Max. hloubka řezu (45°): 60 mm",
-                    "Hmotnost: 97,2 kg",
-                    "Naváděcí laser: ANO"
-                  ],
-                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme.pdf",
-                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-100s/"
-                },
-                {
-                  "id": "120s",
-                  "name": "120S",
-                  "features": [
-                    "Výkon motoru: 2200 W",
-                    "Průměr kotouče: ø300 mm",
-                    "Max. délka řezu: 1200 mm",
-                    "Max. hloubka řezu (90°): 85 mm",
-                    "Max. hloubka řezu (45°): 60 mm",
-                    "Hmotnost: 104 kg",
-                    "Naváděcí laser: ANO"
-                  ],
-                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-1.pdf",
-                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-120s/"
-                },
-                {
-                  "id": "150s",
-                  "name": "150S",
-                  "features": [
-                    "Výkon motoru: 2200 W",
-                    "Průměr kotouče: ø300 mm",
-                    "Max. délka řezu: 1500 mm",
-                    "Max. hloubka řezu (90°): 85 mm",
-                    "Max. hloubka řezu (45°): 60 mm",
-                    "Hmotnost: 112,6 kg",
-                    "Naváděcí laser: ANO"
-                  ],
-                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-2.pdf",
-                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-150s/"
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-4.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-260s/"
                 },
                 {
                   "id": "200s",
@@ -159,25 +348,75 @@
                     "Max. hloubka řezu (90°): 85 mm",
                     "Max. hloubka řezu (45°): 60 mm",
                     "Hmotnost: 130 kg",
-                    "Naváděcí laser: ANO"
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
                   ],
                   "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-3.pdf",
                   "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-200s/"
                 },
                 {
-                  "id": "260s",
-                  "name": "260S",
+                  "id": "150s",
+                  "name": "150S",
                   "features": [
                     "Výkon motoru: 2200 W",
                     "Průměr kotouče: ø300 mm",
-                    "Max. délka řezu: 2600 mm",
+                    "Max. délka řezu: 1500 mm",
                     "Max. hloubka řezu (90°): 85 mm",
                     "Max. hloubka řezu (45°): 60 mm",
-                    "Hmotnost: 151 kg",
-                    "Naváděcí laser: ANO"
+                    "Hmotnost: 112,6 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
                   ],
-                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-4.pdf",
-                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-260s/"
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-2.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-150s/"
+                },
+                {
+                  "id": "120s",
+                  "name": "120S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 1200 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 104 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-120s/"
+                },
+                {
+                  "id": "100s",
+                  "name": "100S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 1000 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 97,2 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-100s/"
+                },
+                {
+                  "id": "85s",
+                  "name": "85S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 850 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 93,4 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-5.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-85s/"
                 }
               ]
             },
@@ -191,17 +430,18 @@
               "topVariantIndex": 1,
               "variants": [
                 {
-                  "id": "850s",
-                  "name": "850S",
+                  "id": "1300s",
+                  "name": "1300S",
                   "features": [
                     "Výkon motoru: 1400W",
-                    "Maximální délka řezu: 85 cm",
+                    "Maximální délka řezu: 130 cm",
                     "Nastavitelný úhel řezu 0-45°",
-                    "Hmotnost: 48,5 kg",
-					"Naváděcí laser: ANO"
+                    "Hmotnost: 58,5 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
                   ],
                   "technicalSheet": "https://www.ntcshop.cz/user/related_files/class_plus_technick___list_-1.pdf",
-                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-class-plus-850s/"
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-class-plus-1300s/"
                 },
                 {
                   "id": "1050s",
@@ -211,23 +451,99 @@
                     "Maximální délka řezu: 105 cm",
                     "Nastavitelný úhel řezu 0-45°",
                     "Hmotnost: 52 kg",
-					"Naváděcí laser: ANO"
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
                   ],
                   "technicalSheet": "https://www.ntcshop.cz/user/related_files/class_plus_technick___list_-1.pdf",
                   "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-class-plus-1050s/"
                 },
                 {
-                  "id": "1300s",
-                  "name": "1300S",
+                  "id": "850s",
+                  "name": "850S",
                   "features": [
                     "Výkon motoru: 1400W",
-                    "Maximální délka řezu: 130 cm",
+                    "Maximální délka řezu: 85 cm",
                     "Nastavitelný úhel řezu 0-45°",
-                    "Hmotnost: 58,5 kg",
-					"Naváděcí laser: ANO"
+                    "Hmotnost: 48,5 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
                   ],
                   "technicalSheet": "https://www.ntcshop.cz/user/related_files/class_plus_technick___list_-1.pdf",
-                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-class-plus-1300s/"
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-class-plus-850s/"
+                }
+              ]
+            },
+            {
+              "id": "vip",
+              "name": "VIP",
+              "description": "Profesionální portálová řezačka na obklady a dlažby.",
+              "image": "assets/images/products/vip-2125.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "variants": [
+                {
+                  "id": "2125",
+                  "name": "2125",
+                  "features": [
+                    "Výkon motoru: 1400 W",
+                    "Průměr kotouče: ø200 mm",
+                    "Max. délka řezu: 1250 mm",
+                    "Max. hloubka řezu (90°): 40 mm",
+                    "Max. hloubka řezu (45°): 35 mm",
+                    "Hmotnost: 51,5 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/vip_2125_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-vip-2125/"
+                },
+                {
+                  "id": "2110",
+                  "name": "2110",
+                  "features": [
+                    "Výkon motoru: 1000 W",
+                    "Průměr kotouče: ø200 mm",
+                    "Max. délka řezu: 1100 mm",
+                    "Max. hloubka řezu (90°): 40 mm",
+                    "Max. hloubka řezu (45°): 40 mm",
+                    "Hmotnost: 42 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: NE"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/vip_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-vip-2110/"
+                },
+                {
+                  "id": "290",
+                  "name": "290",
+                  "features": [
+                    "Výkon motoru: 1000 W",
+                    "Průměr kotouče: ø200 mm",
+                    "Max. délka řezu: 900 mm",
+                    "Max. hloubka řezu (90°): 40 mm",
+                    "Max. hloubka řezu (45°): 40 mm",
+                    "Hmotnost: 39 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: NE"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/vip_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-vip-290/"
+                },
+                {
+                  "id": "260",
+                  "name": "260",
+                  "features": [
+                    "Výkon motoru: 1000 W",
+                    "Průměr kotouče: ø200 mm",
+                    "Max. délka řezu: 600 mm",
+                    "Max. hloubka řezu (90°): 40 mm",
+                    "Max. hloubka řezu (45°): 40 mm",
+                    "Hmotnost: 34 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: NE"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/vip_technick___list-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-vip-260/"
                 }
               ]
             }
@@ -239,8 +555,28 @@
           "description": "Pily pro velkoformátové obklady a dlažbu.",
           "products": [
             {
+              "id": "supreme-260s",
+              "name": "SUPREME 260S",
+              "description": "Portálová řezací pila pro přírodní kámen, žulu a mramor. Laserové zaměření, nastavitelný úhel řezu 0-45°.",
+              "image": "assets/images/products/supreme-260s.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Výkon motoru: 2200 W",
+                "Průměr kotouče: ø300 mm",
+                "Max. délka řezu: 2600 mm",
+                "Max. hloubka řezu (90°): 85 mm",
+                "Max. hloubka řezu (45°): 60 mm",
+                "Hmotnost: 151 kg",
+                "Naváděcí laser: ANO",
+                "Podvozek: ANO"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-4.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-260s/"
+            },
+            {
               "id": "extra-superlunga-3300s",
-              "name": "Extra Superlunga 3300S",
+              "name": "EXTRA SUPERLUNGA 3300S",
               "description": "Portálová pila na velkoformátové obklady a dlažbu.",
               "image": "assets/images/products/extra-superlunga-3300s.png",
               "brochure": "",
@@ -252,7 +588,8 @@
                 "Max. hloubka řezu (90°): 40 mm",
                 "Max. hloubka řezu (45°): 35 mm",
                 "Hmotnost: 181 kg",
-                "Naváděcí laser: ANO"
+                "Naváděcí laser: ANO",
+                "Podvozek: ANO"
               ],
               "technicalSheet": "https://www.ntcshop.cz/user/related_files/extra_3300s_superlunga.pdf",
               "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-extra-superlunga-3300s/"
@@ -261,8 +598,8 @@
         },
         {
           "id": "table-saws",
-          "name": "Pily stolové",
-          "description": "Stolové pily pro různé typy řezání.",
+          "name": "Pily kompaktní na obklady",
+          "description": "Kompaktní pily pro řezání keramických obkladů a dlažby.",
           "products": [
             {
               "id": "queen-180",

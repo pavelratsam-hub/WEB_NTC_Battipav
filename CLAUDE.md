@@ -26,6 +26,13 @@ Web běží na: http://localhost:8000
 - CSS proměnné jsou v `variables.css`
 - Nové obrázky dávat do příslušných složek v `assets/images/`
 
+### Kategorie produktů - DŮLEŽITÉ
+Kategorie a podkategorie produktů jsou definovány na **dvou místech**, která musí být synchronizovaná:
+1. **`config/battipav.json`** → navigace (menu)
+2. **`products/products.json`** → obsah stránky (názvy sekcí, popisy, produkty)
+
+Při přidávání, přejmenovávání nebo mazání kategorií je nutné upravit **oba soubory**.
+
 ## Automatická aktualizace tohoto souboru
 Když uživatel řekne "budeme končit", "konec relace", "končíme" nebo před push na GitHub:
 1. Shrň, co se v relaci udělalo
@@ -33,16 +40,23 @@ Když uživatel řekne "budeme končit", "konec relace", "končíme" nebo před 
 3. Zapiš případné nedokončené úkoly
 
 ## Aktuální stav
-**Poslední relace: 2026-01-17**
+**Poslední relace: 2026-01-18**
 
 Provedené změny:
-- Oprava FOUC (blikání obsahu při načítání) - přidán loading stav s plynulým zobrazením
-- Inline critical CSS ve všech HTML souborech pro okamžité skrytí během načítání
-- Odstraněno tmavé pozadí z titulku a subtitulku v carouselu (badge zůstává)
-- Oprava zalamování názvu firmy v patičce (white-space: nowrap)
-- Stránka Kontakt: přidána mapa Mapy.cz (celá šířka), aktualizována adresa a provozní doba (7-15)
-- Přidán produkt QUEEN 180 do kategorie Pily stolové
-- Přidán produkt SUPREME (6 variant: 85S-260S) do kategorie Pily portálové na obklady
+- Reorganizace kategorií elektrických pil:
+  - "Pily blokové" → "Pily stolové blokové"
+  - Nová kategorie "Pily stolové stavební"
+  - "Pily stolové" → "Pily kompaktní na obklady"
+- Přidány nové produkty:
+  - EXPERT (6 variant: 700, 600S, 600, 500S, 500, 400S) do Pily stolové blokové
+  - ELETTA, EGO PLUS do Pily stolové stavební
+  - PRIME (5 variant: 200S, 150S, 120S, 100S, 85S) do Pily portálové stavební
+  - VIP (4 varianty: 2125, 2110, 290, 260) do Pily portálové na obklady
+- Přesunutí ELITE 80S z Pily stolové blokové do Pily stolové stavební
+- Doplnění atributu "Podvozek: ANO" u produktů PRIME, SUPREME, CLASS PLUS, EXTRA SUPERLUNGA
+- TOP pick změněn na SUPREME 120S
+- Pořadí variant SUPREME a CLASS PLUS obráceno (od největšího po nejmenší)
+- CSS: Tlačítka na kartách produktů vždy zarovnána na spodek karty (flexbox)
 
 ## Nedokončené úkoly
 _Žádné_
