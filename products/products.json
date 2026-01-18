@@ -555,26 +555,6 @@
           "description": "Pily pro velkoformátové obklady a dlažbu.",
           "products": [
             {
-              "id": "supreme-260s",
-              "name": "SUPREME 260S",
-              "description": "Portálová řezací pila pro přírodní kámen, žulu a mramor. Laserové zaměření, nastavitelný úhel řezu 0-45°.",
-              "image": "assets/images/products/supreme-260s.jpg",
-              "brochure": "",
-              "topProduct": false,
-              "features": [
-                "Výkon motoru: 2200 W",
-                "Průměr kotouče: ø300 mm",
-                "Max. délka řezu: 2600 mm",
-                "Max. hloubka řezu (90°): 85 mm",
-                "Max. hloubka řezu (45°): 60 mm",
-                "Hmotnost: 151 kg",
-                "Naváděcí laser: ANO",
-                "Podvozek: ANO"
-              ],
-              "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-4.pdf",
-              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-260s/"
-            },
-            {
               "id": "extra-superlunga-3300s",
               "name": "EXTRA SUPERLUNGA 3300S",
               "description": "Portálová pila na velkoformátové obklady a dlažbu.",
@@ -593,6 +573,26 @@
               ],
               "technicalSheet": "https://www.ntcshop.cz/user/related_files/extra_3300s_superlunga.pdf",
               "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-extra-superlunga-3300s/"
+            },
+            {
+              "id": "supreme-260s",
+              "name": "SUPREME 260S",
+              "description": "Portálová řezací pila pro přírodní kámen, žulu a mramor. Laserové zaměření, nastavitelný úhel řezu 0-45°.",
+              "image": "assets/images/products/supreme-260s.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Výkon motoru: 2200 W",
+                "Průměr kotouče: ø300 mm",
+                "Max. délka řezu: 2600 mm",
+                "Max. hloubka řezu (90°): 85 mm",
+                "Max. hloubka řezu (45°): 60 mm",
+                "Hmotnost: 151 kg",
+                "Naváděcí laser: ANO",
+                "Podvozek: ANO"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-4.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-260s/"
             }
           ]
         },
