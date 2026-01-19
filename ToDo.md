@@ -26,11 +26,13 @@ Tento dokument obsahuje aktuální stav projektu a plánované úkoly.
 
 **Produktové kategorie:**
 - Elektrické pily
-  - Podkategorie: Pily blokové, Pily portálové blokové, Pily portálové stavební, Pily portálové na obklady, Pily portálové na velkoformáty, Pily stolové
-  - Produkty: ELITE 80S, PRIME 700, CLASS PLUS, VIP 260, Extra Superlunga 3300S
+  - Podkategorie: Pily stolové blokové, Pily stolové stavební, Pily portálové blokové, Pily portálové stavební, Pily portálové na obklady a dlažbu, Pily portálové na velkoformátové obklady, Pily kompaktní na obklady
+  - Produkty: EXPERT, ELITE 80S, ELETTA, EGO PLUS, PRIME 700, PRIME, SUPREME, CLASS PLUS, VIP, DYNAMIC 1200S, EXTRA SUPERLUNGA 3300S, QUEEN 180
 - Ruční řezačky obkladů
-  - Podkategorie: Řezání tlakem, Řezání tahem
-  - Produkty: PROFI EVO (5 variant: 63, 88, 103, 133, 163)
+  - Podkategorie: S nastavitelnou výškou portálu, S fixním portálem
+  - Produkty:
+    - S nastavitelnou výškou portálu: SINTESI (4 varianty), PERFORMANTE (3 varianty)
+    - S fixním portálem: PROFI EVO (5 variant), SUPER PRO EVO (3 varianty), LEGGERA (3 varianty), SUPER PRO (3 varianty)
 
 ---
 
@@ -454,6 +456,17 @@ Při načtení stránky nebo refreshi se na krátkou chvíli zobrazí:
 
 ## 🔄 Historie změn
 
+### 2026-01-19
+- ✅ **Nové produkty - elektrické pily:**
+  - Přidán DYNAMIC 1200S do portálových pil na obklady
+  - Upraven CLASS PLUS (parametry v mm, hloubky řezu)
+- ✅ **Reorganizace ručních řezačů:**
+  - Podkategorie přejmenovány: "Řezání tlakem" → "S nastavitelnou výškou portálu", "Řezání tahem" → "S fixním portálem"
+  - Přidány nové produkty: SINTESI, PERFORMANTE, SUPER PRO EVO, LEGGERA, SUPER PRO
+  - PROFI EVO přesunut, pořadí variant otočeno
+- ✅ **Doplněny e-shop odkazy a technické listy** z ntcshop.cz
+- ✅ **Přidány obrázky** pro všechny nové produkty
+
 ### 2025-01-13
 - ✅ **Implementace 3-level menu navigace**
   - Rekurzivní generování menu libovolné hloubky
@@ -489,5 +502,5 @@ Při načtení stránky nebo refreshi se na krátkou chvíli zobrazí:
 
 ---
 
-**Poslední aktualizace:** 2025-01-13
-**Autor:** Pavel Ratšam + Claude Sonnet 4.5
+**Poslední aktualizace:** 2026-01-19
+**Autor:** Pavel Ratšam + Claude

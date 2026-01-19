@@ -40,23 +40,25 @@ Když uživatel řekne "budeme končit", "konec relace", "končíme" nebo před 
 3. Zapiš případné nedokončené úkoly
 
 ## Aktuální stav
-**Poslední relace: 2026-01-18**
+**Poslední relace: 2026-01-19**
 
 Provedené změny:
-- Reorganizace kategorií elektrických pil:
-  - "Pily blokové" → "Pily stolové blokové"
-  - Nová kategorie "Pily stolové stavební"
-  - "Pily stolové" → "Pily kompaktní na obklady"
-- Přidány nové produkty:
-  - EXPERT (6 variant: 700, 600S, 600, 500S, 500, 400S) do Pily stolové blokové
-  - ELETTA, EGO PLUS do Pily stolové stavební
-  - PRIME (5 variant: 200S, 150S, 120S, 100S, 85S) do Pily portálové stavební
-  - VIP (4 varianty: 2125, 2110, 290, 260) do Pily portálové na obklady
-- Přesunutí ELITE 80S z Pily stolové blokové do Pily stolové stavební
-- Doplnění atributu "Podvozek: ANO" u produktů PRIME, SUPREME, CLASS PLUS, EXTRA SUPERLUNGA
-- TOP pick změněn na SUPREME 120S
-- Pořadí variant SUPREME a CLASS PLUS obráceno (od největšího po nejmenší)
-- CSS: Tlačítka na kartách produktů vždy zarovnána na spodek karty (flexbox)
+- Elektrické pily:
+  - Přidán DYNAMIC 1200S do kategorie "Pily portálové na obklady" (4. pozice za VIP)
+  - Upraven CLASS PLUS - přidán průměr kotouče, délka řezu v mm, hloubky řezu 90°/45°
+- Ruční řezačky - reorganizace podkategorií:
+  - "Řezání tlakem" → "S nastavitelnou výškou portálu"
+  - "Řezání tahem" → "S fixním portálem"
+- Nové ruční řezačky v kategorii "S nastavitelnou výškou portálu":
+  - SINTESI (4 varianty: 183, 163, 133, 93)
+  - PERFORMANTE (3 varianty: 130, 90, 65)
+- Nové ruční řezačky v kategorii "S fixním portálem":
+  - SUPER PRO EVO (3 varianty: 125, 90, 65)
+  - LEGGERA (3 varianty: 137, 92, 67)
+  - SUPER PRO (3 varianty: 900, 750, 600)
+- PROFI EVO přesunut do "S fixním portálem", pořadí variant otočeno (od největšího)
+- Doplněny e-shop odkazy a technické listy z ntcshop.cz pro všechny nové produkty
+- Přidány obrázky pro nové produkty
 
 ## Nedokončené úkoly
 _Žádné_
