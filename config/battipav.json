@@ -118,14 +118,14 @@
           "url": "manual-cutters.html",
           "submenu": [
             {
-              "id": "push-cutters",
-              "label": "Řezání tlakem",
-              "url": "manual-cutters.html#push-cutters"
+              "id": "adjustable-portal",
+              "label": "S nastavitelnou výškou portálu",
+              "url": "manual-cutters.html#adjustable-portal"
             },
             {
-              "id": "pull-cutters",
-              "label": "Řezání tahem",
-              "url": "manual-cutters.html#pull-cutters"
+              "id": "fixed-portal",
+              "label": "S fixním portálem",
+              "url": "manual-cutters.html#fixed-portal"
             }
           ]
         }

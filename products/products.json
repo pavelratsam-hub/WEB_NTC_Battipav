@@ -433,9 +433,11 @@
                   "id": "1300s",
                   "name": "1300S",
                   "features": [
-                    "Výkon motoru: 1400W",
-                    "Maximální délka řezu: 130 cm",
-                    "Nastavitelný úhel řezu 0-45°",
+                    "Výkon motoru: 1400 W",
+                    "Průměr kotouče: ø250 mm",
+                    "Max. délka řezu: 1300 mm",
+                    "Max. hloubka řezu (90°): 65 mm",
+                    "Max. hloubka řezu (45°): 53 mm",
                     "Hmotnost: 58,5 kg",
                     "Naváděcí laser: ANO",
                     "Podvozek: ANO"
@@ -447,9 +449,11 @@
                   "id": "1050s",
                   "name": "1050S",
                   "features": [
-                    "Výkon motoru: 1400W",
-                    "Maximální délka řezu: 105 cm",
-                    "Nastavitelný úhel řezu 0-45°",
+                    "Výkon motoru: 1400 W",
+                    "Průměr kotouče: ø250 mm",
+                    "Max. délka řezu: 1050 mm",
+                    "Max. hloubka řezu (90°): 65 mm",
+                    "Max. hloubka řezu (45°): 53 mm",
                     "Hmotnost: 52 kg",
                     "Naváděcí laser: ANO",
                     "Podvozek: ANO"
@@ -461,9 +465,11 @@
                   "id": "850s",
                   "name": "850S",
                   "features": [
-                    "Výkon motoru: 1400W",
-                    "Maximální délka řezu: 85 cm",
-                    "Nastavitelný úhel řezu 0-45°",
+                    "Výkon motoru: 1400 W",
+                    "Průměr kotouče: ø250 mm",
+                    "Max. délka řezu: 850 mm",
+                    "Max. hloubka řezu (90°): 65 mm",
+                    "Max. hloubka řezu (45°): 53 mm",
                     "Hmotnost: 48,5 kg",
                     "Naváděcí laser: ANO",
                     "Podvozek: ANO"
@@ -546,6 +552,26 @@
                   "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-vip-260/"
                 }
               ]
+            },
+            {
+              "id": "dynamic-1200s",
+              "name": "DYNAMIC 1200S",
+              "description": "Portálová pila s řemenovým převodem pro řezání cihel, kamene, betonových bloků, žuly, mramoru a gresu.",
+              "image": "assets/images/products/dynamic-1200s.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Výkon motoru: 2200 W",
+                "Průměr kotouče: ø300/ø250 mm",
+                "Max. délka řezu: 1200 mm",
+                "Max. hloubka řezu (90°): 110 mm",
+                "Max. hloubka řezu (45°): 65 mm",
+                "Hmotnost: 85 kg",
+                "Naváděcí laser: ANO",
+                "Podvozek: ANO"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/dynamic.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-s-remenovym-prevodem-battipav-dynamic-1200s/"
             }
           ]
         },
@@ -630,9 +656,134 @@
       "image": "assets/images/products/manual-cutters.png",
       "subcategories": [
         {
-          "id": "push-cutters",
-          "name": "Řezání tlakem",
-          "description": "Ruční řezačky s mechanismem řezání tlakem.",
+          "id": "adjustable-portal",
+          "name": "S nastavitelnou výškou portálu",
+          "description": "Ruční řezačky s nastavitelnou výškou portálu.",
+          "products": [
+            {
+              "id": "sintesi",
+              "name": "SINTESI",
+              "description": "Profesionální ruční řezačka s nastavitelnou výškou portálu pro maximální přesnost při řezání keramických a porcelánových obkladů.",
+              "image": "assets/images/products/sintesi.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "variants": [
+                {
+                  "id": "183",
+                  "name": "183",
+                  "features": [
+                    "Řezná délka: 1830 mm",
+                    "Tloušťka obkladů: 4-21 mm",
+                    "Max. diagonální řez: 1290×1290 mm",
+                    "Hmotnost: 36 kg",
+                    "Hliníkový pojezd s 9 kuličkovými ložisky",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/sintesi_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-sintesi-183/"
+                },
+                {
+                  "id": "163",
+                  "name": "163",
+                  "features": [
+                    "Řezná délka: 1630 mm",
+                    "Tloušťka obkladů: 4-21 mm",
+                    "Max. diagonální řez: 1150×1150 mm",
+                    "Hmotnost: 32 kg",
+                    "Hliníkový pojezd s 9 kuličkovými ložisky",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/sintesi_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-sintesi-163/"
+                },
+                {
+                  "id": "133",
+                  "name": "133",
+                  "features": [
+                    "Řezná délka: 1330 mm",
+                    "Tloušťka obkladů: 4-21 mm",
+                    "Max. diagonální řez: 940×940 mm",
+                    "Hmotnost: 28 kg",
+                    "Hliníkový pojezd s 9 kuličkovými ložisky",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/sintesi_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-sintesi-133/"
+                },
+                {
+                  "id": "93",
+                  "name": "93",
+                  "features": [
+                    "Řezná délka: 930 mm",
+                    "Tloušťka obkladů: 4-21 mm",
+                    "Max. diagonální řez: 655×655 mm",
+                    "Hmotnost: 24 kg",
+                    "Hliníkový pojezd s 9 kuličkovými ložisky",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/sintesi_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-sintesi-93/"
+                }
+              ]
+            },
+            {
+              "id": "performante",
+              "name": "PERFORMANTE",
+              "description": "Ruční řezačka s technologií Quick Start Snap pro rychlé nastavení výšky řezu ve dvou rozsazích (4-12 mm / 12-20 mm).",
+              "image": "assets/images/products/performante.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "variants": [
+                {
+                  "id": "130",
+                  "name": "130",
+                  "features": [
+                    "Řezná délka: 1300 mm",
+                    "Tloušťka obkladů: 4-20 mm",
+                    "Max. diagonální řez: 915×915 mm",
+                    "Hmotnost: 20 kg",
+                    "Hliníkový pojezd s 9 kuličkovými ložisky",
+                    "Technologie Quick Start Snap"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": ""
+                },
+                {
+                  "id": "90",
+                  "name": "90",
+                  "features": [
+                    "Řezná délka: 900 mm",
+                    "Tloušťka obkladů: 4-20 mm",
+                    "Max. diagonální řez: 635×635 mm",
+                    "Hmotnost: 13 kg",
+                    "Hliníkový pojezd s 9 kuličkovými ložisky",
+                    "Technologie Quick Start Snap"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": ""
+                },
+                {
+                  "id": "65",
+                  "name": "65",
+                  "features": [
+                    "Řezná délka: 650 mm",
+                    "Tloušťka obkladů: 4-20 mm",
+                    "Max. diagonální řez: 460×460 mm",
+                    "Hmotnost: 10 kg",
+                    "Hliníkový pojezd s 9 kuličkovými ložisky",
+                    "Technologie Quick Start Snap"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fixed-portal",
+          "name": "S fixním portálem",
+          "description": "Ruční řezačky s fixním portálem.",
           "products": [
             {
               "id": "profi-evo",
@@ -644,46 +795,18 @@
               "topVariantIndex": 2,
               "variants": [
                 {
-                  "id": "63",
-                  "name": "63",
+                  "id": "163",
+                  "name": "163",
                   "features": [
-                    "Řezná délka: 630 mm",
+                    "Řezná délka: 1630 mm",
                     "Tloušťka obkladů: 5-15 mm",
-                    "Max. diagonální řez: 440×440 mm",
-                    "Hmotnost: 9,5 kg",
+                    "Max. diagonální řez: 1150×1150 mm",
+                    "Hmotnost: 19,9 kg",
                     "Kuličková ložiska pro plynulost",
                     "Goniometrický čtverec -45° až +45°"
                   ],
                   "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
-                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-63/"
-                },
-                {
-                  "id": "88",
-                  "name": "88",
-                  "features": [
-                    "Řezná délka: 880 mm",
-                    "Tloušťka obkladů: 5-15 mm",
-                    "Max. diagonální řez: 620×620 mm",
-                    "Hmotnost: 13 kg",
-                    "Kuličková ložiska pro plynulost",
-                    "Goniometrický čtverec -45° až +45°"
-                  ],
-                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
-                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-88/"
-                },
-                {
-                  "id": "103",
-                  "name": "103",
-                  "features": [
-                    "Řezná délka: 1030 mm",
-                    "Tloušťka obkladů: 5-15 mm",
-                    "Max. diagonální řez: 720×720 mm",
-                    "Hmotnost: 14,1 kg",
-                    "Kuličková ložiska pro plynulost",
-                    "Goniometrický čtverec -45° až +45°"
-                  ],
-                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
-                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-103/"
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-163/"
                 },
                 {
                   "id": "133",
@@ -700,28 +823,206 @@
                   "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-133/"
                 },
                 {
-                  "id": "163",
-                  "name": "163",
+                  "id": "103",
+                  "name": "103",
                   "features": [
-                    "Řezná délka: 1630 mm",
+                    "Řezná délka: 1030 mm",
                     "Tloušťka obkladů: 5-15 mm",
-                    "Max. diagonální řez: 1150×1150 mm",
-                    "Hmotnost: 19,9 kg",
+                    "Max. diagonální řez: 720×720 mm",
+                    "Hmotnost: 14,1 kg",
                     "Kuličková ložiska pro plynulost",
                     "Goniometrický čtverec -45° až +45°"
                   ],
                   "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
-                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-163/"
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-103/"
+                },
+                {
+                  "id": "88",
+                  "name": "88",
+                  "features": [
+                    "Řezná délka: 880 mm",
+                    "Tloušťka obkladů: 5-15 mm",
+                    "Max. diagonální řez: 620×620 mm",
+                    "Hmotnost: 13 kg",
+                    "Kuličková ložiska pro plynulost",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-88/"
+                },
+                {
+                  "id": "63",
+                  "name": "63",
+                  "features": [
+                    "Řezná délka: 630 mm",
+                    "Tloušťka obkladů: 5-15 mm",
+                    "Max. diagonální řez: 440×440 mm",
+                    "Hmotnost: 9,5 kg",
+                    "Kuličková ložiska pro plynulost",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-63/"
+                }
+              ]
+            },
+            {
+              "id": "super-pro-evo",
+              "name": "SUPER PRO EVO",
+              "description": "Profesionální ruční řezačka s chromovaným pojezdem a 9 nastavitelnými kuličkovými ložisky pro dokonalou přesnost.",
+              "image": "assets/images/products/super-pro-evo.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "variants": [
+                {
+                  "id": "125",
+                  "name": "125",
+                  "features": [
+                    "Řezná délka: 1250 mm",
+                    "Tloušťka obkladů: 4-19 mm",
+                    "Max. diagonální řez: 884×884 mm",
+                    "Hmotnost: 11 kg",
+                    "Chromovaný pojezd s 9 ložisky (4 nastavitelné)",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/super_pro_evo_technick___list_.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-super-pro-evo-125/"
+                },
+                {
+                  "id": "90",
+                  "name": "90",
+                  "features": [
+                    "Řezná délka: 900 mm",
+                    "Tloušťka obkladů: 4-19 mm",
+                    "Max. diagonální řez: 636×636 mm",
+                    "Hmotnost: 9,5 kg",
+                    "Chromovaný pojezd s 9 ložisky (4 nastavitelné)",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/super_pro_evo_technick___list_.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-super-pro-evo-90/"
+                },
+                {
+                  "id": "65",
+                  "name": "65",
+                  "features": [
+                    "Řezná délka: 650 mm",
+                    "Tloušťka obkladů: 4-19 mm",
+                    "Max. diagonální řez: 460×460 mm",
+                    "Hmotnost: 8 kg",
+                    "Chromovaný pojezd s 9 ložisky (4 nastavitelné)",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/super_pro_evo_technick___list_.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-super-pro-evo-65/"
+                }
+              ]
+            },
+            {
+              "id": "leggera",
+              "name": "LEGGERA",
+              "description": "Ultralehká profesionální ruční řezačka s hliníkovým tělem pro maximální přenosnost.",
+              "image": "assets/images/products/leggera.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "variants": [
+                {
+                  "id": "137",
+                  "name": "137",
+                  "features": [
+                    "Řezná délka: 1370 mm",
+                    "Tloušťka obkladů: 4-15 mm",
+                    "Max. diagonální řez: 965×965 mm",
+                    "Hmotnost: 12,6 kg",
+                    "Hliníkový pojezd s 2 nastavitelnými ložisky",
+                    "Boční výsuvné podpěry"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/leggera_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-leggera-137/"
+                },
+                {
+                  "id": "92",
+                  "name": "92",
+                  "features": [
+                    "Řezná délka: 920 mm",
+                    "Tloušťka obkladů: 4-15 mm",
+                    "Max. diagonální řez: 650×650 mm",
+                    "Hmotnost: 9,6 kg",
+                    "Hliníkový pojezd s 2 nastavitelnými ložisky",
+                    "Boční výsuvné podpěry"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/leggera_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-leggera-92/"
+                },
+                {
+                  "id": "67",
+                  "name": "67",
+                  "features": [
+                    "Řezná délka: 670 mm",
+                    "Tloušťka obkladů: 4-15 mm",
+                    "Max. diagonální řez: 470×470 mm",
+                    "Hmotnost: 7 kg",
+                    "Hliníkový pojezd s 2 nastavitelnými ložisky",
+                    "Boční výsuvné podpěry"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/leggera_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-leggera-67/"
+                }
+              ]
+            },
+            {
+              "id": "super-pro",
+              "name": "SUPER PRO",
+              "description": "Profesionální ruční řezačka s lámací silou 2000 kg pro řezání tvrdých velkoformátových obkladů.",
+              "image": "assets/images/products/super-pro.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "variants": [
+                {
+                  "id": "900",
+                  "name": "900",
+                  "features": [
+                    "Řezná délka: 900 mm",
+                    "Tloušťka obkladů: 5-19 mm",
+                    "Max. diagonální řez: 630×630 mm",
+                    "Lámací tlak: 2000 kg",
+                    "Pojezd s 9 kuličkovými ložisky (4 nastavitelné)",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/superpro.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-super-pro-900/"
+                },
+                {
+                  "id": "750",
+                  "name": "750",
+                  "features": [
+                    "Řezná délka: 750 mm",
+                    "Tloušťka obkladů: 5-19 mm",
+                    "Max. diagonální řez: 530×530 mm",
+                    "Lámací tlak: 2000 kg",
+                    "Pojezd s 9 kuličkovými ložisky (4 nastavitelné)",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/superpro.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-super-pro-750/"
+                },
+                {
+                  "id": "600",
+                  "name": "600",
+                  "features": [
+                    "Řezná délka: 600 mm",
+                    "Tloušťka obkladů: 5-19 mm",
+                    "Max. diagonální řez: 420×420 mm",
+                    "Lámací tlak: 2000 kg",
+                    "Pojezd s 9 kuličkovými ložisky (4 nastavitelné)",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/superpro.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-super-pro-600/"
                 }
               ]
             }
           ]
-        },
-        {
-          "id": "pull-cutters",
-          "name": "Řezání tahem",
-          "description": "Ruční řezačky s mechanismem řezání tahem.",
-          "products": []
         }
       ]
     }
