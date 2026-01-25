@@ -132,7 +132,29 @@
         {
           "id": "large-format-tools",
           "label": "Velkoformátové nástroje",
-          "url": "large-format-tools.html"
+          "url": "large-format-tools.html",
+          "submenu": [
+            {
+              "id": "handling-systems",
+              "label": "Manipulační systémy",
+              "url": "large-format-tools.html#handling-systems"
+            },
+            {
+              "id": "work-benches",
+              "label": "Pracovní stoly",
+              "url": "large-format-tools.html#work-benches"
+            },
+            {
+              "id": "cutting-systems",
+              "label": "Řezací systémy",
+              "url": "large-format-tools.html#cutting-systems"
+            },
+            {
+              "id": "tools",
+              "label": "Nástroje",
+              "url": "large-format-tools.html#tools"
+            }
+          ]
         },
         {
           "id": "mixers",
@@ -143,6 +165,11 @@
           "id": "floor-cleaners",
           "label": "Čističky podlah",
           "url": "floor-cleaners.html"
+        },
+        {
+          "id": "water-pumps",
+          "label": "Vodní čerpadla",
+          "url": "water-pumps.html"
         }
       ]
     },

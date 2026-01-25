@@ -40,41 +40,58 @@ Když uživatel řekne "budeme končit", "konec relace", "končíme" nebo před 
 3. Zapiš případné nedokončené úkoly
 
 ## Aktuální stav
-**Poslední relace: 2026-01-25**
+**Poslední relace: 2026-01-25 (večer)**
 
 ### Struktura kategorií produktů
-Web obsahuje 5 hlavních kategorií:
+Web obsahuje 6 hlavních kategorií:
 1. **Elektrické pily** (`electric-saws.html`) - 7 podkategorií, kompletní
 2. **Ruční řezačky** (`manual-cutters.html`) - 2 podkategorie, kompletní
-3. **Velkoformátové nástroje** (`large-format-tools.html`) - 7 produktů, **NOVÉ**
-4. **Mixéry** (`mixers.html`) - 3 produkty, **NOVÉ**
-5. **Čističky podlah** (`floor-cleaners.html`) - 5 produktů, **NOVÉ**
+3. **Velkoformátové nástroje** (`large-format-tools.html`) - 4 podkategorie, 17 produktů
+4. **Mixéry** (`mixers.html`) - 3 produkty
+5. **Čističky podlah** (`floor-cleaners.html`) - 1 produkt (MASTER LINDA)
+6. **Vodní čerpadla** (`water-pumps.html`) - 4 produkty, **NOVÉ**
 
-### Provedené změny v této relaci (2026-01-25)
-- **Doplnění obrázků pro nové kategorie:**
-  - Velkoformátové nástroje: 8 obrázků (lampo-cut-v2, multi-bench, agile-v2, agile-light-v2, perfect-jolly, vacuum-suction-cup, vacuum-suction-cup-agile, large-format-tools)
-  - Mixéry: 4 obrázky (mixer-50-super, mixit, minimix, mixers)
-  - Čističky podlah: 6 obrázků (master-linda, master-linda-tank, linda-veloce, linda-veloce-tank, linda, floor-cleaners)
-- **Oprava v products.json:** přípony AGILE obrázků změněny z .jpg na .png
+### Provedené změny v této relaci (2026-01-25 večer)
 
-### Zdroje obrázků
-| Zdroj | Produkty |
-|-------|----------|
-| ntcshop.cz | Většina velkoformátových nástrojů, MIXER 50 SUPER, MASTER LINDA |
-| battipav.co.uk | MINIMIX |
-| technoriunite.it | MIXIT |
-| ebay.co.uk | Varianty LINDA (různé úhly) |
+#### Čističky podlah
+- Odstraněny 4 produkty: MASTER LINDA WITH TANK, LINDA VELOCE, LINDA VELOCE WITH TANK, LINDA
+- Zůstal pouze MASTER LINDA
 
-### Poznámky k obrázkům
-- Kategoriové obrázky jsou kopie hlavních produktů (lampo-cut → large-format-tools, atd.)
-- `vacuum-suction-cup-agile.jpg` je placeholder (originál na ntcshop.cz chybí)
-- Obrázky LINDA variant jsou z galerie eBay (různé úhly MASTER LINDA)
-- AGILE obrázky jsou ve formátu PNG (pozor při úpravách)
+#### Velkoformátové nástroje - reorganizace do 4 podkategorií
+1. **Manipulační systémy**: CARGO, CARICO!, COMPACT LIGHT PLUS, AGILE LIGHT PLUS, COMPACT LIGHT, AGILE SYSTEM LIGHT
+2. **Pracovní stoly**: MULTI BENCH, MINI MULTI BENCH
+3. **Řezací systémy**: LAMPO FLEX SYSTEM, LAMPO CUT EVO
+4. **Nástroje**: PERFECT JOLLY, PULSE, SUCTION CUP
+
+#### Vodní čerpadla - nová kategorie
+- Přidána nová kategorie s 4 ponornými čerpadly: P3, P2, P1, P0
+- Všechna označena jako TOP produkty
+- Vytvořena stránka `water-pumps.html`
+- Specifikace získány z battipav.com (přes vyhledávání)
+- Přidán kategoriový obrázek `water-pumps.jpg` (kopie P3.jpg)
+
+### Chybějící obrázky pro velkoformátové nástroje
+| Soubor | Produkt |
+|--------|---------|
+| `cargo.jpg` | CARGO |
+| `carico.jpg` | CARICO! |
+| `compact-light-plus.jpg` | COMPACT LIGHT PLUS |
+| `agile-light-plus.jpg` | AGILE LIGHT PLUS |
+| `compact-light.jpg` | COMPACT LIGHT |
+| `agile-system-light.jpg` | AGILE SYSTEM LIGHT |
+| `mini-multi-bench.jpg` | MINI MULTI BENCH |
+| `lampo-flex-system.jpg` | LAMPO FLEX SYSTEM |
+| `lampo-cut-evo.jpg` | LAMPO CUT EVO |
+| `pulse.jpg` | PULSE |
+| `suction-cup.jpg` | SUCTION CUP |
+
+Zdroj obrázků: https://battipav.com/en/product-category/large-format/
 
 ### Historické změny (předchozí relace)
 - Elektrické pily: DYNAMIC 1200S, úprava CLASS PLUS
 - Ruční řezačky: reorganizace podkategorií, nové produkty (SINTESI, PERFORMANTE, SUPER PRO EVO, LEGGERA, SUPER PRO)
 - E-shop odkazy a technické listy z ntcshop.cz
+- Doplnění obrázků pro mixéry a čističky
 
 ## Soubory ke kontrole
 - `products/products.json` - hlavní databáze produktů
@@ -82,6 +99,6 @@ Web obsahuje 5 hlavních kategorií:
 - `assets/images/products/` - obrázky produktů
 
 ## Nedokončené úkoly
+- [ ] Stáhnout obrázky pro velkoformátové nástroje (viz tabulka výše)
+- [ ] Doplnit technické listy a e-shop odkazy pro nové kategorie
 - [ ] Získat originální obrázek vakuové přísavky pro AGILE (aktuálně placeholder)
-- [ ] Získat specifické obrázky pro jednotlivé modely LINDA (aktuálně všechny používají varianty MASTER LINDA)
-- [ ] Případně doplnit technické listy a e-shop odkazy pro nové kategorie (velkoformátové nástroje, mixéry, čističky)

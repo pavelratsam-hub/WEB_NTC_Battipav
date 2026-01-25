@@ -1031,125 +1031,244 @@
       "name": "Velkoformátové nástroje",
       "description": "Profesionální nástroje pro práci s velkoformátovými obklady a dlažbou.",
       "image": "assets/images/products/large-format-tools.jpg",
-      "products": [
+      "subcategories": [
         {
-          "id": "lampo-cut-v2",
-          "name": "LAMPO CUT V2",
-          "description": "Ruční řezačka pro velkoformátové obklady a dlaždice.",
-          "image": "assets/images/products/lampo-cut-v2.jpg",
-          "brochure": "",
-          "topProduct": true,
-          "features": [
-            "Délka řezu: 3200 mm",
-            "Max. tloušťka: 25 mm",
-            "Hmotnost: 10,5 kg",
-            "Kompaktní a přenosná konstrukce",
-            "Precizní vodící systém"
-          ],
-          "technicalSheet": "",
-          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+          "id": "handling-systems",
+          "name": "Manipulační systémy",
+          "description": "Profesionální systémy pro bezpečnou manipulaci s velkoformátovými obklady.",
+          "products": [
+            {
+              "id": "cargo",
+              "name": "CARGO",
+              "description": "Profesionální manipulační systém pro přepravu velkoformátových obkladů.",
+              "image": "assets/images/products/cargo.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "features": [
+                "Pro velkoformátové obklady",
+                "Vakuový přísavný systém",
+                "Ergonomický design",
+                "Vysoká nosnost"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+            },
+            {
+              "id": "carico",
+              "name": "CARICO!",
+              "description": "Manipulační systém pro snadnou přepravu obkladů.",
+              "image": "assets/images/products/carico.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Ergonomická konstrukce",
+                "Snadná manipulace",
+                "Pro různé formáty",
+                "Robustní provedení"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+            },
+            {
+              "id": "compact-light-plus",
+              "name": "COMPACT LIGHT PLUS",
+              "description": "Kompaktní manipulační systém s rozšířenými funkcemi.",
+              "image": "assets/images/products/compact-light-plus.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Kompaktní rozměry",
+                "Lehká konstrukce",
+                "Rozšířené funkce",
+                "Snadná přeprava"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+            },
+            {
+              "id": "agile-light-plus",
+              "name": "AGILE LIGHT PLUS",
+              "description": "Lehký manipulační systém AGILE s rozšířenými funkcemi.",
+              "image": "assets/images/products/agile-light-plus.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Lehká konstrukce",
+                "Vakuový přísavný systém",
+                "Rozšířené funkce",
+                "Pro střední velkoformáty"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+            },
+            {
+              "id": "compact-light",
+              "name": "COMPACT LIGHT",
+              "description": "Základní kompaktní manipulační systém.",
+              "image": "assets/images/products/compact-light.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Kompaktní rozměry",
+                "Lehká konstrukce",
+                "Snadná manipulace",
+                "Ekonomické řešení"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+            },
+            {
+              "id": "agile-system-light",
+              "name": "AGILE SYSTEM LIGHT",
+              "description": "Lehká verze systému AGILE pro manipulaci s obklady.",
+              "image": "assets/images/products/agile-system-light.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Lehká konstrukce",
+                "Systém AGILE",
+                "Vakuové přísavky",
+                "Snadná manipulace"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+            }
+          ]
         },
         {
-          "id": "multi-bench",
-          "name": "MULTI BENCH",
-          "description": "Pracovní stůl pro manipulaci s velkoformátovými obklady.",
-          "image": "assets/images/products/multi-bench.jpg",
-          "brochure": "",
-          "topProduct": false,
-          "features": [
-            "Rozměry pracovní plochy: 1500×1525 mm",
-            "Nosnost: 200 kg",
-            "Výška stolu: 81 cm",
-            "Skládací konstrukce pro snadný transport",
-            "Integrované pravítko"
-          ],
-          "technicalSheet": "",
-          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+          "id": "work-benches",
+          "name": "Pracovní stoly",
+          "description": "Pracovní stoly pro manipulaci a řezání velkoformátových obkladů.",
+          "products": [
+            {
+              "id": "multi-bench",
+              "name": "MULTI BENCH",
+              "description": "Pracovní stůl pro manipulaci s velkoformátovými obklady.",
+              "image": "assets/images/products/multi-bench.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "features": [
+                "Rozměry pracovní plochy: 1500×1525 mm",
+                "Nosnost: 200 kg",
+                "Výška stolu: 81 cm",
+                "Skládací konstrukce pro snadný transport",
+                "Integrované pravítko"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+            },
+            {
+              "id": "mini-multi-bench",
+              "name": "MINI MULTI BENCH",
+              "description": "Kompaktní pracovní stůl pro menší velkoformáty.",
+              "image": "assets/images/products/mini-multi-bench.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Kompaktní rozměry",
+                "Skládací konstrukce",
+                "Snadná přeprava",
+                "Pro menší formáty"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+            }
+          ]
         },
         {
-          "id": "agile-v2",
-          "name": "AGILE V2",
-          "description": "Profesionální manipulační systém pro přepravu velkoformátových obkladů.",
-          "image": "assets/images/products/agile-v2.png",
-          "brochure": "",
-          "topProduct": true,
-          "features": [
-            "Pro velkoformátové obklady",
-            "Vakuový přísavný systém",
-            "Ergonomický design",
-            "Nastavitelné úchyty",
-            "Vysoká nosnost"
-          ],
-          "technicalSheet": "",
-          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+          "id": "cutting-systems",
+          "name": "Řezací systémy",
+          "description": "Profesionální řezací systémy pro velkoformátové obklady.",
+          "products": [
+            {
+              "id": "lampo-flex-system",
+              "name": "LAMPO FLEX SYSTEM",
+              "description": "Flexibilní řezací systém pro velkoformátové obklady.",
+              "image": "assets/images/products/lampo-flex-system.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "features": [
+                "Flexibilní použití",
+                "Pro velkoformáty",
+                "Precizní řez",
+                "Přenosná konstrukce"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+            },
+            {
+              "id": "lampo-cut-evo",
+              "name": "LAMPO CUT EVO",
+              "description": "Evoluční řezačka pro velkoformátové obklady a dlaždice.",
+              "image": "assets/images/products/lampo-cut-evo.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Vylepšená konstrukce",
+                "Pro velkoformáty",
+                "Precizní vodící systém",
+                "Kompaktní design"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+            }
+          ]
         },
         {
-          "id": "agile-light-v2",
-          "name": "AGILE LIGHT V2",
-          "description": "Lehký manipulační systém pro přepravu velkoformátových obkladů.",
-          "image": "assets/images/products/agile-light-v2.png",
-          "brochure": "",
-          "topProduct": false,
-          "features": [
-            "Lehká konstrukce",
-            "Pro střední velkoformáty",
-            "Vakuový přísavný systém",
-            "Snadná manipulace",
-            "Kompaktní rozměry"
-          ],
-          "technicalSheet": "",
-          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
-        },
-        {
-          "id": "perfect-jolly",
-          "name": "PERFECT JOLLY",
-          "description": "Nástavec pro úhlovou brusku na zkosení hran obkladů.",
-          "image": "assets/images/products/perfect-jolly.jpg",
-          "brochure": "",
-          "topProduct": false,
-          "features": [
-            "Úhel zkosení: 40-50°",
-            "Pro úhlové brusky",
-            "Precizní nastavení úhlu",
-            "Vodní chlazení",
-            "Bezprašný provoz"
-          ],
-          "technicalSheet": "",
-          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
-        },
-        {
-          "id": "vacuum-suction-cup",
-          "name": "Vakuová přísavka s manometrem",
-          "description": "Vakuová přísavka pro bezpečnou manipulaci s dlaždicemi.",
-          "image": "assets/images/products/vacuum-suction-cup.jpg",
-          "brochure": "",
-          "topProduct": false,
-          "features": [
-            "Integrovaný manometr",
-            "Vysoká přísavná síla",
-            "Pro hladké povrchy",
-            "Ergonomická rukojeť",
-            "Rychlé uvolnění"
-          ],
-          "technicalSheet": "",
-          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
-        },
-        {
-          "id": "vacuum-suction-cup-agile",
-          "name": "Vakuová přísavka pro AGILE",
-          "description": "Vakuová přísavka kompatibilní se systémem AGILE.",
-          "image": "assets/images/products/vacuum-suction-cup-agile.jpg",
-          "brochure": "",
-          "topProduct": false,
-          "features": [
-            "Kompatibilní s AGILE systémem",
-            "Vysoká přísavná síla",
-            "Rychloupínací systém",
-            "Robustní konstrukce",
-            "Pro velkoformáty"
-          ],
-          "technicalSheet": "",
-          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+          "id": "tools",
+          "name": "Nástroje",
+          "description": "Doplňkové nástroje pro práci s obklady.",
+          "products": [
+            {
+              "id": "perfect-jolly",
+              "name": "PERFECT JOLLY",
+              "description": "Nástavec pro úhlovou brusku na zkosení hran obkladů.",
+              "image": "assets/images/products/perfect-jolly.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "features": [
+                "Úhel zkosení: 40-50°",
+                "Pro úhlové brusky",
+                "Precizní nastavení úhlu",
+                "Vodní chlazení",
+                "Bezprašný provoz"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+            },
+            {
+              "id": "pulse",
+              "name": "PULSE",
+              "description": "Vibrační nástroj pro pokládku velkoformátových obkladů.",
+              "image": "assets/images/products/pulse.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Vibrační technologie",
+                "Pro pokládku obkladů",
+                "Ergonomický design",
+                "Rovnoměrné rozložení"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+            },
+            {
+              "id": "suction-cup",
+              "name": "SUCTION CUP",
+              "description": "Vakuová přísavka pro bezpečnou manipulaci s dlaždicemi.",
+              "image": "assets/images/products/suction-cup.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Vysoká přísavná síla",
+                "Pro hladké povrchy",
+                "Ergonomická rukojeť",
+                "Rychlé uvolnění"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+            }
+          ]
         }
       ]
     },
@@ -1234,71 +1353,83 @@
           ],
           "technicalSheet": "",
           "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
-        },
+        }
+      ]
+    },
+    {
+      "id": "water-pumps",
+      "name": "Vodní čerpadla",
+      "description": "Profesionální ponorná čerpadla pro recirkulaci vody v řezacích strojích.",
+      "image": "assets/images/products/water-pumps.jpg",
+      "products": [
         {
-          "id": "master-linda-tank",
-          "name": "MASTER LINDA WITH TANK",
-          "description": "Profesionální podlahový čistič s integrovanou nádrží na vodu.",
-          "image": "assets/images/products/master-linda-tank.jpg",
+          "id": "p3",
+          "name": "P3",
+          "description": "Výkonné ponorné čerpadlo pro recirkulaci vody v řezacích strojích na cihly a dlažbu.",
+          "image": "assets/images/products/P3.jpg",
           "brochure": "",
-          "topProduct": false,
+          "topProduct": true,
           "features": [
-            "Výkon motoru: 2500 W",
-            "Průměr kartáče: ø500 mm",
-            "2 rychlosti: 60/120 rpm",
-            "Integrovaná nádrž na vodu",
-            "Pro mokré čištění"
+            "Výkon: 60 W",
+            "Napájení: 230 V / 50 Hz",
+            "Průtok: 1560 l/h (26 l/min)",
+            "Krytí: IP X8",
+            "Certifikace TÜV/GS",
+            "Dvojitá samomazná hlava"
           ],
           "technicalSheet": "",
           "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
         },
         {
-          "id": "linda-veloce",
-          "name": "LINDA VELOCE",
-          "description": "Kompaktní podlahový čistič pro menší prostory.",
-          "image": "assets/images/products/linda-veloce.jpg",
+          "id": "p2",
+          "name": "P2",
+          "description": "Ponorné čerpadlo střední výkonnosti pro řezací stroje.",
+          "image": "assets/images/products/P2.jpg",
           "brochure": "",
-          "topProduct": false,
+          "topProduct": true,
           "features": [
-            "Výkon motoru: 1900 W",
-            "Průměr kartáče: ø420 mm",
-            "Kompaktní rozměry",
-            "Snadná manévrovatelnost",
-            "Nízká hmotnost"
+            "Výkon: 55 W",
+            "Napájení: 230 V / 50 Hz",
+            "Průtok: 996 l/h (16,6 l/min)",
+            "Krytí: IP X8",
+            "Certifikace TÜV/GS",
+            "Dvojitá samomazná hlava"
           ],
           "technicalSheet": "",
           "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
         },
         {
-          "id": "linda-veloce-tank",
-          "name": "LINDA VELOCE WITH TANK",
-          "description": "Kompaktní podlahový čistič s nádrží na vodu.",
-          "image": "assets/images/products/linda-veloce-tank.jpg",
+          "id": "p1",
+          "name": "P1",
+          "description": "Kompaktní ponorné čerpadlo pro menší řezací stroje.",
+          "image": "assets/images/products/P1.jpg",
           "brochure": "",
-          "topProduct": false,
+          "topProduct": true,
           "features": [
-            "Výkon motoru: 1900 W",
-            "Průměr kartáče: ø420 mm",
-            "Nádrž na vodu: 8 L",
-            "Kompaktní rozměry",
-            "Pro mokré čištění"
+            "Výkon: 50 W",
+            "Napájení: 230 V / 50 Hz",
+            "Průtok: 846 l/h (14,1 l/min)",
+            "Krytí: IP X8",
+            "Certifikace TÜV/GS",
+            "Dvojitá samomazná hlava"
           ],
           "technicalSheet": "",
           "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
         },
         {
-          "id": "linda",
-          "name": "LINDA",
-          "description": "Základní podlahový čistič pro běžné čištění.",
-          "image": "assets/images/products/linda.jpg",
+          "id": "p0",
+          "name": "P0",
+          "description": "Základní ponorné čerpadlo pro menší aplikace.",
+          "image": "assets/images/products/P0.jpg",
           "brochure": "",
-          "topProduct": false,
+          "topProduct": true,
           "features": [
-            "Základní model",
-            "Pro běžné čištění",
-            "Jednoduchá obsluha",
-            "Spolehlivý motor",
-            "Ekonomický provoz"
+            "Výkon: 35 W",
+            "Napájení: 230 V / 50 Hz",
+            "Průtok: 696 l/h (11,6 l/min)",
+            "Krytí: IP X8",
+            "Certifikace TÜV/GS",
+            "Dvojitá samomazná hlava"
           ],
           "technicalSheet": "",
           "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
