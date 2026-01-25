@@ -40,25 +40,48 @@ Když uživatel řekne "budeme končit", "konec relace", "končíme" nebo před 
 3. Zapiš případné nedokončené úkoly
 
 ## Aktuální stav
-**Poslední relace: 2026-01-19**
+**Poslední relace: 2026-01-25**
 
-Provedené změny:
-- Elektrické pily:
-  - Přidán DYNAMIC 1200S do kategorie "Pily portálové na obklady" (4. pozice za VIP)
-  - Upraven CLASS PLUS - přidán průměr kotouče, délka řezu v mm, hloubky řezu 90°/45°
-- Ruční řezačky - reorganizace podkategorií:
-  - "Řezání tlakem" → "S nastavitelnou výškou portálu"
-  - "Řezání tahem" → "S fixním portálem"
-- Nové ruční řezačky v kategorii "S nastavitelnou výškou portálu":
-  - SINTESI (4 varianty: 183, 163, 133, 93)
-  - PERFORMANTE (3 varianty: 130, 90, 65)
-- Nové ruční řezačky v kategorii "S fixním portálem":
-  - SUPER PRO EVO (3 varianty: 125, 90, 65)
-  - LEGGERA (3 varianty: 137, 92, 67)
-  - SUPER PRO (3 varianty: 900, 750, 600)
-- PROFI EVO přesunut do "S fixním portálem", pořadí variant otočeno (od největšího)
-- Doplněny e-shop odkazy a technické listy z ntcshop.cz pro všechny nové produkty
-- Přidány obrázky pro nové produkty
+### Struktura kategorií produktů
+Web obsahuje 5 hlavních kategorií:
+1. **Elektrické pily** (`electric-saws.html`) - 7 podkategorií, kompletní
+2. **Ruční řezačky** (`manual-cutters.html`) - 2 podkategorie, kompletní
+3. **Velkoformátové nástroje** (`large-format-tools.html`) - 7 produktů, **NOVÉ**
+4. **Mixéry** (`mixers.html`) - 3 produkty, **NOVÉ**
+5. **Čističky podlah** (`floor-cleaners.html`) - 5 produktů, **NOVÉ**
+
+### Provedené změny v této relaci (2026-01-25)
+- **Doplnění obrázků pro nové kategorie:**
+  - Velkoformátové nástroje: 8 obrázků (lampo-cut-v2, multi-bench, agile-v2, agile-light-v2, perfect-jolly, vacuum-suction-cup, vacuum-suction-cup-agile, large-format-tools)
+  - Mixéry: 4 obrázky (mixer-50-super, mixit, minimix, mixers)
+  - Čističky podlah: 6 obrázků (master-linda, master-linda-tank, linda-veloce, linda-veloce-tank, linda, floor-cleaners)
+- **Oprava v products.json:** přípony AGILE obrázků změněny z .jpg na .png
+
+### Zdroje obrázků
+| Zdroj | Produkty |
+|-------|----------|
+| ntcshop.cz | Většina velkoformátových nástrojů, MIXER 50 SUPER, MASTER LINDA |
+| battipav.co.uk | MINIMIX |
+| technoriunite.it | MIXIT |
+| ebay.co.uk | Varianty LINDA (různé úhly) |
+
+### Poznámky k obrázkům
+- Kategoriové obrázky jsou kopie hlavních produktů (lampo-cut → large-format-tools, atd.)
+- `vacuum-suction-cup-agile.jpg` je placeholder (originál na ntcshop.cz chybí)
+- Obrázky LINDA variant jsou z galerie eBay (různé úhly MASTER LINDA)
+- AGILE obrázky jsou ve formátu PNG (pozor při úpravách)
+
+### Historické změny (předchozí relace)
+- Elektrické pily: DYNAMIC 1200S, úprava CLASS PLUS
+- Ruční řezačky: reorganizace podkategorií, nové produkty (SINTESI, PERFORMANTE, SUPER PRO EVO, LEGGERA, SUPER PRO)
+- E-shop odkazy a technické listy z ntcshop.cz
+
+## Soubory ke kontrole
+- `products/products.json` - hlavní databáze produktů
+- `config/battipav.json` - navigace a konfigurace
+- `assets/images/products/` - obrázky produktů
 
 ## Nedokončené úkoly
-_Žádné_
+- [ ] Získat originální obrázek vakuové přísavky pro AGILE (aktuálně placeholder)
+- [ ] Získat specifické obrázky pro jednotlivé modely LINDA (aktuálně všechny používají varianty MASTER LINDA)
+- [ ] Případně doplnit technické listy a e-shop odkazy pro nové kategorie (velkoformátové nástroje, mixéry, čističky)

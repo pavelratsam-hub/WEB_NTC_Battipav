@@ -1025,6 +1025,285 @@
           ]
         }
       ]
+    },
+    {
+      "id": "large-format-tools",
+      "name": "Velkoformátové nástroje",
+      "description": "Profesionální nástroje pro práci s velkoformátovými obklady a dlažbou.",
+      "image": "assets/images/products/large-format-tools.jpg",
+      "products": [
+        {
+          "id": "lampo-cut-v2",
+          "name": "LAMPO CUT V2",
+          "description": "Ruční řezačka pro velkoformátové obklady a dlaždice.",
+          "image": "assets/images/products/lampo-cut-v2.jpg",
+          "brochure": "",
+          "topProduct": true,
+          "features": [
+            "Délka řezu: 3200 mm",
+            "Max. tloušťka: 25 mm",
+            "Hmotnost: 10,5 kg",
+            "Kompaktní a přenosná konstrukce",
+            "Precizní vodící systém"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        },
+        {
+          "id": "multi-bench",
+          "name": "MULTI BENCH",
+          "description": "Pracovní stůl pro manipulaci s velkoformátovými obklady.",
+          "image": "assets/images/products/multi-bench.jpg",
+          "brochure": "",
+          "topProduct": false,
+          "features": [
+            "Rozměry pracovní plochy: 1500×1525 mm",
+            "Nosnost: 200 kg",
+            "Výška stolu: 81 cm",
+            "Skládací konstrukce pro snadný transport",
+            "Integrované pravítko"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        },
+        {
+          "id": "agile-v2",
+          "name": "AGILE V2",
+          "description": "Profesionální manipulační systém pro přepravu velkoformátových obkladů.",
+          "image": "assets/images/products/agile-v2.png",
+          "brochure": "",
+          "topProduct": true,
+          "features": [
+            "Pro velkoformátové obklady",
+            "Vakuový přísavný systém",
+            "Ergonomický design",
+            "Nastavitelné úchyty",
+            "Vysoká nosnost"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        },
+        {
+          "id": "agile-light-v2",
+          "name": "AGILE LIGHT V2",
+          "description": "Lehký manipulační systém pro přepravu velkoformátových obkladů.",
+          "image": "assets/images/products/agile-light-v2.png",
+          "brochure": "",
+          "topProduct": false,
+          "features": [
+            "Lehká konstrukce",
+            "Pro střední velkoformáty",
+            "Vakuový přísavný systém",
+            "Snadná manipulace",
+            "Kompaktní rozměry"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        },
+        {
+          "id": "perfect-jolly",
+          "name": "PERFECT JOLLY",
+          "description": "Nástavec pro úhlovou brusku na zkosení hran obkladů.",
+          "image": "assets/images/products/perfect-jolly.jpg",
+          "brochure": "",
+          "topProduct": false,
+          "features": [
+            "Úhel zkosení: 40-50°",
+            "Pro úhlové brusky",
+            "Precizní nastavení úhlu",
+            "Vodní chlazení",
+            "Bezprašný provoz"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        },
+        {
+          "id": "vacuum-suction-cup",
+          "name": "Vakuová přísavka s manometrem",
+          "description": "Vakuová přísavka pro bezpečnou manipulaci s dlaždicemi.",
+          "image": "assets/images/products/vacuum-suction-cup.jpg",
+          "brochure": "",
+          "topProduct": false,
+          "features": [
+            "Integrovaný manometr",
+            "Vysoká přísavná síla",
+            "Pro hladké povrchy",
+            "Ergonomická rukojeť",
+            "Rychlé uvolnění"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        },
+        {
+          "id": "vacuum-suction-cup-agile",
+          "name": "Vakuová přísavka pro AGILE",
+          "description": "Vakuová přísavka kompatibilní se systémem AGILE.",
+          "image": "assets/images/products/vacuum-suction-cup-agile.jpg",
+          "brochure": "",
+          "topProduct": false,
+          "features": [
+            "Kompatibilní s AGILE systémem",
+            "Vysoká přísavná síla",
+            "Rychloupínací systém",
+            "Robustní konstrukce",
+            "Pro velkoformáty"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        }
+      ]
+    },
+    {
+      "id": "mixers",
+      "name": "Mixéry",
+      "description": "Profesionální mixéry pro míchání stavebních směsí.",
+      "image": "assets/images/products/mixers.jpg",
+      "products": [
+        {
+          "id": "mixer-50-super",
+          "name": "MIXER 50 SUPER",
+          "description": "Profesionální mixér pro míchání stavebních směsí.",
+          "image": "assets/images/products/mixer-50-super.jpg",
+          "brochure": "",
+          "topProduct": true,
+          "features": [
+            "Výkon motoru: 1200 W",
+            "Objem nádoby: 65 L",
+            "Kapacita: 50 kg",
+            "Otáčky: 60 rpm",
+            "Hmotnost: 24 kg"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        },
+        {
+          "id": "mixit",
+          "name": "MIXIT",
+          "description": "Mixér s bezpečnostním stop systémem a vozíkem.",
+          "image": "assets/images/products/mixit.jpg",
+          "brochure": "",
+          "topProduct": false,
+          "features": [
+            "Bezpečnostní stop systém",
+            "Integrovaný vozík",
+            "2-rychlostní převodovka",
+            "Robustní konstrukce",
+            "Snadná údržba"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        },
+        {
+          "id": "minimix",
+          "name": "MINIMIX",
+          "description": "Kompaktní ruční mixér s variabilními otáčkami.",
+          "image": "assets/images/products/minimix.jpg",
+          "brochure": "",
+          "topProduct": false,
+          "features": [
+            "6-rychlostní variátor",
+            "Lehká konstrukce",
+            "Ergonomická rukojeť",
+            "Pro menší objemy",
+            "Snadná manipulace"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        }
+      ]
+    },
+    {
+      "id": "floor-cleaners",
+      "name": "Čističky podlah",
+      "description": "Profesionální stroje pro čištění a leštění podlah.",
+      "image": "assets/images/products/floor-cleaners.jpg",
+      "products": [
+        {
+          "id": "master-linda",
+          "name": "MASTER LINDA",
+          "description": "Profesionální podlahový čistič s vysokým výkonem.",
+          "image": "assets/images/products/master-linda.jpg",
+          "brochure": "",
+          "topProduct": true,
+          "features": [
+            "Výkon motoru: 2500 W",
+            "Průměr kartáče: ø500 mm",
+            "2 rychlosti: 60/120 rpm",
+            "Pro velké plochy",
+            "Robustní konstrukce"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        },
+        {
+          "id": "master-linda-tank",
+          "name": "MASTER LINDA WITH TANK",
+          "description": "Profesionální podlahový čistič s integrovanou nádrží na vodu.",
+          "image": "assets/images/products/master-linda-tank.jpg",
+          "brochure": "",
+          "topProduct": false,
+          "features": [
+            "Výkon motoru: 2500 W",
+            "Průměr kartáče: ø500 mm",
+            "2 rychlosti: 60/120 rpm",
+            "Integrovaná nádrž na vodu",
+            "Pro mokré čištění"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        },
+        {
+          "id": "linda-veloce",
+          "name": "LINDA VELOCE",
+          "description": "Kompaktní podlahový čistič pro menší prostory.",
+          "image": "assets/images/products/linda-veloce.jpg",
+          "brochure": "",
+          "topProduct": false,
+          "features": [
+            "Výkon motoru: 1900 W",
+            "Průměr kartáče: ø420 mm",
+            "Kompaktní rozměry",
+            "Snadná manévrovatelnost",
+            "Nízká hmotnost"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        },
+        {
+          "id": "linda-veloce-tank",
+          "name": "LINDA VELOCE WITH TANK",
+          "description": "Kompaktní podlahový čistič s nádrží na vodu.",
+          "image": "assets/images/products/linda-veloce-tank.jpg",
+          "brochure": "",
+          "topProduct": false,
+          "features": [
+            "Výkon motoru: 1900 W",
+            "Průměr kartáče: ø420 mm",
+            "Nádrž na vodu: 8 L",
+            "Kompaktní rozměry",
+            "Pro mokré čištění"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        },
+        {
+          "id": "linda",
+          "name": "LINDA",
+          "description": "Základní podlahový čistič pro běžné čištění.",
+          "image": "assets/images/products/linda.jpg",
+          "brochure": "",
+          "topProduct": false,
+          "features": [
+            "Základní model",
+            "Pro běžné čištění",
+            "Jednoduchá obsluha",
+            "Spolehlivý motor",
+            "Ekonomický provoz"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/"
+        }
+      ]
     }
   ]
 }

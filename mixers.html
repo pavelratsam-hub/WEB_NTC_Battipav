@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Katalog | BATTIPAV</title>
+    <title>Mixéry | BATTIPAV</title>
 
     <!-- Critical CSS - okamžité skrytí obsahu během načítání -->
     <style>
@@ -17,6 +17,7 @@
 
     <script src="assets/js/config-loader.js"></script>
     <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/products.js" defer></script>
 </head>
 <body class="config-loading">
     <!-- Header -->
@@ -56,36 +57,15 @@
     <!-- Page Header -->
     <section class="hero" style="padding: var(--spacing-xl) 0;">
         <div class="container">
-            <h1 class="hero__title">Katalog produktů</h1>
+            <h1 class="hero__title">Mixéry</h1>
         </div>
     </section>
 
-    <!-- Catalogue Content -->
+    <!-- Products Content -->
     <section class="section">
         <div class="container">
-            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
-                <div style="background-color: var(--color-background-gray); padding: var(--spacing-xl); border-radius: var(--radius-md); margin-bottom: var(--spacing-xl);">
-                    <h2 style="color: var(--color-secondary);">Aktuální katalog</h2>
-                    <p style="margin: var(--spacing-md) 0; color: var(--color-text-light);">
-                        Kompletní katalog produktů Battipav ke stažení.
-                    </p>
-                    <p style="margin-bottom: var(--spacing-lg); font-size: var(--font-size-small); color: var(--color-text-light);">
-                        Formát: PDF | Velikost: cca 15 MB
-                    </p>
-                    <a href="#" class="btn btn--primary" onclick="alert('Katalog bude dostupný ke stažení'); return false;">
-                        Stáhnout katalog
-                    </a>
-                </div>
-
-                <div style="margin-top: var(--spacing-xl); padding: var(--spacing-lg); background-color: var(--color-primary); color: white; border-radius: var(--radius-md);">
-                    <h3 style="color: white;">Potřebujete více informací?</h3>
-                    <p style="margin: var(--spacing-sm) 0;">
-                        Rádi vám pomůžeme s výběrem vhodného stroje.
-                    </p>
-                    <a href="contact.html" class="btn btn--secondary" style="margin-top: var(--spacing-sm);">
-                        Kontaktujte nás
-                    </a>
-                </div>
+            <div id="products-content">
+                <!-- Products will be loaded here -->
             </div>
         </div>
     </section>
@@ -131,18 +111,5 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        document.addEventListener('brandConfigLoaded', (e) => {
-            const config = e.detail;
-            const brand = config.getBrand();
-
-            const catalogueBrandName = document.getElementById('catalogue-brand-name');
-            if (catalogueBrandName) catalogueBrandName.textContent = brand.name;
-
-            const catalogueBrandName2 = document.getElementById('catalogue-brand-name-2');
-            if (catalogueBrandName2) catalogueBrandName2.textContent = brand.name;
-        });
-    </script>
 </body>
 </html>
