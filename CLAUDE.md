@@ -55,6 +55,7 @@ Web obsahuje 6 hlavních kategorií:
 
 #### Stránka O společnosti - sekce Historie Battipav
 - Přejmenována sekce "Historie a tradice" na "Tradice"
+- Aktualizován text v sekci Tradice (nový popis o DNA značky)
 - Přidána nová sekce "Historie" s vizuální timeline (cik-cak layout)
 - Timeline obsahuje 5 milníků:
   1. **1970** - Založení společnosti (obrázek: tile-roller.jpg)
@@ -63,14 +64,18 @@ Web obsahuje 6 hlavních kategorií:
   4. **2018** - Made in Italy (obrázek: made-in-italy.jpg)
   5. **Dnes** - Globální lídr (obrázek: battipav-area.jpg)
 - CSS styly pro timeline: cik-cak layout s kartami střídavě vlevo/vpravo
+- Obrázky v kartách: pevná výška 200px, ořez v šířce, centrované, bílé pozadí
 - Responzivní design - na mobilu vertikální layout
 
 #### Přidané obrázky pro historii
 - `assets/images/battipav/tile-roller.jpg`
-- `assets/images/battipav/mr-tondini.jpg` (Mr-Tondini.jpg)
-- `assets/images/battipav/pumps.jpg` (Pumps.jpg)
-- `assets/images/battipav/made-in-italy.jpg` (Made-in-Italy.jpg)
-- `assets/images/battipav/battipav-area.jpg` (Battipav-area.jpg)
+- `assets/images/battipav/mr-tondini.jpg`
+- `assets/images/battipav/pumps.jpg`
+- `assets/images/battipav/made-in-italy.jpg`
+- `assets/images/battipav/battipav-area.jpg`
+
+#### Opravy
+- Přejmenování obrázků na malá písmena (case-sensitive pro GitHub Pages)
 
 ### Chybějící obrázky pro velkoformátové nástroje
 | Soubor | Produkt |
