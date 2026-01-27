@@ -40,7 +40,7 @@ Když uživatel řekne "budeme končit", "konec relace", "končíme" nebo před 
 3. Zapiš případné nedokončené úkoly
 
 ## Aktuální stav
-**Poslední relace: 2026-01-25 (večer)**
+**Poslední relace: 2026-01-27**
 
 ### Struktura kategorií produktů
 Web obsahuje 6 hlavních kategorií:
@@ -49,26 +49,28 @@ Web obsahuje 6 hlavních kategorií:
 3. **Velkoformátové nástroje** (`large-format-tools.html`) - 4 podkategorie, 17 produktů
 4. **Mixéry** (`mixers.html`) - 3 produkty
 5. **Čističky podlah** (`floor-cleaners.html`) - 1 produkt (MASTER LINDA)
-6. **Vodní čerpadla** (`water-pumps.html`) - 4 produkty, **NOVÉ**
+6. **Vodní čerpadla** (`water-pumps.html`) - 4 produkty
 
-### Provedené změny v této relaci (2026-01-25 večer)
+### Provedené změny v této relaci (2026-01-27)
 
-#### Čističky podlah
-- Odstraněny 4 produkty: MASTER LINDA WITH TANK, LINDA VELOCE, LINDA VELOCE WITH TANK, LINDA
-- Zůstal pouze MASTER LINDA
+#### Stránka O společnosti - sekce Historie Battipav
+- Přejmenována sekce "Historie a tradice" na "Tradice"
+- Přidána nová sekce "Historie" s vizuální timeline (cik-cak layout)
+- Timeline obsahuje 5 milníků:
+  1. **1970** - Založení společnosti (obrázek: tile-roller.jpg)
+  2. **1980** - Strukturální expanze, pan Tondini (obrázek: mr-tondini.jpg)
+  3. **1980–2000** - Rozšíření sortimentu, ponorná čerpadla (obrázek: pumps.jpg)
+  4. **2018** - Made in Italy (obrázek: made-in-italy.jpg)
+  5. **Dnes** - Globální lídr (obrázek: battipav-area.jpg)
+- CSS styly pro timeline: cik-cak layout s kartami střídavě vlevo/vpravo
+- Responzivní design - na mobilu vertikální layout
 
-#### Velkoformátové nástroje - reorganizace do 4 podkategorií
-1. **Manipulační systémy**: CARGO, CARICO!, COMPACT LIGHT PLUS, AGILE LIGHT PLUS, COMPACT LIGHT, AGILE SYSTEM LIGHT
-2. **Pracovní stoly**: MULTI BENCH, MINI MULTI BENCH
-3. **Řezací systémy**: LAMPO FLEX SYSTEM, LAMPO CUT EVO
-4. **Nástroje**: PERFECT JOLLY, PULSE, SUCTION CUP
-
-#### Vodní čerpadla - nová kategorie
-- Přidána nová kategorie s 4 ponornými čerpadly: P3, P2, P1, P0
-- Všechna označena jako TOP produkty
-- Vytvořena stránka `water-pumps.html`
-- Specifikace získány z battipav.com (přes vyhledávání)
-- Přidán kategoriový obrázek `water-pumps.jpg` (kopie P3.jpg)
+#### Přidané obrázky pro historii
+- `assets/images/battipav/tile-roller.jpg`
+- `assets/images/battipav/mr-tondini.jpg` (Mr-Tondini.jpg)
+- `assets/images/battipav/pumps.jpg` (Pumps.jpg)
+- `assets/images/battipav/made-in-italy.jpg` (Made-in-Italy.jpg)
+- `assets/images/battipav/battipav-area.jpg` (Battipav-area.jpg)
 
 ### Chybějící obrázky pro velkoformátové nástroje
 | Soubor | Produkt |
@@ -88,10 +90,12 @@ Web obsahuje 6 hlavních kategorií:
 Zdroj obrázků: https://battipav.com/en/product-category/large-format/
 
 ### Historické změny (předchozí relace)
+- Vodní čerpadla: nová kategorie s 4 produkty (P3, P2, P1, P0)
+- Čističky podlah: zredukováno na 1 produkt (MASTER LINDA)
+- Velkoformátové nástroje: reorganizace do 4 podkategorií
 - Elektrické pily: DYNAMIC 1200S, úprava CLASS PLUS
-- Ruční řezačky: reorganizace podkategorií, nové produkty (SINTESI, PERFORMANTE, SUPER PRO EVO, LEGGERA, SUPER PRO)
+- Ruční řezačky: reorganizace podkategorií, nové produkty
 - E-shop odkazy a technické listy z ntcshop.cz
-- Doplnění obrázků pro mixéry a čističky
 
 ## Soubory ke kontrole
 - `products/products.json` - hlavní databáze produktů
