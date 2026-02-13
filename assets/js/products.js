@@ -221,6 +221,59 @@ function createProductCard(product) {
         `;
     }
 
+    // Wrap in flip container if product has seriesDescription
+    if (product.seriesDescription) {
+        const flipContainer = document.createElement('div');
+        flipContainer.className = 'card-flip-container';
+
+        const flipInner = document.createElement('div');
+        flipInner.className = 'card-flip-inner';
+
+        // Add info button to front
+        const flipBtnFront = document.createElement('button');
+        flipBtnFront.className = 'card-flip-btn';
+        flipBtnFront.title = 'Popis řady';
+        flipBtnFront.textContent = 'ℹ';
+        flipBtnFront.addEventListener('click', (e) => {
+            e.stopPropagation();
+            flipInner.classList.add('flipped');
+        });
+
+        // Front side
+        productCard.classList.add('card-front');
+        productCard.style.position = 'relative';
+        productCard.prepend(flipBtnFront);
+
+        // Back side
+        const backSide = document.createElement('div');
+        backSide.className = 'card-back card product-card';
+
+        const flipBtnBack = document.createElement('button');
+        flipBtnBack.className = 'card-flip-btn';
+        flipBtnBack.title = 'Zpět';
+        flipBtnBack.textContent = '✕';
+        flipBtnBack.addEventListener('click', (e) => {
+            e.stopPropagation();
+            flipInner.classList.remove('flipped');
+        });
+
+        const backContent = document.createElement('div');
+        backContent.className = 'card-back__content';
+        backContent.innerHTML = `
+            <h3>O řadě ${product.name}</h3>
+            <p>${product.seriesDescription}</p>
+        `;
+
+        backSide.appendChild(flipBtnBack);
+        backSide.appendChild(backContent);
+
+        flipInner.appendChild(productCard);
+        flipInner.appendChild(backSide);
+        flipContainer.appendChild(flipInner);
+
+        return flipContainer;
+    }
+
     return productCard;
 }
 
