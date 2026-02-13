@@ -231,9 +231,9 @@ function createProductCard(product) {
 
         // Add info button to front
         const flipBtnFront = document.createElement('button');
-        flipBtnFront.className = 'card-flip-btn';
+        flipBtnFront.className = 'card-flip-btn card-flip-btn--front';
         flipBtnFront.title = 'Popis řady';
-        flipBtnFront.textContent = 'ℹ';
+        flipBtnFront.textContent = 'i';
         flipBtnFront.addEventListener('click', (e) => {
             e.stopPropagation();
             flipInner.classList.add('flipped');

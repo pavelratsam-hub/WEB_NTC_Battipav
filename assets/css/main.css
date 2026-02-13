@@ -587,6 +587,15 @@
     padding: 0;
 }
 
+.card-flip-btn--front {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.card-flip-inner.flipped .card-flip-btn--front {
+    visibility: hidden;
+}
+
 .card-flip-btn:hover {
     background-color: var(--color-primary);
     color: white;
