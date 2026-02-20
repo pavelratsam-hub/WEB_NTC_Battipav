@@ -261,7 +261,7 @@ function createProductCard(product) {
         backContent.className = 'card-back__content';
         backContent.innerHTML = `
             <h3>O řadě ${product.name}</h3>
-            <p>${product.seriesDescription}</p>
+            ${product.seriesDescription}
         `;
 
         backSide.appendChild(flipBtnBack);
