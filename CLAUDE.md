@@ -40,7 +40,7 @@ Když uživatel řekne "budeme končit", "konec relace", "končíme" nebo před 
 3. Zapiš případné nedokončené úkoly
 
 ## Aktuální stav
-**Poslední relace: 2026-01-27**
+**Poslední relace: 2026-02-21**
 
 ### Struktura kategorií produktů
 Web obsahuje 6 hlavních kategorií:
@@ -51,7 +51,35 @@ Web obsahuje 6 hlavních kategorií:
 5. **Čističky podlah** (`floor-cleaners.html`) - 1 produkt (MASTER LINDA)
 6. **Vodní čerpadla** (`water-pumps.html`) - 4 produkty
 
-### Provedené změny v této relaci (2026-01-27)
+### Provedené změny v této relaci (2026-02-21)
+
+#### Popis řad strojů - flip karty produktů
+- Přidán `seriesDescription` ke všem ~40 produktům v `products/products.json`
+- Data čerpána z Excelu `Popisy strojů_2026_importProdotti_NTC.xlsx` (sloupec A = název, B = popis)
+- Popis se zobrazuje na zadní straně flip karty po kliknutí na tlačítko "i"
+- Formát HTML: `<p>hlavní popis</p><h3>Pro koho je určena</h3><p>text</p>[<h3>Na co se nejvíce hodí</h3><p>text</p>]<h3>Hlavní přednosti</h3><p>text</p>`
+- Sekce "Na co se nejvíce hodí" je volitelná (jen kde existuje v podkladech)
+- Vodní čerpadla P0–P3 sdílí stejný popis
+- Změny v JS (`assets/js/products.js`): seriesDescription se renderuje jako raw HTML (bez obalujícího `<p>`)
+- Změny v CSS (`assets/css/main.css`): `.card-back__content p` má `margin-bottom`, `p + h3` nemá `padding-right`
+
+#### Fotky z výroby
+- `assets/images/battipav/factory.jpg` - přidán na úvod (`index.html`, sekce O značce)
+  - Zdroj: DSC_0914.JPG (7360×4912px, 14.2MB) → resizováno na 1400×934px, 164KB
+- `assets/images/battipav/battipav-production.jpg` - přidán do O společnosti (`about.html`, sekce Battipav)
+  - Zdroj: DSC_1005.JPG (7360×4912px, 15.0MB) → resizováno na 1400×934px, 174KB
+  - Nahradil původní `slide2-bg.jpg`
+
+#### Kontaktní formulář - Formspree
+- Formulář v `contact.html` napojen na Formspree (ID: `xgollgyq`, email: `info@ntc.cz`)
+- AJAX odeslání přes `fetch()`, bez přenačtení stránky
+- Skrytá pole: `_replyto` (reply-to zákazníkův email), `_subject` ("Zpráva z webu BATTIPAV: [předmět]")
+- Zprávy o úspěchu/chybě zobrazeny přímo ve formuláři
+
+#### Opravy textu
+- `about.html`: Banner "Oficiální zastoupení pro Českou republiku" → "Oficiální zastoupení značky Battipav pro Českou republiku"
+
+### Provedené změny v relaci 2026-01-27
 
 #### Stránka O společnosti - sekce Historie Battipav
 - Přejmenována sekce "Historie a tradice" na "Tradice"
@@ -66,16 +94,8 @@ Web obsahuje 6 hlavních kategorií:
 - CSS styly pro timeline: cik-cak layout s kartami střídavě vlevo/vpravo
 - Obrázky v kartách: pevná výška 200px, ořez v šířce, centrované, bílé pozadí
 - Responzivní design - na mobilu vertikální layout
-
-#### Přidané obrázky pro historii
-- `assets/images/battipav/tile-roller.jpg`
-- `assets/images/battipav/mr-tondini.jpg`
-- `assets/images/battipav/pumps.jpg`
-- `assets/images/battipav/made-in-italy.jpg`
-- `assets/images/battipav/battipav-area.jpg`
-
-#### Opravy
-- Přejmenování obrázků na malá písmena (case-sensitive pro GitHub Pages)
+- Přidané obrázky: tile-roller.jpg, mr-tondini.jpg, pumps.jpg, made-in-italy.jpg, battipav-area.jpg
+- Oprava: přejmenování obrázků na malá písmena (case-sensitive pro GitHub Pages)
 
 ### Chybějící obrázky pro velkoformátové nástroje
 | Soubor | Produkt |
