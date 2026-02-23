@@ -69,15 +69,19 @@ function loadProductsPage(config) {
         productsContent.appendChild(categorySection);
     });
 
-    // Scroll to category if hash in URL
+    // Scroll to category or product if hash in URL
     if (window.location.hash) {
         const targetId = window.location.hash.substring(1);
-        const targetElement = document.getElementById(targetId);
-        if (targetElement) {
-            setTimeout(() => {
-                targetElement.scrollIntoView({ behavior: 'smooth' });
-            }, 100);
-        }
+        const tryScroll = (attemptsLeft) => {
+            const el = document.getElementById(targetId)
+                || document.querySelector(`[data-product-id="${targetId}"]`);
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            } else if (attemptsLeft > 0) {
+                setTimeout(() => tryScroll(attemptsLeft - 1), 150);
+            }
+        };
+        setTimeout(() => tryScroll(5), 400);
     }
 }
 

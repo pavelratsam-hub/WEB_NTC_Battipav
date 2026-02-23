@@ -215,11 +215,11 @@
       },
       {
         "id": "slide-2",
-        "badge": "⚡ Výkonné a přesné",
-        "title": "Elektrické řezačky<br>CLASS & VIP série",
-        "subtitle": "Profesionální elektrické pily s vodním chlazením<br>pro náročné řezání keramiky a velkých formátů",
-        "ctaText": "Elektrické pily",
-        "ctaLink": "electric-saws.html",
+        "badge": "",
+        "title": "",
+        "subtitle": "",
+        "ctaText": "NA DETAIL",
+        "ctaLink": "products.html#performante",
         "background": "assets/images/battipav/slide2-bg.jpg",
         "gradientStart": "",
         "gradientEnd": ""
@@ -229,8 +229,8 @@
         "badge": "",
         "title": "",
         "subtitle": "",
-        "ctaText": "Ruční řezačky",
-        "ctaLink": "manual-cutters.html",
+        "ctaText": "NA DETAIL",
+        "ctaLink": "products.html#cargo",
         "background": "assets/images/battipav/slide3-bg.jpg",
         "gradientStart": "",
         "gradientEnd": ""
