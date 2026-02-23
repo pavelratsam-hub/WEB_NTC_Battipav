@@ -40,7 +40,7 @@ Když uživatel řekne "budeme končit", "konec relace", "končíme" nebo před 
 3. Zapiš případné nedokončené úkoly
 
 ## Aktuální stav
-**Poslední relace: 2026-02-21**
+**Poslední relace: 2026-02-23**
 
 ### Struktura kategorií produktů
 Web obsahuje 6 hlavních kategorií:
@@ -51,7 +51,28 @@ Web obsahuje 6 hlavních kategorií:
 5. **Čističky podlah** (`floor-cleaners.html`) - 1 produkt (MASTER LINDA)
 6. **Vodní čerpadla** (`water-pumps.html`) - 4 produkty
 
-### Provedené změny v této relaci (2026-02-21)
+### Provedené změny v relaci 2026-02-23
+
+#### Carousel / slider na úvodní stránce
+- Slide 2 a 3: odstraněny všechny popisky (badge, nadpis, subtitle)
+- Slide 2: tlačítko "NA DETAIL" → `products.html#performante`
+- Slide 3: tlačítko "NA DETAIL" → `products.html#cargo`
+- Nová pozadí slide 2 a 3 (nahrazeny soubory `slide2-bg.jpg`, `slide3-bg.jpg`)
+- Výška carousel: **700px** desktop, 500px tablet, 400px mobil
+- Obsah slidů vycentrován vertikálně (`align-items: center`)
+- Tlačítka přišpendlena ke spodku (`position: absolute; bottom: 50px`)
+- Změny v: `config/battipav.json`, `assets/css/carousel.css`, `index.html`
+
+#### Hash navigace na produktové stránce
+- `assets/js/products.js`: opravena hash navigace pro ID produktů
+- Fallback `querySelector('[data-product-id="..."]')` vedle `getElementById`
+- Retry mechanismus: 5 pokusů po 150ms, start po 400ms (čeká na stabilizaci layoutu)
+
+#### Git / GitHub
+- Přepnuto z HTTPS+token na **SSH autentizaci**
+- Remote URL: `git@github.com:pavelratsam-hub/WEB_NTC_Battipav.git`
+
+### Provedené změny v relaci 2026-02-21
 
 #### Popis řad strojů - flip karty produktů
 - Přidán `seriesDescription` ke všem ~40 produktům v `products/products.json`
