@@ -5,6 +5,8 @@
 - Distributor: NTC STAVEBNÍ TECHNIKA spol. s r.o.
 - Konfigurovatelný přes JSON soubory v `/config/`
 - Admin panel: `/admin/index.html`
+- GitHub: `git@github.com:pavelratsam-hub/WEB_NTC_Battipav.git` (SSH)
+- GitHub Pages: https://pavelratsam-hub.github.io/WEB_NTC_Battipav/
 
 ## Spuštění lokálního serveru
 ```bash
@@ -13,18 +15,28 @@ python -m http.server 8000
 Web běží na: http://localhost:8000
 
 ## Struktura projektu
-- `index.html`, `about.html`, `products.html`, `contact.html` - hlavní stránky
-- `assets/css/` - styly (variables.css, main.css, carousel.css)
-- `assets/js/` - skripty (config-loader.js, carousel.js, main.js)
-- `assets/images/battipav/` - loga, favicony, slide pozadí
-- `assets/images/products/` - fotky produktů
-- `config/` - JSON konfigurace značky
-- `admin/` - admin panel pro úpravu konfigurace
+```
+index.html                  ← rozcestník (hub) divizí
+obkladacska/                ← Obkladačská technika (samostatná kopie)
+  assets/                   ← vlastní CSS, JS, obrázky
+  config/battipav.json      ← konfigurace + navigace pro obkladačskou divizi
+  products/products.json    ← databáze produktů obkladačské divize
+  *.html                    ← stránky divize
+stavebni/                   ← Stavební technika (samostatná kopie)
+  assets/
+  config/battipav.json      ← konfigurace + navigace pro stavební divizi
+  products/products.json    ← databáze produktů stavební divize
+  *.html
+assets/                     ← root assets (pro root HTML soubory)
+config/battipav.json        ← root konfigurace
+products/products.json      ← root databáze produktů
+```
 
 ## Pravidla
 - Při úpravách HTML zachovávat strukturu s `id` atributy (používá je config-loader)
-- CSS proměnné jsou v `variables.css`
+- CSS proměnné jsou v `variables.css`, ale **reálné hodnoty přepisuje config-loader.js z JSON** (`applyConfig()`)
 - Nové obrázky dávat do příslušných složek v `assets/images/`
+- Barvy v hlavičce (NTC, telefon, email) jsou hardcodované `#2c2c2c` v CSS — nevycházejí z CSS proměnné (důvod: `--color-secondary` je v JSON `#777777`)
 
 ### Kategorie produktů - DŮLEŽITÉ
 Kategorie a podkategorie produktů jsou definovány na **dvou místech**, která musí být synchronizovaná:
@@ -33,6 +45,9 @@ Kategorie a podkategorie produktů jsou definovány na **dvou místech**, která
 
 Při přidávání, přejmenovávání nebo mazání kategorií je nutné upravit **oba soubory**.
 
+### Divize - DŮLEŽITÉ
+Každá divize má **vlastní kopii** assets, config i products — změny je nutné provádět ve správné složce. Produkty sdílené mezi divizemi (el. pily) musí být aktualizovány na dvou místech.
+
 ## Automatická aktualizace tohoto souboru
 Když uživatel řekne "budeme končit", "konec relace", "končíme" nebo před push na GitHub:
 1. Shrň, co se v relaci udělalo
@@ -40,16 +55,53 @@ Když uživatel řekne "budeme končit", "konec relace", "končíme" nebo před 
 3. Zapiš případné nedokončené úkoly
 
 ## Aktuální stav
-**Poslední relace: 2026-02-23**
+**Poslední relace: 2026-02-28**
 
 ### Struktura kategorií produktů
-Web obsahuje 6 hlavních kategorií:
-1. **Elektrické pily** (`electric-saws.html`) - 7 podkategorií, kompletní
-2. **Ruční řezačky** (`manual-cutters.html`) - 2 podkategorie, kompletní
-3. **Velkoformátové nástroje** (`large-format-tools.html`) - 4 podkategorie, 17 produktů
-4. **Mixéry** (`mixers.html`) - 3 produkty
-5. **Čističky podlah** (`floor-cleaners.html`) - 1 produkt (MASTER LINDA)
-6. **Vodní čerpadla** (`water-pumps.html`) - 4 produkty
+
+#### Obkladačská divize (`obkladacska/`)
+1. **Elektrické pily** - 3 podkategorie: Portálové na obklady a dlažbu, Portálové velkoformát, Kompaktní na obklady
+2. **Ruční řezačky** - 2 podkategorie, kompletní
+3. **Velkoformátové nástroje** - 4 podkategorie, 17 produktů
+4. **Mixéry** - 3 produkty
+5. **Čističky podlah** - 1 produkt (MASTER LINDA)
+6. **Vodní čerpadla** - 4 produkty
+- Top produkty: EXPERT, ELITE 80S, PRIME 700, CLASS PLUS 1300S, EXTRA SUPERLUNGA 3300S, QUEEN 180
+- Obrázek kategorie el. pil: `supreme-260s.jpg`
+
+#### Stavební divize (`stavebni/`)
+1. **Elektrické pily** - 4 podkategorie: Stolové blokové, Stolové stavební, Portálové blokové, Portálové stavební
+2. **Vodní čerpadla** - 4 produkty
+- Top produkty: EXPERT, ELITE 80S, PRIME 700, PRIME 120S (topVariantIndex: 2)
+
+### Provedené změny v relaci 2026-02-28
+
+#### Rozcestník divizí (`index.html`)
+- Nová standalone stránka jako hub mezi Stavební a Obkladačskou divizí
+- Layout: dvě karty s oranžovým overlayem, velký nadpis, pořadí Stavební → Obkladačská
+- Header: pouze logo (90px), centrované
+- Patička: odkaz na `stavebni/contact.html`
+- Patička ukotvena flexboxem (`main { flex: 1 }`)
+
+#### Hlavička na ostatních stránkách
+- `BATTIPAV` Česká republika — opraveno velká písmena ve všech 32 HTML souborech
+- Barvy NTC, telefon, email, oddělovač `|` → hardcodováno `#2c2c2c` (CSS i inline)
+- Příčina: `config-loader.js` přepisuje `--color-secondary` na `#777777` z JSON
+
+#### Rozdělení na divize
+- Vytvořeny složky `stavebni/` a `obkladacska/` — každá se samostatnými assets/config/products
+- Logo v subpages odkazuje na `../index.html` (rozcestník)
+- `stavebni/config/battipav.json` — ořezaná navigace (jen el. pily + vodní čerpadla)
+- `stavebni/products/products.json` — pouze el. pily + vodní čerpadla
+
+#### Úpravy produktů obkladačské divize
+- Odebrány podkategorie el. pil: Stolové blokové, Stolové stavební, Portálové blokové, Portálové stavební
+- Top produkty: CLASS PLUS 1300S, EXTRA SUPERLUNGA 3300S, QUEEN 180
+- Obrázek kategorie el. pil změněn na `supreme-260s.jpg`
+
+#### Úpravy produktů stavební divize
+- Odebrány podkategorie el. pil: Kompaktní na obklady, Portálové velkoformát, Portálové na obklady a dlažbu
+- Top produkt: PRIME 120S (`topProduct: true`, `topVariantIndex: 2`)
 
 ### Provedené změny v relaci 2026-02-23
 
