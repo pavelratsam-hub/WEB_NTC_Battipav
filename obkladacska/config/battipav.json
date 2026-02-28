@@ -1,0 +1,221 @@
+{
+  "brand": {
+    "name": "BATTIPAV",
+    "fullName": "Battipav S.r.l.",
+    "country": "Itálie",
+    "website": "https://battipav.com",
+    "description": "Battipav patří mezi špičku ve stavebním průmyslu a zaměřuje se na vývoj a výrobu profesionálních strojů a zařízení pro každodenní nasazení v náročných podmínkách. Spojuje dlouholeté know-how, precizní zpracování a vášeň pro techniku, která skutečně funguje."
+  },
+  "distributor": {
+    "name": "NTC STAVEBNÍ TECHNIKA spol. s r.o.",
+    "role": "Battipav Česká republika",
+    "country": "Česká republika",
+    "phone": "+420 491 452 184",
+    "email": "info@ntc.cz",
+    "address": "Jiřinková 120, 552 03 Česká Skalice",
+    "ico": "63221152",
+    "dic": "CZ63221152"
+  },
+  "colors": {
+    "primary": "#ea5b0c",
+    "primaryDark": "#4c565c",
+    "secondary": "#777777",
+    "accent": "#eeeeee",
+    "text": "#333333",
+    "textLight": "#666666",
+    "background": "#FFFFFF",
+    "backgroundGray": "#F8F8F8"
+  },
+  "typography": {
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "headingFont": "Arial, Helvetica, sans-serif",
+    "fontSize": {
+      "base": "16px",
+      "h1": "48px",
+      "h2": "36px",
+      "h3": "28px",
+      "h4": "24px"
+    }
+  },
+  "logo": {
+    "main": "assets/images/battipav/Battipav logo.png",
+    "alt": "assets/images/battipav/logo-alt.png",
+    "favicon": "assets/images/battipav/favicon.ico"
+  },
+  "navigation": [
+    {
+      "id": "home",
+      "label": "Domů",
+      "url": "index.html"
+    },
+    {
+      "id": "about",
+      "label": "O společnosti",
+      "url": "about.html",
+      "submenu": [
+        {
+          "id": "about-battipav",
+          "label": "Battipav",
+          "url": "about.html#battipav"
+        },
+        {
+          "id": "about-ntc",
+          "label": "NTC",
+          "url": "about.html#ntc"
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "label": "Produkty",
+      "url": "products.html",
+      "submenu": [
+        {
+          "id": "electric-saws",
+          "label": "Elektrické pily",
+          "url": "electric-saws.html",
+          "submenu": [
+            {
+              "id": "portal-tile-saws",
+              "label": "Pily portálové na obklady",
+              "url": "electric-saws.html#portal-tile-saws"
+            },
+            {
+              "id": "portal-large-format-saws",
+              "label": "Pily portálové na velkoformáty",
+              "url": "electric-saws.html#portal-large-format-saws"
+            },
+            {
+              "id": "table-saws",
+              "label": "Pily kompaktní na obklady",
+              "url": "electric-saws.html#table-saws"
+            }
+          ]
+        },
+        {
+          "id": "manual-cutters",
+          "label": "Ruční řezačky",
+          "url": "manual-cutters.html",
+          "submenu": [
+            {
+              "id": "adjustable-portal",
+              "label": "S nastavitelnou výškou portálu",
+              "url": "manual-cutters.html#adjustable-portal"
+            },
+            {
+              "id": "fixed-portal",
+              "label": "S fixním portálem",
+              "url": "manual-cutters.html#fixed-portal"
+            }
+          ]
+        },
+        {
+          "id": "large-format-tools",
+          "label": "Velkoformátové nástroje",
+          "url": "large-format-tools.html",
+          "submenu": [
+            {
+              "id": "handling-systems",
+              "label": "Manipulační systémy",
+              "url": "large-format-tools.html#handling-systems"
+            },
+            {
+              "id": "work-benches",
+              "label": "Pracovní stoly",
+              "url": "large-format-tools.html#work-benches"
+            },
+            {
+              "id": "cutting-systems",
+              "label": "Řezací systémy",
+              "url": "large-format-tools.html#cutting-systems"
+            },
+            {
+              "id": "tools",
+              "label": "Nástroje",
+              "url": "large-format-tools.html#tools"
+            }
+          ]
+        },
+        {
+          "id": "mixers",
+          "label": "Mixéry",
+          "url": "mixers.html"
+        },
+        {
+          "id": "floor-cleaners",
+          "label": "Čističky podlah",
+          "url": "floor-cleaners.html"
+        },
+        {
+          "id": "water-pumps",
+          "label": "Vodní čerpadla",
+          "url": "water-pumps.html"
+        }
+      ]
+    },
+    {
+      "id": "catalogue",
+      "label": "Katalog",
+      "url": "catalogue.html"
+    },
+    {
+      "id": "contact",
+      "label": "Kontakt",
+      "url": "contact.html"
+    },
+    {
+      "id": "eshop",
+      "label": "E-shop",
+      "url": "https://www.ntcshop.cz/znacka/battipav/"
+    }
+  ],
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "youtube": "",
+    "linkedin": ""
+  },
+  "seo": {
+    "title": "BATTIPAV - Profesionální řezací stroje | NTC STAVEBNÍ TECHNIKA",
+    "description": "Oficiální dovozce italských profesionálních strojů BATTIPAV do ČR. Ruční a elektrické řezačky dlaždic, diamantové nástroje a příslušenství.",
+    "keywords": "battipav, řezačka dlaždic, elektrická pila, diamantové nástroje, italské stroje"
+  },
+  "carousel": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "badge": "Výtejte na stránkách Battipav Česká Republika",
+        "title": "BATTIPAV: STROJE A NÁSTROJE PRO PROFESIONÁLY",
+        "subtitle": "Elektriceké pily, řezače obkladů, a další",
+        "ctaText": "Zobrazit produkty",
+        "ctaLink": "products.html",
+        "background": "assets/images/battipav/Textura BATTIPAV LOGO_ŠEDÁ.jpg",
+        "gradientStart": "",
+        "gradientEnd": ""
+      },
+      {
+        "id": "slide-2",
+        "badge": "",
+        "title": "",
+        "subtitle": "",
+        "ctaText": "NA DETAIL",
+        "ctaLink": "products.html#performante",
+        "background": "assets/images/battipav/slide2-bg.jpg",
+        "gradientStart": "",
+        "gradientEnd": ""
+      },
+      {
+        "id": "slide-3",
+        "badge": "",
+        "title": "",
+        "subtitle": "",
+        "ctaText": "NA DETAIL",
+        "ctaLink": "products.html#cargo",
+        "background": "assets/images/battipav/slide3-bg.jpg",
+        "gradientStart": "",
+        "gradientEnd": ""
+      }
+    ],
+    "autoPlayDelay": 5000
+  }
+}

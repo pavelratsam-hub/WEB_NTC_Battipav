@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O společnosti | BATTIPAV</title>
+
+    <!-- Critical CSS - okamžité skrytí obsahu během načítání -->
+    <style>
+        .config-loading { opacity: 0; }
+        body { transition: opacity 0.15s ease-in; }
+    </style>
+
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <script src="assets/js/config-loader.js"></script>
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body class="config-loading">
+    <!-- Header -->
+    <header class="header">
+        <div class="header__main">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <a href="../index.html">
+                            <img id="main-logo" src="assets/images/battipav/logo.svg" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="header__info">
+                        <div class="header__official"><span id="brand-name-header">BATTIPAV</span> Česká republika</div>
+                        <div class="header__distributor" id="distributor-name">NTC STAVEBNÍ TECHNIKA spol. s r.o.</div>
+                        <div class="header__contact">
+                            <a href="tel:" id="header-phone"></a>
+                            <span style="color: #2c2c2c; margin: 0 4px;">|</span>
+                            <a href="mailto:" id="header-email"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__controls">
+                    <button class="nav__toggle" id="nav-toggle">☰ Menu</button>
+                    <button class="nav__header-toggle" id="header-toggle">▲</button>
+                </div>
+                <ul class="nav__list" id="nav-list"></ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding: var(--spacing-xl) 0;">
+        <div class="container">
+            <h1 class="hero__title">O společnosti</h1>
+        </div>
+    </section>
+
+    <!-- Battipav Section -->
+    <section id="battipav" class="section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">O značce <span id="page-brand-name">BATTIPAV</span></h2>
+                <p class="section__subtitle">Italská tradice a inovace</p>
+            </div>
+            <div class="about__content">
+                <div class="about__text">
+                    <h3 style="color: var(--color-secondary);">Tradice</h3>
+                    <p id="brand-description" style="color: var(--color-text);">
+                        Italská firma Battipav S.r.l. z Cotignola (RA) je světovým lídrem ve výrobě
+                        profesionálních řezacích strojů a nářadí pro zpracování keramiky, kamene a betonu.
+                    </p>
+                    <p style="color: var(--color-text);">
+                        Inovace, neustálý vývoj a odvaha posouvat hranice jsou základem DNA značky Battipav. Ambicí společnosti je být silným a spolehlivým partnerem pro stavební profesionály po celém světě a přinášet jim špičková technická řešení se 100% výrobou v Itálii.
+                    </p>
+                </div>
+                <div class="about__image-wrapper">
+                    <img src="assets/images/battipav/battipav-production.jpg" alt="Battipav výroba" class="about__image">
+                </div>
+            </div>
+
+            <!-- Historie -->
+            <div class="about__history">
+                <h3 style="color: var(--color-secondary); margin-bottom: var(--spacing-lg);">Historie</h3>
+                <div class="timeline">
+                    <div class="timeline__item">
+                        <div class="timeline__year">1970</div>
+                        <div class="timeline__content">
+                            <strong>Založení společnosti</strong>
+                            <p>Battipav vznikl jako výrobce vibrujících válců na dlaždice.</p>
+                            <div class="timeline__image-wrapper"><img src="assets/images/battipav/tile-roller.jpg" alt="Vibrující válec na dlaždice" class="timeline__image"></div>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__year">1980</div>
+                        <div class="timeline__content">
+                            <strong>Strukturální expanze</strong>
+                            <p>Přestěhování do Cotignoly a změna názvu na "Nuova Battipav".</p>
+                            <p>V tomto okamžiku se pan Tondini rozhodl plně převzít vedení společnosti a přesunout ji do jejího současného sídla. Tím odstartoval novou kapitolu dynamického růstu, která byla spojena s rozsáhlými investicemi, modernizací výroby a postupným rozšiřováním zázemí firmy.</p>
+                            <div class="timeline__image-wrapper"><img src="assets/images/battipav/mr-tondini.jpg" alt="Pan Tondini" class="timeline__image"></div>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__year">1980–2000</div>
+                        <div class="timeline__content">
+                            <strong>Rozšíření sortimentu</strong>
+                            <p>Rozšíření portfolia o řezací stroje přineslo novou technickou výzvu – vývoj ponorných čerpadel nezbytných pro chlazení a mazání kotoučů elektrických pil. Právě tato inovace se stala dalším důležitým milníkem v rozvoji společnosti.</p>
+                            <p>Během přibližně dvaceti let se Battipav vypracoval mezi lídry v oblasti ponorných čerpadel a potvrdil svou schopnost přetavovat technické výzvy v konkurenční výhodu.</p>
+                            <p>Na konci 90. let pak firma zásadně přesměrovala své hlavní zaměření a soustředila většinu svých kapacit na výzkum, vývoj a výrobu strojů pro řezání bloků, mramoru a stavebních materiálů, zejména cihel.</p>
+                            <div class="timeline__image-wrapper"><img src="assets/images/battipav/pumps.jpg" alt="Ponorná čerpadla" class="timeline__image"></div>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__year">2018</div>
+                        <div class="timeline__content">
+                            <strong>Made in Italy</strong>
+                            <p>Produkty značky Battipav jsou navrhovány, vyvíjeny, vyráběny a testovány v Itálii. Tento přístup je pro společnost nejen otázkou kvality, ale i hrdosti a identity.</p>
+                            <p>Výroba „Made in Italy" je jedním ze základních pilířů značky a klíčovým prvkem její filozofie – zárukou precizního zpracování, spolehlivosti a vysokého technického standardu.</p>
+                            <div class="timeline__image-wrapper"><img src="assets/images/battipav/made-in-italy.jpg" alt="Made in Italy" class="timeline__image"></div>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__year">Dnes</div>
+                        <div class="timeline__content">
+                            <strong>Globální lídr</strong>
+                            <p>Výrobní areál o rozloze 14 000 m². Distribuce do více než 90 zemí světa.</p>
+                            <div class="timeline__image-wrapper"><img src="assets/images/battipav/battipav-area.jpg" alt="Výrobní areál Battipav" class="timeline__image"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--gray">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Made in Italy</h2>
+                <p class="section__subtitle">Kvalita a preciznost v každém detailu</p>
+            </div>
+
+            <div class="grid grid--3">
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">Precizní výroba</h3>
+                        <p class="card__description">
+                            Všechny stroje jsou vyráběny v Itálii s využitím nejmodernějších
+                            technologií a výrobních postupů.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">Profesionální řešení</h3>
+                        <p class="card__description">
+                            Produkty jsou navrženy ve spolupráci s profesionály přímo pro
+                            náročné podmínky stavebních profesí.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">Certifikovaná kvalita</h3>
+                        <p class="card__description">
+                            Všechny produkty splňují přísné evropské normy a bezpečnostní
+                            standardy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NTC Section -->
+    <section id="ntc" class="section" style="padding-top: 0;">
+        <div style="background-color: var(--color-primary-dark); border-bottom: 3px solid var(--color-secondary); padding: 15px 0;">
+            <div class="container" style="text-align: center;">
+                <div style="color: white; font-size: 20px; font-weight: 700; letter-spacing: 0.5px;">
+                    Oficiální zastoupení značky Battipav pro Českou republiku
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="section__header" style="margin-top: var(--spacing-xl);">
+                <h2 class="section__title">NTC STAVEBNÍ TECHNIKA</h2>
+                <p class="section__subtitle">Váš partner pro profesionální stavební techniku</p>
+            </div>
+
+            <div class="about__content">
+                <div class="about__text">
+                    <h3 style="color: var(--color-secondary);">O společnosti NTC</h3>
+                    <p style="color: var(--color-text);">
+                        <strong id="distributor-name-inline" style="color: var(--color-secondary);">NTC STAVEBNÍ TECHNIKA spol. s r.o.</strong> je zkušený výrobce a dovozce lehké stavební techniky s širokým spektrem produktů.
+                        Díky našim vlastním výrobním zkušenostem rozumíme komplexnosti profesionálních strojů a víme,
+                        co je potřeba pro jejich spolehlivý provoz a dlouhou životnost.
+                    </p>
+                    <p style="color: var(--color-text);">
+                        Jako oficiální a <strong style="color: var(--color-secondary);">exkluzivní zástupce značky <span id="about-brand-name-2">BATTIPAV</span> pro Českou republiku</strong>
+                        přinášíme našim zákazníkům špičkové italské stroje s komplexní podporou a servisem.
+                    </p>
+                </div>
+                <div class="about__image-wrapper">
+                    <img src="assets/images/battipav/slide1-bg.jpg" alt="NTC STAVEBNÍ TECHNIKA" class="about__image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--gray">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Naše přidaná hodnota</h2>
+                <p class="section__subtitle">Co vám jako zákazníkům přinášíme</p>
+            </div>
+
+            <div class="grid grid--3">
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">Přímý import & Exkluzivita</h3>
+                        <p class="card__description">
+                            Jsme přímým dovozcem a exkluzivním zástupcem značky Battipav pro Českou republiku.
+                            Získáváte tak originální produkty za nejlepší ceny bez zprostředkovatelů.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">Kompletní servis</h3>
+                        <p class="card__description">
+                            Poskytujeme kompletní servis pro všechny dodané stroje včetně záručního i pozáručního
+                            servisu, oprav, údržby a technické podpory. Jsme tu pro vás kdykoliv potřebujete.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">Náhradní díly</h3>
+                        <p class="card__description">
+                            Zajišťujeme dostupnost náhradních dílů pro všechny produkty Battipav.
+                            Pokud díl není skladem, rychle ho pro vás zajistíme přímo z Itálie.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Naše pilíře</h2>
+            </div>
+
+            <div class="grid grid--3">
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">TOP kvalita produktů</h3>
+                        <p class="card__description">
+                            Dodáváme pouze ověřené produkty od renomovaných světových výrobců.
+                            Kvalita a spolehlivost jsou naší prioritou.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">TOP dostupnost servisu</h3>
+                        <p class="card__description">
+                            Rychlá a profesionální servisní podpora kdykoli ji potřebujete.
+                            Dostupnost je pro nás klíčová.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">TOP podpora & poradenství</h3>
+                        <p class="card__description">
+                            Pomůžeme vám vybrat správný stroj pro vaše potřeby a poskytneme odborné
+                            poradenství při rozhodování.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: var(--spacing-xl); text-align: center;">
+                <a href="contact.html" class="btn btn--primary">Kontaktujte nás</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__main">
+                <div class="grid grid--4">
+                    <div class="footer__col">
+                        <h3 class="footer__title" id="footer-brand-name">BATTIPAV</h3>
+                        <p id="footer-brand-description"></p>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Produkty</h3>
+                        <a href="electric-saws.html" class="footer__link">Elektrické pily</a>
+                        <a href="manual-cutters.html" class="footer__link">Ruční řezačky</a>
+                        <a href="large-format-tools.html" class="footer__link">Velkoformátové nástroje</a>
+                        <a href="mixers.html" class="footer__link">Mixéry</a>
+                        <a href="floor-cleaners.html" class="footer__link">Čističky podlah</a>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Informace</h3>
+                        <a href="about.html" class="footer__link">O společnosti</a>
+                        <a href="catalogue.html" class="footer__link">Katalog</a>
+                        <a href="contact.html" class="footer__link">Kontakt</a>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Kontakt</h3>
+                        <p id="footer-distributor-name"></p>
+                        <p id="footer-address"></p>
+                        <p id="footer-phone"></p>
+                        <p id="footer-email"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; <span id="current-year"></span> <span id="footer-copyright"></span>. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Doplnění specifických elementů pro about stránku
+        document.addEventListener('brandConfigLoaded', (e) => {
+            const config = e.detail;
+            const brand = config.getBrand();
+            const distributor = config.getDistributor();
+
+            const pageBrandName = document.getElementById('page-brand-name');
+            if (pageBrandName) pageBrandName.textContent = brand.name;
+
+            const aboutBrandName2 = document.getElementById('about-brand-name-2');
+            if (aboutBrandName2) aboutBrandName2.textContent = brand.name;
+
+            const distributorNameInline = document.getElementById('distributor-name-inline');
+            if (distributorNameInline) distributorNameInline.textContent = distributor.name;
+        });
+    </script>
+</body>
+</html>

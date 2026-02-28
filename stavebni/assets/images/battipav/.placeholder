@@ -1,0 +1,9 @@
+Umístěte sem loga a obrázky pro značku BATTIPAV:
+
+- logo.svg (nebo logo.png) - hlavní logo
+- logo-alt.png - alternativní logo
+- favicon.ico - favicon pro prohlížeč
+- factory.jpg - foto výroby/firmy
+- about-1.jpg - foto pro stránku O společnosti
+
+Pro produkty vytvořte podsložku products/ a umístěte tam obrázky produktů.

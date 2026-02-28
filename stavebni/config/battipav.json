@@ -1,0 +1,172 @@
+{
+  "brand": {
+    "name": "BATTIPAV",
+    "fullName": "Battipav S.r.l.",
+    "country": "Itálie",
+    "website": "https://battipav.com",
+    "description": "Battipav patří mezi špičku ve stavebním průmyslu a zaměřuje se na vývoj a výrobu profesionálních strojů a zařízení pro každodenní nasazení v náročných podmínkách. Spojuje dlouholeté know-how, precizní zpracování a vášeň pro techniku, která skutečně funguje."
+  },
+  "distributor": {
+    "name": "NTC STAVEBNÍ TECHNIKA spol. s r.o.",
+    "role": "Battipav Česká republika",
+    "country": "Česká republika",
+    "phone": "+420 491 452 184",
+    "email": "info@ntc.cz",
+    "address": "Jiřinková 120, 552 03 Česká Skalice",
+    "ico": "63221152",
+    "dic": "CZ63221152"
+  },
+  "colors": {
+    "primary": "#ea5b0c",
+    "primaryDark": "#4c565c",
+    "secondary": "#777777",
+    "accent": "#eeeeee",
+    "text": "#333333",
+    "textLight": "#666666",
+    "background": "#FFFFFF",
+    "backgroundGray": "#F8F8F8"
+  },
+  "typography": {
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "headingFont": "Arial, Helvetica, sans-serif",
+    "fontSize": {
+      "base": "16px",
+      "h1": "48px",
+      "h2": "36px",
+      "h3": "28px",
+      "h4": "24px"
+    }
+  },
+  "logo": {
+    "main": "assets/images/battipav/Battipav logo.png",
+    "alt": "assets/images/battipav/logo-alt.png",
+    "favicon": "assets/images/battipav/favicon.ico"
+  },
+  "navigation": [
+    {
+      "id": "home",
+      "label": "Domů",
+      "url": "index.html"
+    },
+    {
+      "id": "about",
+      "label": "O společnosti",
+      "url": "about.html",
+      "submenu": [
+        {
+          "id": "about-battipav",
+          "label": "Battipav",
+          "url": "about.html#battipav"
+        },
+        {
+          "id": "about-ntc",
+          "label": "NTC",
+          "url": "about.html#ntc"
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "label": "Produkty",
+      "url": "products.html",
+      "submenu": [
+        {
+          "id": "electric-saws",
+          "label": "Elektrické pily",
+          "url": "electric-saws.html",
+          "submenu": [
+            {
+              "id": "block-saws",
+              "label": "Pily stolové blokové",
+              "url": "electric-saws.html#block-saws"
+            },
+            {
+              "id": "table-construction-saws",
+              "label": "Pily stolové stavební",
+              "url": "electric-saws.html#table-construction-saws"
+            },
+            {
+              "id": "portal-block-saws",
+              "label": "Pily portálové blokové",
+              "url": "electric-saws.html#portal-block-saws"
+            },
+            {
+              "id": "portal-construction-saws",
+              "label": "Pily portálové stavební",
+              "url": "electric-saws.html#portal-construction-saws"
+            }
+          ]
+        },
+        {
+          "id": "water-pumps",
+          "label": "Vodní čerpadla",
+          "url": "water-pumps.html"
+        }
+      ]
+    },
+    {
+      "id": "catalogue",
+      "label": "Katalog",
+      "url": "catalogue.html"
+    },
+    {
+      "id": "contact",
+      "label": "Kontakt",
+      "url": "contact.html"
+    },
+    {
+      "id": "eshop",
+      "label": "E-shop",
+      "url": "https://www.ntcshop.cz/znacka/battipav/"
+    }
+  ],
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "youtube": "",
+    "linkedin": ""
+  },
+  "seo": {
+    "title": "Stavební technika BATTIPAV | NTC STAVEBNÍ TECHNIKA",
+    "description": "Elektrické pily a vodní čerpadla BATTIPAV - profesionální stavební stroje Made in Italy.",
+    "keywords": "battipav, řezačka dlaždic, elektrická pila, diamantové nástroje, italské stroje"
+  },
+  "carousel": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "badge": "Výtejte na stránkách Battipav Česká Republika",
+        "title": "BATTIPAV: STROJE A NÁSTROJE PRO PROFESIONÁLY",
+        "subtitle": "Elektriceké pily, řezače obkladů, a další",
+        "ctaText": "Zobrazit produkty",
+        "ctaLink": "products.html",
+        "background": "assets/images/battipav/Textura BATTIPAV LOGO_ŠEDÁ.jpg",
+        "gradientStart": "",
+        "gradientEnd": ""
+      },
+      {
+        "id": "slide-2",
+        "badge": "",
+        "title": "",
+        "subtitle": "",
+        "ctaText": "NA DETAIL",
+        "ctaLink": "products.html#performante",
+        "background": "assets/images/battipav/slide2-bg.jpg",
+        "gradientStart": "",
+        "gradientEnd": ""
+      },
+      {
+        "id": "slide-3",
+        "badge": "",
+        "title": "",
+        "subtitle": "",
+        "ctaText": "NA DETAIL",
+        "ctaLink": "products.html#cargo",
+        "background": "assets/images/battipav/slide3-bg.jpg",
+        "gradientStart": "",
+        "gradientEnd": ""
+      }
+    ],
+    "autoPlayDelay": 5000
+  }
+}

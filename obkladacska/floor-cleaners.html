@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Čističky podlah | BATTIPAV</title>
+
+    <!-- Critical CSS - okamžité skrytí obsahu během načítání -->
+    <style>
+        .config-loading { opacity: 0; }
+        body { transition: opacity 0.15s ease-in; }
+    </style>
+
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <script src="assets/js/config-loader.js"></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/products.js" defer></script>
+</head>
+<body class="config-loading">
+    <!-- Header -->
+    <header class="header">
+        <div class="header__main">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <a href="../index.html">
+                            <img id="main-logo" src="assets/images/battipav/logo.svg" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="header__info">
+                        <div class="header__official"><span id="brand-name-header">BATTIPAV</span> Česká republika</div>
+                        <div class="header__distributor" id="distributor-name">NTC STAVEBNÍ TECHNIKA spol. s r.o.</div>
+                        <div class="header__contact">
+                            <a href="tel:" id="header-phone"></a>
+                            <span style="color: #2c2c2c; margin: 0 4px;">|</span>
+                            <a href="mailto:" id="header-email"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__controls">
+                    <button class="nav__toggle" id="nav-toggle">☰ Menu</button>
+                    <button class="nav__header-toggle" id="header-toggle">▲</button>
+                </div>
+                <ul class="nav__list" id="nav-list"></ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding: var(--spacing-xl) 0;">
+        <div class="container">
+            <h1 class="hero__title">Čističky podlah</h1>
+        </div>
+    </section>
+
+    <!-- Products Content -->
+    <section class="section">
+        <div class="container">
+            <div id="products-content">
+                <!-- Products will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__main">
+                <div class="grid grid--4">
+                    <div class="footer__col">
+                        <h3 class="footer__title" id="footer-brand-name">BATTIPAV</h3>
+                        <p id="footer-brand-description"></p>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Produkty</h3>
+                        <a href="electric-saws.html" class="footer__link">Elektrické pily</a>
+                        <a href="manual-cutters.html" class="footer__link">Ruční řezačky</a>
+                        <a href="large-format-tools.html" class="footer__link">Velkoformátové nástroje</a>
+                        <a href="mixers.html" class="footer__link">Mixéry</a>
+                        <a href="floor-cleaners.html" class="footer__link">Čističky podlah</a>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Informace</h3>
+                        <a href="about.html" class="footer__link">O společnosti</a>
+                        <a href="catalogue.html" class="footer__link">Katalog</a>
+                        <a href="contact.html" class="footer__link">Kontakt</a>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Kontakt</h3>
+                        <p id="footer-distributor-name"></p>
+                        <p id="footer-address"></p>
+                        <p id="footer-phone"></p>
+                        <p id="footer-email"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; <span id="current-year"></span> <span id="footer-copyright"></span>. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

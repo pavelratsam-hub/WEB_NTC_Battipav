@@ -1,0 +1,1172 @@
+{
+  "categories": [
+    {
+      "id": "electric-saws",
+      "name": "Elektrické pily",
+      "description": "Výkonné elektrické pily pro stavebníky, kameníky, obkladače a ostatní řemeslníky.",
+      "image": "assets/images/products/electric-saws.jpg",
+      "subcategories": [
+        {
+          "id": "portal-tile-saws",
+          "name": "Pily portálové na obklady a dlažbu",
+          "description": "Portálové pily určené pro řezání obkladů a dlažby.",
+          "products": [
+            {
+              "id": "supreme",
+              "name": "SUPREME",
+              "description": "Portálová řezací pila pro přírodní kámen, žulu a mramor. Laserové zaměření, nastavitelný úhel řezu 0-45°.",
+              "image": "assets/images/products/supreme-150s.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "topVariantIndex": 3,
+              "variants": [
+                {
+                  "id": "260s",
+                  "name": "260S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 2600 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 151 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-4.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-260s/"
+                },
+                {
+                  "id": "200s",
+                  "name": "200S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 2000 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 130 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-3.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-200s/"
+                },
+                {
+                  "id": "150s",
+                  "name": "150S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 1500 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 112,6 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-2.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-150s/"
+                },
+                {
+                  "id": "120s",
+                  "name": "120S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 1200 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 104 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-120s/"
+                },
+                {
+                  "id": "100s",
+                  "name": "100S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 1000 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 97,2 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-100s/"
+                },
+                {
+                  "id": "85s",
+                  "name": "85S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 850 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 93,4 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-5.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-85s/"
+                }
+              ],
+              "seriesDescription": "<p>Supreme je mostová pila navržená pro přesné řezání přírodního kamene, žulových desek a mramoru. Řez je prováděn manuálním posuvem motorové jednotky, což umožňuje vysokou kontrolu a přesnost při práci. Je určena pro diamantové kotouče o průměru 300 mm a standardně je vybavena laserovým kitem a koly pro snadnější manipulaci.</p><h3>Pro koho je určena</h3><p>Pro kameníky, stavební firmy a profesionální řemeslníky, kteří pracují s přírodním kamenem a vyžadují přesnost a spolehlivý výkon.</p><h3>Na co se nejvíce hodí</h3><p>Pro přesné řezání žulových, mramorových a dalších kamenných desek při výrobě i montáži, kde je klíčová stabilita a kontrola řezu.</p><h3>Hlavní přednosti</h3><p>Stabilní mostová konstrukce, přesný manuální posuv motorové jednotky, kompatibilita s kotouči 300 mm, integrovaný laser pro kontrolu řezu a kola pro snadnou manipulaci.</p>"
+            },
+            {
+              "id": "class-plus",
+              "name": "CLASS PLUS",
+              "description": "Elektrická řezačka dlaždic s vodním chlazením.",
+              "image": "assets/images/products/class-plus.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "topVariantIndex": 0,
+              "variants": [
+                {
+                  "id": "1300s",
+                  "name": "1300S",
+                  "features": [
+                    "Výkon motoru: 1400 W",
+                    "Průměr kotouče: ø250 mm",
+                    "Max. délka řezu: 1300 mm",
+                    "Max. hloubka řezu (90°): 65 mm",
+                    "Max. hloubka řezu (45°): 53 mm",
+                    "Hmotnost: 58,5 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/class_plus_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-class-plus-1300s/"
+                },
+                {
+                  "id": "1050s",
+                  "name": "1050S",
+                  "features": [
+                    "Výkon motoru: 1400 W",
+                    "Průměr kotouče: ø250 mm",
+                    "Max. délka řezu: 1050 mm",
+                    "Max. hloubka řezu (90°): 65 mm",
+                    "Max. hloubka řezu (45°): 53 mm",
+                    "Hmotnost: 52 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/class_plus_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-class-plus-1050s/"
+                },
+                {
+                  "id": "850s",
+                  "name": "850S",
+                  "features": [
+                    "Výkon motoru: 1400 W",
+                    "Průměr kotouče: ø250 mm",
+                    "Max. délka řezu: 850 mm",
+                    "Max. hloubka řezu (90°): 65 mm",
+                    "Max. hloubka řezu (45°): 53 mm",
+                    "Hmotnost: 48,5 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/class_plus_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-class-plus-850s/"
+                }
+              ],
+              "seriesDescription": "<p>Class Plus je radiální řezačka na dlažbu navržená pro přesné rovné a 45° řezy do porcelánové kameniny, dlaždic a mramoru. Inovativní a moderní design zajišťuje vysokou robustnost a přesnost při práci. Stroj je vybaven výkonným motorem s posuvnou a naklápěcí řeznou hlavou a je určen pro diamantové kotouče o průměru 250 mm. Standardní výbavou je také laserový kit a kola pro snadnou manipulaci.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a stavební firmy, které požadují vysoký výkon, přesnost a spolehlivost při práci s tvrdými obkladovými materiály.</p><h3>Na co se nejvíce hodí</h3><p>Pro náročné rovné i úhlové řezy při pokládce dlažby a obkladů, zejména při práci s tvrdými a silnějšími materiály vyžadujícími vyšší výkon.</p><h3>Hlavní přednosti</h3><p>Výkonný motor, robustní a moderní konstrukce, přesný posuv a naklápění řezné hlavy, větší průměr kotouče 250 mm, integrovaný laser a snadná mobilita díky kolům.</p>"
+            },
+            {
+              "id": "vip",
+              "name": "VIP",
+              "description": "Profesionální portálová řezačka na obklady a dlažby.",
+              "image": "assets/images/products/vip-2125.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "variants": [
+                {
+                  "id": "2125",
+                  "name": "2125",
+                  "features": [
+                    "Výkon motoru: 1400 W",
+                    "Průměr kotouče: ø200 mm",
+                    "Max. délka řezu: 1250 mm",
+                    "Max. hloubka řezu (90°): 40 mm",
+                    "Max. hloubka řezu (45°): 35 mm",
+                    "Hmotnost: 51,5 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/vip_2125_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-vip-2125/"
+                },
+                {
+                  "id": "2110",
+                  "name": "2110",
+                  "features": [
+                    "Výkon motoru: 1000 W",
+                    "Průměr kotouče: ø200 mm",
+                    "Max. délka řezu: 1100 mm",
+                    "Max. hloubka řezu (90°): 40 mm",
+                    "Max. hloubka řezu (45°): 40 mm",
+                    "Hmotnost: 42 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: NE"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/vip_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-vip-2110/"
+                },
+                {
+                  "id": "290",
+                  "name": "290",
+                  "features": [
+                    "Výkon motoru: 1000 W",
+                    "Průměr kotouče: ø200 mm",
+                    "Max. délka řezu: 900 mm",
+                    "Max. hloubka řezu (90°): 40 mm",
+                    "Max. hloubka řezu (45°): 40 mm",
+                    "Hmotnost: 39 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: NE"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/vip_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-vip-290/"
+                },
+                {
+                  "id": "260",
+                  "name": "260",
+                  "features": [
+                    "Výkon motoru: 1000 W",
+                    "Průměr kotouče: ø200 mm",
+                    "Max. délka řezu: 600 mm",
+                    "Max. hloubka řezu (90°): 40 mm",
+                    "Max. hloubka řezu (45°): 40 mm",
+                    "Hmotnost: 34 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: NE"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/vip_technick___list-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-vip-260/"
+                }
+              ],
+              "seriesDescription": "<p>VIP je radiální řezačka na dlažbu určená pro přesné rovné a 45° řezy do keramiky, jednovýpalových dlaždic a porcelánové kameniny. Nabízí robustní a přesnou konstrukci s posuvnou řeznou hlavou a naklápěcím motorem. Je konstruována pro práci s diamantovými kotouči o průměru 200 mm.</p><h3>Pro koho je určena</h3><p>Pro obkladače, stavební firmy a profesionální řemeslníky, kteří vyžadují spolehlivé a přesné řezy při práci s různými typy obkladových materiálů.</p><h3>Hlavní přednosti</h3><p>Pevná a stabilní konstrukce, přesný a plynulý posuv řezné hlavy, možnost úhlového nastavení a vysoký výkon při práci s kotoučem o průměru 200 mm.</p>"
+            },
+            {
+              "id": "dynamic-1200s",
+              "name": "DYNAMIC 1200S",
+              "description": "Portálová pila s řemenovým převodem pro řezání cihel, kamene, betonových bloků, žuly, mramoru a gresu.",
+              "image": "assets/images/products/dynamic-1200s.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Výkon motoru: 2200 W",
+                "Průměr kotouče: ø300/ø250 mm",
+                "Max. délka řezu: 1200 mm",
+                "Max. hloubka řezu (90°): 110 mm",
+                "Max. hloubka řezu (45°): 65 mm",
+                "Hmotnost: 85 kg",
+                "Naváděcí laser: ANO",
+                "Podvozek: ANO"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/dynamic.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-s-remenovym-prevodem-battipav-dynamic-1200s/",
+              "seriesDescription": "<p>Dynamic je mostová pila vybavená neklouzavým hnacím řemenem POLY V, navržená pro profesionální využití ve stavebnictví. Nový design s moderními technickými inovacemi v kombinaci s robustní a přesnou konstrukcí umožňuje efektivní řezání cihel, kamene, betonových tvárnic, žuly, mramoru i kameniny. Řezy lze provádět manuálním posuvem nebo naklápěním motorové jednotky. Je určena pro diamantové kotouče o průměru 250 mm a 300 mm a standardně je vybavena laserovým kitem a koly.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy a profesionální řemeslníky, kteří vyžadují výkonnou, přesnou a flexibilní pilu pro široké spektrum stavebních materiálů.</p><h3>Na co se nejvíce hodí</h3><p>Pro přesné rovné i úhlové řezy při práci s běžnými i tvrdšími stavebními materiály, zejména tam, kde je důležitá spolehlivost pohonu a kontrola nad řezem.</p><h3>Hlavní přednosti</h3><p>Neklouzavý řemen POLY V pro spolehlivý přenos výkonu, robustní konstrukce, možnost manuálního posuvu i naklápění motorové jednotky, kompatibilita s kotouči 250 a 300 mm, integrovaný laser a kola pro snadnou manipulaci.</p>"
+            }
+          ]
+        },
+        {
+          "id": "portal-large-format-saws",
+          "name": "Pily portálové na velkoformátové obklady",
+          "description": "Pily pro velkoformátové obklady a dlažbu.",
+          "products": [
+            {
+              "id": "extra-superlunga-3300s",
+              "name": "EXTRA SUPERLUNGA 3300S",
+              "description": "Portálová pila na velkoformátové obklady a dlažbu.",
+              "image": "assets/images/products/extra-superlunga-3300s.png",
+              "brochure": "",
+              "topProduct": true,
+              "features": [
+                "Výkon motoru: 1400 W",
+                "Průměr kotouče: ø200 mm",
+                "Max. délka řezu: 3300 mm",
+                "Max. hloubka řezu (90°): 40 mm",
+                "Max. hloubka řezu (45°): 35 mm",
+                "Hmotnost: 181 kg",
+                "Naváděcí laser: ANO",
+                "Podvozek: ANO"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/extra_3300s_superlunga.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-extra-superlunga-3300s/",
+              "seriesDescription": "<p>Extra 3300S Superlunga je mostová pila na dlažbu určená pro přesné rovné a 45° řezy do kameniny. Nový profil navržený s využitím pokročilých technologií zajišťuje vysokou odolnost a přesnost při práci. Stroj je vybaven výkonným motorem s posuvnou a naklápěcí řeznou hlavou a je určen pro diamantové kotouče o průměru 200 mm. Standardní výbavou je laserový kit a kola pro snadnou manipulaci.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a stavební firmy, kteří vyžadují přesnou a stabilní pilu pro práci s kameninou a velkoformátovou dlažbou.</p><h3>Na co se nejvíce hodí</h3><p>Pro dlouhé a přesné rovné i pokosové řezy při pokládce dlažby, zejména u náročnějších realizací vyžadujících maximální stabilitu a přesnost.</p><h3>Hlavní přednosti</h3><p>Vysoce odolný profil konstrukce, výkonný motor, přesný posuv a naklápění řezné hlavy, kompatibilita s kotoučem 200 mm, integrovaný laser a kola pro snadnou mobilitu.</p>"
+            },
+            {
+              "id": "supreme-260s",
+              "name": "SUPREME 260S",
+              "description": "Portálová řezací pila pro přírodní kámen, žulu a mramor. Laserové zaměření, nastavitelný úhel řezu 0-45°.",
+              "image": "assets/images/products/supreme-260s.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Výkon motoru: 2200 W",
+                "Průměr kotouče: ø300 mm",
+                "Max. délka řezu: 2600 mm",
+                "Max. hloubka řezu (90°): 85 mm",
+                "Max. hloubka řezu (45°): 60 mm",
+                "Hmotnost: 151 kg",
+                "Naváděcí laser: ANO",
+                "Podvozek: ANO"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-4.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-260s/",
+              "seriesDescription": "<p>Supreme je mostová pila navržená pro přesné řezání přírodního kamene, žulových desek a mramoru. Řez je prováděn manuálním posuvem motorové jednotky, což umožňuje vysokou kontrolu a přesnost při práci. Je určena pro diamantové kotouče o průměru 300 mm a standardně je vybavena laserovým kitem a koly pro snadnější manipulaci.</p><h3>Pro koho je určena</h3><p>Pro kameníky, stavební firmy a profesionální řemeslníky, kteří pracují s přírodním kamenem a vyžadují přesnost a spolehlivý výkon.</p><h3>Na co se nejvíce hodí</h3><p>Pro přesné řezání žulových, mramorových a dalších kamenných desek při výrobě i montáži, kde je klíčová stabilita a kontrola řezu.</p><h3>Hlavní přednosti</h3><p>Stabilní mostová konstrukce, přesný manuální posuv motorové jednotky, kompatibilita s kotouči 300 mm, integrovaný laser pro kontrolu řezu a kola pro snadnou manipulaci.</p>"
+            }
+          ]
+        },
+        {
+          "id": "table-saws",
+          "name": "Pily kompaktní na obklady",
+          "description": "Kompaktní pily pro řezání keramických obkladů a dlažby.",
+          "products": [
+            {
+              "id": "queen-180",
+              "name": "QUEEN 180",
+              "description": "Kompaktní stolová pila pro keramické obklady, dlažby a gres. Snadná údržba a přeprava.",
+              "image": "assets/images/products/queen-180.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "features": [
+                "Výkon motoru: 550 W",
+                "Průměr kotouče: ø180 mm",
+                "Max. hloubka řezu: 35 mm",
+                "Max. délka řezu: Neomezená",
+                "Objem vodní nádrže: 5 L",
+                "Hmotnost: 12 kg"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-kompaktni-na-obklady-battipav-queen-180/",
+              "seriesDescription": "<p>Queen 180 je profesionální radiální řezačka na dlažbu určená pro přesné rovné a 45° úhlové řezy do porcelánové kameniny, dlaždic a mramoru. Nabízí robustní a přesnou konstrukci s posuvnou řeznou hlavou a naklápěcím motorem. Je navržena pro práci s diamantovými kotouči o průměru 180 mm.</p><h3>Pro koho je určena</h3><p>Pro obkladače, stavební firmy a řemeslníky, kteří požadují přesné a spolehlivé řezy při každodenní práci s tvrdými obkladovými materiály.</p><h3>Hlavní přednosti</h3><p>Vysoká přesnost řezu, stabilní a odolná konstrukce, plynulý posuv řezné hlavy a možnost úhlového nastavení pro maximální flexibilitu při práci.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manual-cutters",
+      "name": "Ruční řezačky obkladů",
+      "description": "Profesionální ruční řezačky pro přesné řezání keramických obkladů a dlažby.",
+      "image": "assets/images/products/manual-cutters.png",
+      "subcategories": [
+        {
+          "id": "adjustable-portal",
+          "name": "S nastavitelnou výškou portálu",
+          "description": "Ruční řezačky s nastavitelnou výškou portálu.",
+          "products": [
+            {
+              "id": "sintesi",
+              "name": "SINTESI",
+              "description": "Profesionální ruční řezačka s nastavitelnou výškou portálu pro maximální přesnost při řezání keramických a porcelánových obkladů.",
+              "image": "assets/images/products/sintesi.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "variants": [
+                {
+                  "id": "183",
+                  "name": "183",
+                  "features": [
+                    "Řezná délka: 1830 mm",
+                    "Tloušťka obkladů: 4-21 mm",
+                    "Max. diagonální řez: 1290×1290 mm",
+                    "Hmotnost: 36 kg",
+                    "Hliníkový pojezd s 9 kuličkovými ložisky",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/sintesi_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-sintesi-183/"
+                },
+                {
+                  "id": "163",
+                  "name": "163",
+                  "features": [
+                    "Řezná délka: 1630 mm",
+                    "Tloušťka obkladů: 4-21 mm",
+                    "Max. diagonální řez: 1150×1150 mm",
+                    "Hmotnost: 32 kg",
+                    "Hliníkový pojezd s 9 kuličkovými ložisky",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/sintesi_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-sintesi-163/"
+                },
+                {
+                  "id": "133",
+                  "name": "133",
+                  "features": [
+                    "Řezná délka: 1330 mm",
+                    "Tloušťka obkladů: 4-21 mm",
+                    "Max. diagonální řez: 940×940 mm",
+                    "Hmotnost: 28 kg",
+                    "Hliníkový pojezd s 9 kuličkovými ložisky",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/sintesi_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-sintesi-133/"
+                },
+                {
+                  "id": "93",
+                  "name": "93",
+                  "features": [
+                    "Řezná délka: 930 mm",
+                    "Tloušťka obkladů: 4-21 mm",
+                    "Max. diagonální řez: 655×655 mm",
+                    "Hmotnost: 24 kg",
+                    "Hliníkový pojezd s 9 kuličkovými ložisky",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/sintesi_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-sintesi-93/"
+                }
+              ],
+              "seriesDescription": "<p>Sintesi je špičková manuální řezačka na dlažbu představující vrchol naší nabídky. Vznikla na základě důkladné znalosti potřeb profesionálů získané přímo na stavbách, veletrzích i prostřednictvím našich partnerů. Výsledkem je promyšlené, precizní a maximálně spolehlivé řešení. Součástí balení je náhradní řezací kolečko.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a náročné řemeslníky, kteří požadují nejvyšší přesnost, kvalitu zpracování a bezkompromisní výkon.</p><h3>Na co se nejvíce hodí</h3><p>Pro precizní a každodenní řezání dlažby při náročných realizacích, kde je klíčová maximální přesnost a spolehlivost nástroje.</p><h3>Hlavní přednosti</h3><p>Vrcholné zpracování a přesnost, konstrukce navržená podle reálných potřeb profesionálů, spolehlivý výkon při intenzivním použití a náhradní řezací kolečko v balení.</p>"
+            },
+            {
+              "id": "performante",
+              "name": "PERFORMANTE",
+              "description": "Ruční řezačka s technologií Quick Start Snap pro rychlé nastavení výšky řezu ve dvou rozsazích (4-12 mm / 12-20 mm).",
+              "image": "assets/images/products/performante.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "variants": [
+                {
+                  "id": "130",
+                  "name": "130",
+                  "features": [
+                    "Řezná délka: 1300 mm",
+                    "Tloušťka obkladů: 4-20 mm",
+                    "Max. diagonální řez: 915×915 mm",
+                    "Hmotnost: 20 kg",
+                    "Hliníkový pojezd s 9 kuličkovými ložisky",
+                    "Technologie Quick Start Snap"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": ""
+                },
+                {
+                  "id": "90",
+                  "name": "90",
+                  "features": [
+                    "Řezná délka: 900 mm",
+                    "Tloušťka obkladů: 4-20 mm",
+                    "Max. diagonální řez: 635×635 mm",
+                    "Hmotnost: 13 kg",
+                    "Hliníkový pojezd s 9 kuličkovými ložisky",
+                    "Technologie Quick Start Snap"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": ""
+                },
+                {
+                  "id": "65",
+                  "name": "65",
+                  "features": [
+                    "Řezná délka: 650 mm",
+                    "Tloušťka obkladů: 4-20 mm",
+                    "Max. diagonální řez: 460×460 mm",
+                    "Hmotnost: 10 kg",
+                    "Hliníkový pojezd s 9 kuličkovými ložisky",
+                    "Technologie Quick Start Snap"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": ""
+                }
+              ],
+              "seriesDescription": "<p>Performante je nová manuální řezačka na dlažbu navržená pro přesné řezání dlaždic a desek o tloušťce 4–20 mm. Díky technologii Quick Start Snap nabízí maximální přesnost při řezu i následném lámání materiálu s minimální námahou.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače i náročné řemeslníky, kteří hledají spolehlivou a moderní řezačku s vysokou přesností a efektivitou práce.</p><h3>Na co se nejvíce hodí</h3><p>Pro každodenní přesné řezání běžných i silnějších dlaždic a desek při realizacích, kde je důležitá rychlost, čistota řezu a snadné lámání.</p><h3>Hlavní přednosti</h3><p>Technologie Quick Start Snap pro přesný řez i lámání, široký rozsah tlouštěk 4–20 mm, plynulý chod a snadná manipulace s minimální fyzickou námahou.</p>"
+            }
+          ]
+        },
+        {
+          "id": "fixed-portal",
+          "name": "S fixním portálem",
+          "description": "Ruční řezačky s fixním portálem.",
+          "products": [
+            {
+              "id": "profi-evo",
+              "name": "PROFI EVO",
+              "description": "Ruční řezačka s hliníkovým pojezdem a kuličkovými ložisky pro maximální přesnost.",
+              "image": "assets/images/products/profi-evo.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "topVariantIndex": 2,
+              "variants": [
+                {
+                  "id": "163",
+                  "name": "163",
+                  "features": [
+                    "Řezná délka: 1630 mm",
+                    "Tloušťka obkladů: 5-15 mm",
+                    "Max. diagonální řez: 1150×1150 mm",
+                    "Hmotnost: 19,9 kg",
+                    "Kuličková ložiska pro plynulost",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-163/"
+                },
+                {
+                  "id": "133",
+                  "name": "133",
+                  "features": [
+                    "Řezná délka: 1330 mm",
+                    "Tloušťka obkladů: 5-15 mm",
+                    "Max. diagonální řez: 940×940 mm",
+                    "Hmotnost: 17 kg",
+                    "Kuličková ložiska pro plynulost",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-133/"
+                },
+                {
+                  "id": "103",
+                  "name": "103",
+                  "features": [
+                    "Řezná délka: 1030 mm",
+                    "Tloušťka obkladů: 5-15 mm",
+                    "Max. diagonální řez: 720×720 mm",
+                    "Hmotnost: 14,1 kg",
+                    "Kuličková ložiska pro plynulost",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-103/"
+                },
+                {
+                  "id": "88",
+                  "name": "88",
+                  "features": [
+                    "Řezná délka: 880 mm",
+                    "Tloušťka obkladů: 5-15 mm",
+                    "Max. diagonální řez: 620×620 mm",
+                    "Hmotnost: 13 kg",
+                    "Kuličková ložiska pro plynulost",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-88/"
+                },
+                {
+                  "id": "63",
+                  "name": "63",
+                  "features": [
+                    "Řezná délka: 630 mm",
+                    "Tloušťka obkladů: 5-15 mm",
+                    "Max. diagonální řez: 440×440 mm",
+                    "Hmotnost: 9,5 kg",
+                    "Kuličková ložiska pro plynulost",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/profi_evo_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-profi-evo-63/"
+                }
+              ],
+              "seriesDescription": "<p>Profi Evo je profesionální řezačka na dlažbu typu PUSH určená pro přesné rovné i diagonální řezy do keramických, jednovýpalových a kameninových dlaždic. Hliníkový pojezd se dvěma nastavitelnými kuličkovými ložisky zajišťuje plynulý chod a maximální přesnost. Součástí je goniometrický úhelník s přímým odečtem měření a náhradní řezací kolečko v balení.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a náročné řemeslníky, kteří požadují přesnost, plynulý chod a spolehlivý výkon při každodenní práci.</p><h3>Na co se nejvíce hodí</h3><p>Pro precizní rovné a diagonální řezy při pokládce keramických a kameninových dlaždic, zejména tam, kde je důležitá rychlost a přesné nastavení úhlů.</p><h3>Hlavní přednosti</h3><p>Systém PUSH pro efektivní práci, hliníkový pojezd s nastavitelnými ložisky, goniometrický úhelník s přímým odečtem, vysoká přesnost řezu a náhradní kolečko součástí balení.</p>"
+            },
+            {
+              "id": "super-pro-evo",
+              "name": "SUPER PRO EVO",
+              "description": "Profesionální ruční řezačka s chromovaným pojezdem a 9 nastavitelnými kuličkovými ložisky pro dokonalou přesnost.",
+              "image": "assets/images/products/super-pro-evo.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "variants": [
+                {
+                  "id": "125",
+                  "name": "125",
+                  "features": [
+                    "Řezná délka: 1250 mm",
+                    "Tloušťka obkladů: 4-19 mm",
+                    "Max. diagonální řez: 884×884 mm",
+                    "Hmotnost: 11 kg",
+                    "Chromovaný pojezd s 9 ložisky (4 nastavitelné)",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/super_pro_evo_technick___list_.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-super-pro-evo-125/"
+                },
+                {
+                  "id": "90",
+                  "name": "90",
+                  "features": [
+                    "Řezná délka: 900 mm",
+                    "Tloušťka obkladů: 4-19 mm",
+                    "Max. diagonální řez: 636×636 mm",
+                    "Hmotnost: 9,5 kg",
+                    "Chromovaný pojezd s 9 ložisky (4 nastavitelné)",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/super_pro_evo_technick___list_.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-super-pro-evo-90/"
+                },
+                {
+                  "id": "65",
+                  "name": "65",
+                  "features": [
+                    "Řezná délka: 650 mm",
+                    "Tloušťka obkladů: 4-19 mm",
+                    "Max. diagonální řez: 460×460 mm",
+                    "Hmotnost: 8 kg",
+                    "Chromovaný pojezd s 9 ložisky (4 nastavitelné)",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/super_pro_evo_technick___list_.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-super-pro-evo-65/"
+                }
+              ],
+              "seriesDescription": "<p>Super Pro Evo je profesionální řezačka na dlažbu určená pro přesné rovné i diagonální řezy do keramiky, jednovýpalových dlaždic a kameniny. Pojezdový systém s 9 kuličkovými ložisky, z nichž čtyři jsou nastavitelná, zajišťuje mimořádně hladký chod a maximální přesnost při každém řezu. Součástí je diagonální úhelník.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a stavební firmy, které kladou důraz na špičkovou přesnost, plynulost řezu a vysokou odolnost při intenzivním používání.</p><h3>Hlavní přednosti</h3><p>Robustní konstrukce, extrémně plynulý pojezd s nastavitelnými ložisky, vysoká přesnost při rovných i diagonálních řezech a spolehlivý výkon pro každodenní práci.</p>"
+            },
+            {
+              "id": "leggera",
+              "name": "LEGGERA",
+              "description": "Ultralehká profesionální ruční řezačka s hliníkovým tělem pro maximální přenosnost.",
+              "image": "assets/images/products/leggera.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "variants": [
+                {
+                  "id": "137",
+                  "name": "137",
+                  "features": [
+                    "Řezná délka: 1370 mm",
+                    "Tloušťka obkladů: 4-15 mm",
+                    "Max. diagonální řez: 965×965 mm",
+                    "Hmotnost: 12,6 kg",
+                    "Hliníkový pojezd s 2 nastavitelnými ložisky",
+                    "Boční výsuvné podpěry"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/leggera_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-leggera-137/"
+                },
+                {
+                  "id": "92",
+                  "name": "92",
+                  "features": [
+                    "Řezná délka: 920 mm",
+                    "Tloušťka obkladů: 4-15 mm",
+                    "Max. diagonální řez: 650×650 mm",
+                    "Hmotnost: 9,6 kg",
+                    "Hliníkový pojezd s 2 nastavitelnými ložisky",
+                    "Boční výsuvné podpěry"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/leggera_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-leggera-92/"
+                },
+                {
+                  "id": "67",
+                  "name": "67",
+                  "features": [
+                    "Řezná délka: 670 mm",
+                    "Tloušťka obkladů: 4-15 mm",
+                    "Max. diagonální řez: 470×470 mm",
+                    "Hmotnost: 7 kg",
+                    "Hliníkový pojezd s 2 nastavitelnými ložisky",
+                    "Boční výsuvné podpěry"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/leggera_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-leggera-67/"
+                }
+              ],
+              "seriesDescription": "<p>Leggera je profesionální řezačka na dlažbu typu PUSH určená pro přesné rovné i diagonální řezy do jednovýpalových, keramických a porcelánových kameninových dlaždic. Hliníkový pojezd se dvěma nastavitelnými kuličkovými ložisky zajišťuje plynulý a přesný posuv při každém řezu.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a náročné řemeslníky, kteří vyžadují lehkou, přesnou a spolehlivou řezačku pro každodenní použití.</p><h3>Na co se nejvíce hodí</h3><p>Pro rychlé a přesné rovné i diagonální řezy při pokládce keramických a porcelánových dlaždic, zejména tam, kde je důležitá přesnost a plynulost práce.</p><h3>Hlavní přednosti</h3><p>Systém PUSH pro efektivní práci, hliníkový pojezd s nastavitelnými ložisky, maximální přesnost řezu a spolehlivý výkon při profesionálním nasazení.</p>"
+            },
+            {
+              "id": "super-pro",
+              "name": "SUPER PRO",
+              "description": "Profesionální ruční řezačka s lámací silou 2000 kg pro řezání tvrdých velkoformátových obkladů.",
+              "image": "assets/images/products/super-pro.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "variants": [
+                {
+                  "id": "900",
+                  "name": "900",
+                  "features": [
+                    "Řezná délka: 900 mm",
+                    "Tloušťka obkladů: 5-19 mm",
+                    "Max. diagonální řez: 630×630 mm",
+                    "Lámací tlak: 2000 kg",
+                    "Pojezd s 9 kuličkovými ložisky (4 nastavitelné)",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/superpro.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-super-pro-900/"
+                },
+                {
+                  "id": "750",
+                  "name": "750",
+                  "features": [
+                    "Řezná délka: 750 mm",
+                    "Tloušťka obkladů: 5-19 mm",
+                    "Max. diagonální řez: 530×530 mm",
+                    "Lámací tlak: 2000 kg",
+                    "Pojezd s 9 kuličkovými ložisky (4 nastavitelné)",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/superpro.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-super-pro-750/"
+                },
+                {
+                  "id": "600",
+                  "name": "600",
+                  "features": [
+                    "Řezná délka: 600 mm",
+                    "Tloušťka obkladů: 5-19 mm",
+                    "Max. diagonální řez: 420×420 mm",
+                    "Lámací tlak: 2000 kg",
+                    "Pojezd s 9 kuličkovými ložisky (4 nastavitelné)",
+                    "Goniometrický čtverec -45° až +45°"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/superpro.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/rucni-rezacka-obkladu-super-pro-600/"
+                }
+              ],
+              "seriesDescription": "<p>Super Pro je profesionální řezačka na dlažbu určená pro přesné rovné i diagonální řezy do keramiky, jednovýpalových dlaždic a kameniny. Pojezdový systém s 9 kuličkovými ložisky, z nichž čtyři jsou nastavitelná, zajišťuje mimořádně plynulý chod a vysokou přesnost. Součástí je také diagonální úhelník.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a stavební firmy, které vyžadují maximální přesnost, plynulý chod a spolehlivost při každodenním intenzivním používání.</p><h3>Hlavní přednosti</h3><p>Precizní a stabilní konstrukce, extra plynulý pojezd s nastavitelnými ložisky, vysoká přesnost řezu a možnost snadného diagonálního nastavení.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "large-format-tools",
+      "name": "Velkoformátové nástroje",
+      "description": "Profesionální nástroje pro práci s velkoformátovými obklady a dlažbou.",
+      "image": "assets/images/products/large-format-tools.jpg",
+      "subcategories": [
+        {
+          "id": "handling-systems",
+          "name": "Manipulační systémy",
+          "description": "Profesionální systémy pro bezpečnou manipulaci s velkoformátovými obklady.",
+          "products": [
+            {
+              "id": "cargo",
+              "name": "CARGO",
+              "description": "Profesionální manipulační systém pro přepravu velkoformátových obkladů.",
+              "image": "assets/images/products/cargo.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "features": [
+                "Pro velkoformátové obklady",
+                "Vakuový přísavný systém",
+                "Ergonomický design",
+                "Vysoká nosnost"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Cargo je transportní vozík určený pro bezpečnou přepravu a manipulaci s velkoformátovými deskami. Konstrukce je navržena tak, aby usnadnila pohyb i na nerovných površích, a je vybavena systémem tlumení vibrací pro ochranu převáženého materiálu. Vozík je kompatibilní s velkoformátovými zvedacími systémy Battipav a je dodáván v rozloženém stavu pro úsporu místa a snadnou logistiku.</p><h3>Pro koho je určena</h3><p>Pro obkladače, montážní týmy a stavební profesionály, kteří pracují s velkoformátovými deskami a potřebují efektivní a bezpečné řešení pro jejich transport.</p><h3>Na co se nejvíce hodí</h3><p>Pro bezpečný a efektivní transport velkoformátových desek na stavbě i při montáži, zejména při přesunech mezi pracovišti nebo při manipulaci v náročnějším terénu.</p><h3>Hlavní přednosti</h3><p>Snadná manipulace i na nerovném terénu, systém tlumení vibrací pro ochranu materiálu, kompatibilita se zvedacími systémy a rychlá, jednoduchá montáž.</p>"
+            },
+            {
+              "id": "carico",
+              "name": "CARICO!",
+              "description": "Manipulační systém pro snadnou přepravu obkladů.",
+              "image": "assets/images/products/carico.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Ergonomická konstrukce",
+                "Snadná manipulace",
+                "Pro různé formáty",
+                "Robustní provedení"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Carico! je transportní vozík navržený pro bezpečnou přepravu a manipulaci s velkoformátovými deskami. Díky systému tlumení vibrací umožňuje plynulý pohyb materiálu i na nerovných površích a přispívá k jeho ochraně během přesunu.</p><h3>Pro koho je určena</h3><p>Pro obkladače, montážní týmy a stavební profesionály, kteří potřebují efektivní a bezpečné řešení pro manipulaci s těžkými a rozměrnými deskami.</p><h3>Na co se nejvíce hodí</h3><p>Pro transport velkoformátových desek na stavbě, mezi jednotlivými pracovišti nebo při jejich usazování, zejména tam, kde je nutná stabilita a snadné řízení pohybu.</p><h3>Hlavní přednosti</h3><p>Systém tlumení vibrací, brzdy pro bezpečné zajištění, kola se směrovým vedením pro snadnou manipulaci a vysoká stabilita při přepravě těžkých desek.</p>"
+            },
+            {
+              "id": "compact-light-plus",
+              "name": "COMPACT LIGHT PLUS",
+              "description": "Kompaktní manipulační systém s rozšířenými funkcemi.",
+              "image": "assets/images/products/compact-light-plus.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Kompaktní rozměry",
+                "Lehká konstrukce",
+                "Rozšířené funkce",
+                "Snadná přeprava"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Compact Light Plus je profesionální manipulační systém určený pro bezpečnou práci s velkoformátovými deskami. Zachovává vysokou tuhost i při zatížení, čímž minimalizuje riziko prohýbání a následného prasknutí materiálu. Oproti předchozím modelům nabízí ještě nižší hmotnost při nosnosti až 80 kg.</p><h3>Pro koho je určena</h3><p>Pro obkladače, montážní týmy a stavební profesionály, kteří pracují s velkoformátovými deskami a vyžadují bezpečnou, přesnou a efektivní manipulaci.</p><h3>Hlavní přednosti</h3><p>Vysoká stabilita při zatížení, snížené riziko poškození desky, velmi nízká hmotnost systému a nosnost až 80 kg pro pohodlnou a bezpečnou manipulaci.</p>"
+            },
+            {
+              "id": "agile-light-plus",
+              "name": "AGILE LIGHT PLUS",
+              "description": "Lehký manipulační systém AGILE s rozšířenými funkcemi.",
+              "image": "assets/images/products/agile-light-plus.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Lehká konstrukce",
+                "Vakuový přísavný systém",
+                "Rozšířené funkce",
+                "Pro střední velkoformáty"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Agile Light Plus je manipulační systém nejnovější generace navržený pro práci s velkými a těžkými deskami. Konstrukce si zachovává vysokou tuhost i při plném zatížení, čímž minimalizuje riziko prohýbání a následného poškození materiálu. Systém umožňuje bezpečné zvedání až do hmotnosti 160 kg.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a montážní týmy, které pracují s velkoformátovými a těžkými deskami a vyžadují maximální bezpečnost a stabilitu při manipulaci.</p><h3>Na co se nejvíce hodí</h3><p>Pro zvedání, přenášení a přesné usazování velkoformátových desek na stavbě, zejména při práci s těžkými materiály, kde je klíčová pevnost a spolehlivost systému.</p><h3>Hlavní přednosti</h3><p>Nosnost až 160 kg, vysoká tuhost konstrukce, minimalizace rizika prohýbání a prasknutí materiálu a bezpečná manipulace s rozměrnými deskami.</p>"
+            },
+            {
+              "id": "compact-light",
+              "name": "COMPACT LIGHT",
+              "description": "Základní kompaktní manipulační systém.",
+              "image": "assets/images/products/compact-light.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Kompaktní rozměry",
+                "Lehká konstrukce",
+                "Snadná manipulace",
+                "Ekonomické řešení"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Compact Light je manipulační systém navržený pro bezpečnou a efektivní práci s velkoformátovými dlaždicemi. Oproti předchozí generaci nabízí ještě nižší hmotnost při zachování potřebné stability a odolnosti pro každodenní použití.</p><h3>Pro koho je určena</h3><p>Pro obkladače a montážní týmy, kteří pracují s velkoformátovými dlaždicemi a potřebují lehké, praktické a spolehlivé řešení pro manipulaci.</p><h3>Hlavní přednosti</h3><p>Nízká hmotnost, snadná manipulace, stabilní konstrukce a efektivní podpora při přenášení a usazování velkoformátových dlaždic.</p>"
+            },
+            {
+              "id": "agile-system-light",
+              "name": "AGILE SYSTEM LIGHT",
+              "description": "Lehká verze systému AGILE pro manipulaci s obklady.",
+              "image": "assets/images/products/agile-system-light.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Lehká konstrukce",
+                "Systém AGILE",
+                "Vakuové přísavky",
+                "Snadná manipulace"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Agile Light je manipulační systém navržený pro bezpečnou práci s velkoformátovými dlaždicemi. Umožňuje snadné zvedání materiálu až do hmotnosti 80 kg a nabízí flexibilní řešení pro každodenní použití. Dvojici jednotek lze rozšířit na verzi Agile Light Plus přidáním sady příčných nosníků.</p><h3>Pro koho je určena</h3><p>Pro obkladače a montážní týmy, kteří pracují s velkoformátovými dlaždicemi a potřebují lehký, variabilní a spolehlivý manipulační systém.</p><h3>Na co se nejvíce hodí</h3><p>Pro bezpečné zvedání, přenášení a přesné usazování velkoformátových dlaždic na stavbě, zejména tam, kde je klíčová flexibilita systému.</p><h3>Hlavní přednosti</h3><p>Nosnost až 80 kg, modulární rozšíření na verzi Plus, snadná manipulace, flexibilní konfigurace a efektivní podpora při práci s velkoformátovými materiály.</p>"
+            }
+          ]
+        },
+        {
+          "id": "work-benches",
+          "name": "Pracovní stoly",
+          "description": "Pracovní stoly pro manipulaci a řezání velkoformátových obkladů.",
+          "products": [
+            {
+              "id": "multi-bench",
+              "name": "MULTI BENCH",
+              "description": "Pracovní stůl pro manipulaci s velkoformátovými obklady.",
+              "image": "assets/images/products/multi-bench.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "features": [
+                "Rozměry pracovní plochy: 1500×1525 mm",
+                "Nosnost: 200 kg",
+                "Výška stolu: 81 cm",
+                "Skládací konstrukce pro snadný transport",
+                "Integrované pravítko"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Multi Bench je univerzální a multifunkční pracovní stůl navržený pro maximální flexibilitu při práci s dlaždicemi. Díky modulární konstrukci jej lze přizpůsobit různým formátům a kombinacím tak, aby poskytoval plnou a stabilní oporu materiálu. Pevná konstrukce v kombinaci s nastavitelnými nohami zajišťuje vysokou stabilitu při práci. Součástí je měkká transportní taška s kolečky pro snadnou a bezpečnou přepravu.</p><h3>Pro koho je určena</h3><p>Pro obkladače a montážní profesionály, kteří potřebují stabilní, variabilní a snadno přenosné pracovní řešení pro zpracování dlaždic různých formátů.</p><h3>Hlavní přednosti</h3><p>Modulární a přizpůsobitelná konstrukce, vysoká stabilita díky nastavitelným nohám, plná opora materiálu při práci a snadná přeprava pomocí transportní tašky s kolečky.</p>"
+            },
+            {
+              "id": "mini-multi-bench",
+              "name": "MINI MULTI BENCH",
+              "description": "Kompaktní pracovní stůl pro menší velkoformáty.",
+              "image": "assets/images/products/mini-multi-bench.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Kompaktní rozměry",
+                "Skládací konstrukce",
+                "Snadná přeprava",
+                "Pro menší formáty"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Mini Multi Bench je univerzální a multifunkční pracovní stůl navržený pro maximální praktičnost v menších prostorech. Vychází z modelu Multi Bench, avšak nabízí kompaktnější rozměry a snadnější přepravu. Nastavitelné nohy zajišťují stabilitu i na nerovném podkladu a konstrukce je přizpůsobena jak práci s velkoformátovými materiály, tak precizním dokončovacím úkonům.</p><h3>Pro koho je určena</h3><p>Pro obkladače, montážní týmy i specializované řemeslníky, kteří potřebují skladné a flexibilní pracovní řešení do omezených prostor nebo pro mobilní nasazení.</p><h3>Hlavní přednosti</h3><p>Kompaktní a snadno přenosná konstrukce, vysoká stabilita díky nastavitelným nohám, univerzální využití pro různé typy prací a efektivní podpora při přesném zpracování materiálů.</p>"
+            }
+          ]
+        },
+        {
+          "id": "cutting-systems",
+          "name": "Řezací systémy",
+          "description": "Profesionální řezací systémy pro velkoformátové obklady.",
+          "products": [
+            {
+              "id": "lampo-flex-system",
+              "name": "LAMPO FLEX SYSTEM",
+              "description": "Flexibilní řezací systém pro velkoformátové obklady.",
+              "image": "assets/images/products/lampo-flex-system.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "features": [
+                "Flexibilní použití",
+                "Pro velkoformáty",
+                "Precizní řez",
+                "Přenosná konstrukce"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Lampo Flex System je inovativní systém určený pro přesné řezání velkoformátových desek. Skládá se z hliníkových lišt, přísavek a příslušenství Lampo Flex, které umožňuje praktické a efektivní využití úhlové brusky při práci. Systém je připraven pro připojení odsávání prachu při suchém řezání, čímž zvyšuje komfort i čistotu pracovního prostředí. Je kompatibilní s uchycením M14 a používá kotouče o průměru 115 mm.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a montážní týmy, které pracují s velkoformátovými deskami a vyžadují přesné, flexibilní a mobilní řešení pro řezání.</p><h3>Na co se nejvíce hodí</h3><p>Pro přesné suché řezy velkoformátových materiálů přímo na stavbě, zejména tam, kde je důležitá mobilita, čistota práce a flexibilita použití úhlové brusky.</p><h3>Hlavní přednosti</h3><p>Modulární a flexibilní systém, možnost připojení odsávání prachu, kompatibilita s běžnými úhlovými bruskami M14, přesné vedení řezu a vysoká variabilita použití.</p>"
+            },
+            {
+              "id": "lampo-cut-evo",
+              "name": "LAMPO CUT EVO",
+              "description": "Evoluční řezačka pro velkoformátové obklady a dlaždice.",
+              "image": "assets/images/products/lampo-cut-evo.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Vylepšená konstrukce",
+                "Pro velkoformáty",
+                "Precizní vodící systém",
+                "Kompaktní design"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Lampo Cut Evo System představuje rychlé, jednoduché a efektivní řešení pro řezání dlaždic o délce až 3200 mm s možností neomezeného prodloužení pomocí samostatných nástavců. Řezná vodicí lišta je vybavena dvěma silikonovými vložkami, které zajišťují maximální přilnavost k dlaždici během řezu a vysokou stabilitu práce.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a montážní týmy, kteří pracují s velkoformátovými dlaždicemi a požadují rychlé, přesné a flexibilní řešení pro řezání.</p><h3>Na co se nejvíce hodí</h3><p>Pro dlouhé, přesné řezy velkoformátových dlaždic přímo na stavbě, zejména u moderních interiérů a realizací s nadstandardními formáty.</p><h3>Hlavní přednosti</h3><p>Možnost řezání až 3200 mm s dalším prodloužením, vysoká rychlost práce, stabilní vedení řezu díky silikonovým vložkám a modulární systém přizpůsobitelný potřebám projektu.</p>"
+            }
+          ]
+        },
+        {
+          "id": "tools",
+          "name": "Nástroje",
+          "description": "Doplňkové nástroje pro práci s obklady.",
+          "products": [
+            {
+              "id": "perfect-jolly",
+              "name": "PERFECT JOLLY",
+              "description": "Nástavec pro úhlovou brusku na zkosení hran obkladů.",
+              "image": "assets/images/products/perfect-jolly.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "features": [
+                "Úhel zkosení: 40-50°",
+                "Pro úhlové brusky",
+                "Precizní nastavení úhlu",
+                "Vodní chlazení",
+                "Bezprašný provoz"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Perfect Jolly je specializovaný nástroj určený pro přesné a bezpečné provádění pokosových (jolly) řezů. Umožňuje nastavení hloubky i úhlu řezu pro maximální kontrolu nad výsledkem. Konstrukce se skládá z pevné základny, která se po dlaždici plynule pohybuje pomocí polyetylenových podložek.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a řemeslníky, kteří požadují dokonale přesné pokosové řezy a čisté hrany při práci s dlažbou a obklady.</p><h3>Hlavní přednosti</h3><p>Přesné nastavení hloubky i úhlu řezu, stabilní a pevná základna, plynulý pohyb po povrchu dlaždice a vysoká kontrola při provádění jolly řezů.</p>"
+            },
+            {
+              "id": "pulse",
+              "name": "PULSE",
+              "description": "Vibrační nástroj pro pokládku velkoformátových obkladů.",
+              "image": "assets/images/products/pulse.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Vibrační technologie",
+                "Pro pokládku obkladů",
+                "Ergonomický design",
+                "Rovnoměrné rozložení"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Pulse je profesionální akumulátorový vibrátor navržený pro práci s velkoformátovými dlaždicemi a deskami. Zajišťuje rovnoměrné a efektivní rozprostření lepidla mezi dlaždicí a podkladem, čímž přispívá k maximální přilnavosti a kvalitě instalace.</p><h3>Pro koho je určena</h3><p>Pro obkladače a montážní profesionály, kteří pracují s velkoformátovými materiály a kladou důraz na precizní a spolehlivou pokládku.</p><h3>Na co se nejvíce hodí</h3><p>Pro usazování velkoformátových dlaždic a desek při instalaci, zejména tam, kde je klíčové dokonalé přilnutí k podkladu a eliminace vzduchových mezer.</p><h3>Hlavní přednosti</h3><p>Akumulátorový provoz bez omezení kabelem, rovnoměrné rozprostření lepidla, zvýšení kvality pokládky a efektivní práce s velkoformátovými materiály.</p>"
+            },
+            {
+              "id": "suction-cup",
+              "name": "SUCTION CUP",
+              "description": "Vakuová přísavka pro bezpečnou manipulaci s dlaždicemi.",
+              "image": "assets/images/products/suction-cup.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Vysoká přísavná síla",
+                "Pro hladké povrchy",
+                "Ergonomická rukojeť",
+                "Rychlé uvolnění"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Praktická přísavka navržená pro snadnou a bezpečnou manipulaci s velkoformátovými dlaždicemi. Usnadňuje práci na stavbě, šetří čas a zvyšuje celkovou produktivitu. Je vybavena kovovou ergonomickou rukojetí, ventilem pro uvolnění tlaku a plastovým přepravním kufrem. Speciální W tvar gumy umožňuje použití i na hrubších površích.</p><h3>Pro koho je určena</h3><p>Pro obkladače, montážní týmy a stavební profesionály, kteří potřebují bezpečný a efektivní nástroj pro manipulaci s velkoformátovými materiály.</p><h3>Hlavní přednosti</h3><p>Silný a spolehlivý úchop, snadná manipulace, ergonomická kovová rukojeť, možnost použití i na hrubém povrchu a praktický transportní kufr.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mixers",
+      "name": "Mixéry",
+      "description": "Profesionální mixéry pro míchání stavebních směsí.",
+      "image": "assets/images/products/mixers.jpg",
+      "products": [
+        {
+          "id": "mixer-50-super",
+          "name": "MIXER 50 SUPER",
+          "description": "Profesionální mixér pro míchání stavebních směsí.",
+          "image": "assets/images/products/mixer-50-super.jpg",
+          "brochure": "",
+          "topProduct": true,
+          "features": [
+            "Výkon motoru: 1200 W",
+            "Objem nádoby: 65 L",
+            "Kapacita: 50 kg",
+            "Otáčky: 60 rpm",
+            "Hmotnost: 24 kg"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+          "seriesDescription": "<p>Mixer 50S je profesionální míchač navržený pro dokonalé a homogenní míchání lepidel na dlaždice, cementu, barev a epoxidových pryskyřic. Pracuje autonomně a umožňuje namíchat až 50 kg materiálu v jednom cyklu, což zajišťuje vysokou efektivitu při práci.</p><h3>Pro koho je určena</h3><p>Pro obkladače, stavební firmy a profesionální řemeslníky, kteří potřebují rychlé, rovnoměrné a spolehlivé míchání většího objemu materiálu.</p><h3>Na co se nejvíce hodí</h3><p>Pro přípravu větších dávek stavebních směsí přímo na stavbě, zejména tam, kde je klíčová konzistence směsi a úspora času.</p><h3>Hlavní přednosti</h3><p>Autonomní provoz, homogenní výsledek míchání, kapacita až 50 kg materiálu, úspora času i fyzické námahy a vysoká efektivita při každodenním použití.</p>"
+        },
+        {
+          "id": "mixit",
+          "name": "MIXIT",
+          "description": "Mixér s bezpečnostním stop systémem a vozíkem.",
+          "image": "assets/images/products/mixit.jpg",
+          "brochure": "",
+          "topProduct": false,
+          "features": [
+            "Bezpečnostní stop systém",
+            "Integrovaný vozík",
+            "2-rychlostní převodovka",
+            "Robustní konstrukce",
+            "Snadná údržba"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+          "seriesDescription": "<p>Řada MIXIT představuje profesionální řešení pro efektivní a bezpečné zpracování stavebních směsí. Spojuje jednoduché ovládání, vysokou odolnost a důraz na produktivitu práce v každodenním nasazení.</p><h3>Pro koho je určena</h3><p>Pro řemeslníky, stavební firmy i náročné kutily, kteří chtějí pracovat rychleji, pohodlněji a s jistotou profesionálního výsledku.</p><h3>Hlavní přednosti</h3><p>Vyšší efektivita práce, bezpečný provoz, snadná manipulace a robustní konstrukce navržená pro dlouhodobé každodenní používání.</p>"
+        },
+        {
+          "id": "minimix",
+          "name": "MINIMIX",
+          "description": "Kompaktní ruční mixér s variabilními otáčkami.",
+          "image": "assets/images/products/minimix.jpg",
+          "brochure": "",
+          "topProduct": false,
+          "features": [
+            "6-rychlostní variátor",
+            "Lehká konstrukce",
+            "Ergonomická rukojeť",
+            "Pro menší objemy",
+            "Snadná manipulace"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+          "seriesDescription": "<p>Mini Mix je profesionální míchač určený pro efektivní míchání omítkových malt, cementu, lepidel na podlahy, sádry i barev. Nabízí kompaktní konstrukci a spolehlivý výkon pro každodenní použití na stavbě i při dokončovacích pracích.</p><h3>Pro koho je určena</h3><p>Pro zedníky, podlaháře, malíře i další řemeslníky, kteří potřebují rychlé, rovnoměrné a bezproblémové míchání různých stavebních směsí.</p><h3>Hlavní přednosti</h3><p>Univerzální využití, kompaktní a snadno ovladatelná konstrukce, spolehlivý výkon a úspora času i fyzické námahy při práci.</p>"
+        }
+      ]
+    },
+    {
+      "id": "floor-cleaners",
+      "name": "Čističky podlah",
+      "description": "Profesionální stroje pro čištění a leštění podlah.",
+      "image": "assets/images/products/floor-cleaners.jpg",
+      "products": [
+        {
+          "id": "master-linda",
+          "name": "MASTER LINDA",
+          "description": "Profesionální podlahový čistič s vysokým výkonem.",
+          "image": "assets/images/products/master-linda.jpg",
+          "brochure": "",
+          "topProduct": true,
+          "features": [
+            "Výkon motoru: 2500 W",
+            "Průměr kartáče: ø500 mm",
+            "2 rychlosti: 60/120 rpm",
+            "Pro velké plochy",
+            "Robustní konstrukce"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+          "seriesDescription": "<p>Master Linda je vysoce výkonný jednokotoučový stroj určený pro leštění, čištění a vyhlazování podlah. Nabízí kompletní řadu příslušenství pro přizpůsobení různým pracovním požadavkům. Stroj je připraven pro připojení odsávání prachu a umožňuje dodatečné přitížení pro zvýšení efektivity podle konkrétního použití.</p><h3>Pro koho je určena</h3><p>Pro podlaháře, specializované realizační týmy a stavební profesionály, kteří vyžadují vysoký výkon a maximální flexibilitu při úpravě podlahových povrchů.</p><h3>Na co se nejvíce hodí</h3><p>Pro profesionální renovace, finální úpravy a intenzivní čištění podlah, zejména tam, kde je potřeba kombinovat výkon, přesnost a kontrolu prašnosti.</p><h3>Hlavní přednosti</h3><p>Vysoký výkon, široká škála příslušenství, možnost připojení odsávání prachu, volitelné přitížení stroje a univerzální využití pro různé typy podlahových úprav.</p>"
+        }
+      ]
+    },
+    {
+      "id": "water-pumps",
+      "name": "Vodní čerpadla",
+      "description": "Profesionální ponorná čerpadla pro recirkulaci vody v řezacích strojích.",
+      "image": "assets/images/products/water-pumps.jpg",
+      "products": [
+        {
+          "id": "p3",
+          "name": "P3",
+          "description": "Výkonné ponorné čerpadlo pro recirkulaci vody v řezacích strojích na cihly a dlažbu.",
+          "image": "assets/images/products/P3.jpg",
+          "brochure": "",
+          "topProduct": true,
+          "features": [
+            "Výkon: 60 W",
+            "Napájení: 230 V / 50 Hz",
+            "Průtok: 1560 l/h (26 l/min)",
+            "Krytí: IP X8",
+            "Certifikace TÜV/GS",
+            "Dvojitá samomazná hlava"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+          "seriesDescription": "<p>Profesionální ponorná čerpadla určená pro recirkulaci vody v elektrických pilách. Řada zahrnuje čtyři modely s různým průtokem a výkonem, aby pokryla potřeby různých typů strojů a pracovních podmínek. Na vyžádání jsou k dispozici také varianty pro speciální napětí.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy, kameníky a profesionální uživatele elektrických pil, kteří požadují spolehlivý a efektivní systém chlazení kotouče.</p><h3>Na co se nejvíce hodí</h3><p>Pro zajištění nepřetržité recirkulace vody při řezání, optimalizaci chlazení diamantového kotouče a prodloužení životnosti stroje.</p><h3>Hlavní přednosti</h3><p>Různé varianty výkonu a průtoku, spolehlivý provoz, kompatibilita s elektrickými pilami a možnost dodání ve speciálních napětích dle požadavku.</p>"
+        },
+        {
+          "id": "p2",
+          "name": "P2",
+          "description": "Ponorné čerpadlo střední výkonnosti pro řezací stroje.",
+          "image": "assets/images/products/P2.jpg",
+          "brochure": "",
+          "topProduct": true,
+          "features": [
+            "Výkon: 55 W",
+            "Napájení: 230 V / 50 Hz",
+            "Průtok: 996 l/h (16,6 l/min)",
+            "Krytí: IP X8",
+            "Certifikace TÜV/GS",
+            "Dvojitá samomazná hlava"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+          "seriesDescription": "<p>Profesionální ponorná čerpadla určená pro recirkulaci vody v elektrických pilách. Řada zahrnuje čtyři modely s různým průtokem a výkonem, aby pokryla potřeby různých typů strojů a pracovních podmínek. Na vyžádání jsou k dispozici také varianty pro speciální napětí.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy, kameníky a profesionální uživatele elektrických pil, kteří požadují spolehlivý a efektivní systém chlazení kotouče.</p><h3>Na co se nejvíce hodí</h3><p>Pro zajištění nepřetržité recirkulace vody při řezání, optimalizaci chlazení diamantového kotouče a prodloužení životnosti stroje.</p><h3>Hlavní přednosti</h3><p>Různé varianty výkonu a průtoku, spolehlivý provoz, kompatibilita s elektrickými pilami a možnost dodání ve speciálních napětích dle požadavku.</p>"
+        },
+        {
+          "id": "p1",
+          "name": "P1",
+          "description": "Kompaktní ponorné čerpadlo pro menší řezací stroje.",
+          "image": "assets/images/products/P1.jpg",
+          "brochure": "",
+          "topProduct": true,
+          "features": [
+            "Výkon: 50 W",
+            "Napájení: 230 V / 50 Hz",
+            "Průtok: 846 l/h (14,1 l/min)",
+            "Krytí: IP X8",
+            "Certifikace TÜV/GS",
+            "Dvojitá samomazná hlava"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+          "seriesDescription": "<p>Profesionální ponorná čerpadla určená pro recirkulaci vody v elektrických pilách. Řada zahrnuje čtyři modely s různým průtokem a výkonem, aby pokryla potřeby různých typů strojů a pracovních podmínek. Na vyžádání jsou k dispozici také varianty pro speciální napětí.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy, kameníky a profesionální uživatele elektrických pil, kteří požadují spolehlivý a efektivní systém chlazení kotouče.</p><h3>Na co se nejvíce hodí</h3><p>Pro zajištění nepřetržité recirkulace vody při řezání, optimalizaci chlazení diamantového kotouče a prodloužení životnosti stroje.</p><h3>Hlavní přednosti</h3><p>Různé varianty výkonu a průtoku, spolehlivý provoz, kompatibilita s elektrickými pilami a možnost dodání ve speciálních napětích dle požadavku.</p>"
+        },
+        {
+          "id": "p0",
+          "name": "P0",
+          "description": "Základní ponorné čerpadlo pro menší aplikace.",
+          "image": "assets/images/products/P0.jpg",
+          "brochure": "",
+          "topProduct": true,
+          "features": [
+            "Výkon: 35 W",
+            "Napájení: 230 V / 50 Hz",
+            "Průtok: 696 l/h (11,6 l/min)",
+            "Krytí: IP X8",
+            "Certifikace TÜV/GS",
+            "Dvojitá samomazná hlava"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+          "seriesDescription": "<p>Profesionální ponorná čerpadla určená pro recirkulaci vody v elektrických pilách. Řada zahrnuje čtyři modely s různým průtokem a výkonem, aby pokryla potřeby různých typů strojů a pracovních podmínek. Na vyžádání jsou k dispozici také varianty pro speciální napětí.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy, kameníky a profesionální uživatele elektrických pil, kteří požadují spolehlivý a efektivní systém chlazení kotouče.</p><h3>Na co se nejvíce hodí</h3><p>Pro zajištění nepřetržité recirkulace vody při řezání, optimalizaci chlazení diamantového kotouče a prodloužení životnosti stroje.</p><h3>Hlavní přednosti</h3><p>Různé varianty výkonu a průtoku, spolehlivý provoz, kompatibilita s elektrickými pilami a možnost dodání ve speciálních napětích dle požadavku.</p>"
+        }
+      ]
+    }
+  ]
+}

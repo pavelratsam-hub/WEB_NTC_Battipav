@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stavební technika BATTIPAV – elektrické pily a vodní čerpadla pro profesionální stavební práce">
+    <title>Stavební technika | BATTIPAV | NTC STAVEBNÍ TECHNIKA</title>
+
+    <!-- Manuální nastavení brand barev (bez config-loader.js) -->
+    <style>
+        :root {
+            --color-primary: #ea5b0c;
+            --color-primary-dark: #4c565c;
+            --color-secondary: #777777;
+        }
+        .config-loading { opacity: 0; }
+        body { transition: opacity 0.15s ease-in; }
+    </style>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
+
+    <style>
+        /* Přepsání brand barev po načtení variables.css */
+        :root {
+            --color-primary: #ea5b0c;
+            --color-primary-dark: #4c565c;
+        }
+
+        /* Hero pozadí pro stavební divizi – PLACEHOLDER, nahradit vlastním obrázkem */
+        .carousel__slide--stavebni {
+            background: url('assets/images/battipav/slide2-bg.jpg') center center / cover no-repeat;
+        }
+
+        /* Kategorie - 2 velké karty vedle sebe */
+        .grid--2-large {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-lg);
+        }
+
+        .card--large {
+            position: relative;
+            overflow: hidden;
+            border-radius: var(--radius-md);
+            min-height: 260px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: var(--shadow-md);
+            transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+        }
+
+        .card--large:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .card--large .card__image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card--large .card__content {
+            flex: 1;
+            padding: var(--spacing-md);
+            background: var(--color-background);
+        }
+
+        .card--large .card__title {
+            font-size: var(--font-size-h3);
+            color: var(--color-secondary);
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .card--large .card__description {
+            color: var(--color-text-light);
+            margin-bottom: var(--spacing-md);
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .card--large .card__link {
+            display: inline-block;
+            color: var(--color-primary);
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .card--large .card__link:hover {
+            color: var(--color-primary-dark);
+        }
+
+        @media (max-width: 600px) {
+            .grid--2-large {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Main Header -->
+        <div class="header__main">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="assets/images/battipav/logo.svg" alt="BATTIPAV Logo">
+                        </a>
+                    </div>
+                    <div class="header__info">
+                        <div class="header__official">BATTIPAV Česká republika</div>
+                        <div class="header__distributor">NTC STAVEBNÍ TECHNIKA spol. s r.o.</div>
+                        <div class="header__contact">
+                            <a href="tel:+420491452184">+420 491 452 184</a>
+                            <span style="color: #2c2c2c; margin: 0 4px;">|</span>
+                            <a href="mailto:info@ntc.cz">info@ntc.cz</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__controls">
+                    <button class="nav__toggle" id="nav-toggle">
+                        ☰ Menu
+                    </button>
+                    <button class="nav__header-toggle" id="header-toggle">▲</button>
+                </div>
+                <ul class="nav__list" id="stavebni-nav-list">
+                    <li class="nav__item">
+                        <a href="stavebni-technika.html" class="nav__link">Domů</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="electric-saws.html" class="nav__link">Elektrické pily</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="water-pumps.html" class="nav__link">Vodní čerpadla</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">O společnosti</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <!-- PLACEHOLDER: Pozadí slide nahradit vlastním obrázkem stavební techniky -->
+    <section class="hero-carousel">
+        <div class="carousel">
+            <div class="carousel__slide carousel__slide--active carousel__slide--stavebni">
+                <div class="carousel__content">
+                    <div class="container">
+                        <div class="carousel__badge">🇮🇹 Made in Italy</div>
+                        <h1 class="carousel__title">Stavební technika</h1>
+                        <p class="carousel__subtitle">
+                            Výkonné elektrické pily a vodní čerpadla<br>
+                            pro profesionální stavební práce
+                        </p>
+                        <a href="electric-saws.html" class="carousel__cta">Zobrazit stroje</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O divizi -->
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Stavební technika BATTIPAV</h2>
+                <p class="section__subtitle">Italská preciznost pro náročné stavební práce</p>
+            </div>
+
+            <div class="about__content">
+                <div class="about__text">
+                    <p>
+                        Divize stavební techniky BATTIPAV přináší na český trh výkonné elektrické pily
+                        a spolehlivá vodní čerpadla navržená pro profesionální stavební použití.
+                        Každý stroj je vyroben v Itálii s maximálním důrazem na výkon, trvanlivost
+                        a bezpečnost práce.
+                    </p>
+                    <p>
+                        Ať pracujete na stavbě, rekonstrukci nebo ve strojním průmyslu – stroje
+                        BATTIPAV jsou připraveny zvládnout i ty nejnáročnější podmínky každého dne.
+                    </p>
+                    <a href="about.html" class="btn btn--primary">Více o společnosti</a>
+                </div>
+                <div class="about__image-wrapper">
+                    <!-- PLACEHOLDER: Nahradit obrázkem relevantním pro stavební divizi -->
+                    <img src="assets/images/battipav/battipav-production.jpg" alt="BATTIPAV stavební technika" class="about__image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kategorie produktů -->
+    <section class="section section--gray">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Kategorie produktů</h2>
+                <p class="section__subtitle">Stroje pro stavební profesionály</p>
+            </div>
+
+            <div class="grid--2-large">
+                <!-- Elektrické pily -->
+                <div class="card card--large">
+                    <img src="assets/images/products/electric-saws.jpg" alt="Elektrické pily" class="card__image">
+                    <div class="card__content">
+                        <h3 class="card__title">Elektrické pily</h3>
+                        <p class="card__description">
+                            Profesionální elektrické řezací pily pro řezání keramiky, kamene,
+                            betonu a dalších stavebních materiálů. Výkon, přesnost a spolehlivost
+                            v jednom stroji.
+                        </p>
+                        <a href="electric-saws.html" class="card__link">Zobrazit produkty →</a>
+                    </div>
+                </div>
+
+                <!-- Vodní čerpadla -->
+                <div class="card card--large">
+                    <img src="assets/images/products/water-pumps.jpg" alt="Vodní čerpadla" class="card__image">
+                    <div class="card__content">
+                        <h3 class="card__title">Vodní čerpadla</h3>
+                        <p class="card__description">
+                            Ponorná vodní čerpadla pro odvodnění stavebních jam, sklepů
+                            a zásobení vodou při stavebních pracích. Kompaktní, výkonná
+                            a snadno přenosná.
+                        </p>
+                        <a href="water-pumps.html" class="card__link">Zobrazit produkty →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proč Battipav -->
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Proč BATTIPAV?</h2>
+            </div>
+
+            <div class="grid grid--3">
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">Made in Italy</h3>
+                        <p class="card__description">
+                            Všechny stroje jsou navrženy a vyrobeny v Itálii s použitím
+                            nejmodernějších technologií a materiálů.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">Profesionální výkon</h3>
+                        <p class="card__description">
+                            Stroje s vysokým výkonem a spolehlivostí pro náročné
+                            každodenní nasazení ve stavebnictví.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">Servis a podpora</h3>
+                        <p class="card__description">
+                            Zajišťujeme kompletní servis, náhradní díly a technickou podporu
+                            pro všechny dodané stroje.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section--gray">
+        <div class="container" style="text-align: center;">
+            <h2 class="section__title">Máte zájem o naše stroje?</h2>
+            <p class="section__subtitle" style="margin-bottom: var(--spacing-lg);">
+                Kontaktujte nás pro více informací, cenovou nabídku nebo osobní předvedení strojů.
+            </p>
+            <a href="contact.html" class="btn btn--primary" style="margin-right: var(--spacing-sm);">Kontaktujte nás</a>
+            <a href="catalogue.html" class="btn btn--outline">Stáhnout katalog</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__main">
+                <div class="grid grid--4">
+                    <div class="footer__col">
+                        <h3 class="footer__title">BATTIPAV</h3>
+                        <p>Profesionální italské stroje pro stavební průmysl. 100% výroba v Itálii.</p>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Produkty</h3>
+                        <a href="electric-saws.html" class="footer__link">Elektrické pily</a>
+                        <a href="water-pumps.html" class="footer__link">Vodní čerpadla</a>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Informace</h3>
+                        <a href="about.html" class="footer__link">O společnosti</a>
+                        <a href="catalogue.html" class="footer__link">Katalog</a>
+                        <a href="contact.html" class="footer__link">Kontakt</a>
+                        <a href="index.html" class="footer__link">Výběr divize</a>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Kontakt</h3>
+                        <p>NTC STAVEBNÍ TECHNIKA spol. s r.o.</p>
+                        <p>Jiřinková 120, 552 03 Česká Skalice</p>
+                        <p>Tel: +420 491 452 184</p>
+                        <p>Email: info@ntc.cz</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; <span id="current-year"></span> NTC STAVEBNÍ TECHNIKA spol. s r.o. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', () => {
+            const navToggle = document.getElementById('nav-toggle');
+            const navList = document.getElementById('stavebni-nav-list');
+            if (navToggle && navList) {
+                navToggle.addEventListener('click', () => {
+                    navList.classList.toggle('active');
+                });
+            }
+
+            const headerToggle = document.getElementById('header-toggle');
+            const headerMain = document.querySelector('.header__main');
+            if (headerToggle && headerMain) {
+                headerToggle.addEventListener('click', () => {
+                    headerMain.classList.toggle('header__main--hidden');
+                    headerToggle.textContent = headerMain.classList.contains('header__main--hidden') ? '▼' : '▲';
+                });
+            }
+
+            // Aktuální rok v patičce
+            const yearEl = document.getElementById('current-year');
+            if (yearEl) yearEl.textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+</html>

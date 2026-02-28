@@ -1,0 +1,750 @@
+{
+  "categories": [
+    {
+      "id": "electric-saws",
+      "name": "Elektrické pily",
+      "description": "Výkonné elektrické pily pro stavebníky, kameníky, obkladače a ostatní řemeslníky.",
+      "image": "assets/images/products/electric-saws.jpg",
+      "subcategories": [
+        {
+          "id": "block-saws",
+          "name": "Pily stolové blokové",
+          "description": "Kompaktní blokové pily pro přesné řezání cihel, kamene a betonu.",
+          "products": [
+            {
+              "id": "expert",
+              "name": "EXPERT",
+              "description": "Stolová bloková pila pro řezání cihel, betonů, kamenů a jiných materiálů.",
+              "image": "assets/images/products/expert-700.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "seriesDescription": "<p>Profesionální stavební pila navržená pro maximální výkon a přesnost při náročném nasazení. Inovativní design s hi-tech řešeními, kompaktní, lehká a zároveň robustní konstrukce umožňují efektivní řezání cihel, porotonových bloků, mramorových bloků i dalších stavebních materiálů. Pila je vybavena posuvným pracovním stolem pro dokonale přesné řezy a je určena pro diamantové kotouče o průměru 700–600–500–400 mm.</p><h3>Pro koho je určena</h3><p>Pro profesionální stavební firmy a specialisty, kteří vyžadují vysoký výkon, přesnost a spolehlivost při zpracování velkoformátových a pevných stavebních materiálů.</p><h3>Hlavní přednosti</h3><p>Vysoká přesnost řezu, robustní a zároveň mobilní konstrukce, široká kompatibilita s velkými průměry kotoučů a plynulý posuvný stůl pro efektivní a bezpečnou práci.</p>",
+              "variants": [
+                {
+                  "id": "700",
+                  "name": "700",
+                  "features": [
+                    "Výkon motoru: 4000 W (400V)",
+                    "Průměr kotouče: ø700 mm",
+                    "Max. délka řezu: 550 mm",
+                    "Max. hloubka řezu (90°): 270 mm",
+                    "Max. hloubka řezu oboustranný: 340 mm",
+                    "Hmotnost: 100,5 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/expert_700_technick___list_.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-blokova-battipav-expert-700/"
+                },
+                {
+                  "id": "600s",
+                  "name": "600S",
+                  "features": [
+                    "Výkon motoru: 4000 W (400V)",
+                    "Průměr kotouče: ø600 mm",
+                    "Max. délka řezu: 750 mm",
+                    "Max. hloubka řezu (90°): 220 mm",
+                    "Max. hloubka řezu oboustranný: 285 mm",
+                    "Hmotnost: 85 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": ""
+                },
+                {
+                  "id": "600",
+                  "name": "600",
+                  "features": [
+                    "Výkon motoru: 4000 W (400V)",
+                    "Průměr kotouče: ø600 mm",
+                    "Max. délka řezu: 750 mm",
+                    "Max. hloubka řezu (90°): 220 mm",
+                    "Max. hloubka řezu oboustranný: 285 mm",
+                    "Hmotnost: 81 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: NE"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-battipav-expert-600/"
+                },
+                {
+                  "id": "500s",
+                  "name": "500S",
+                  "features": [
+                    "Výkon motoru: 4000 W (400V)",
+                    "Průměr kotouče: ø500 mm",
+                    "Max. délka řezu: 750 mm",
+                    "Max. hloubka řezu (90°): 170 mm",
+                    "Max. hloubka řezu oboustranný: 235 mm",
+                    "Hmotnost: 85 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-battipav-expert-500s/"
+                },
+                {
+                  "id": "500",
+                  "name": "500",
+                  "features": [
+                    "Výkon motoru: 4000 W (400V)",
+                    "Průměr kotouče: ø500 mm",
+                    "Max. délka řezu: 750 mm",
+                    "Max. hloubka řezu (90°): 170 mm",
+                    "Max. hloubka řezu oboustranný: 235 mm",
+                    "Hmotnost: 79,5 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: NE"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-battipav-expert-500/"
+                },
+                {
+                  "id": "400s",
+                  "name": "400S",
+                  "features": [
+                    "Výkon motoru: 2800 W (230V)",
+                    "Průměr kotouče: ø400 mm",
+                    "Max. délka řezu: 570 mm",
+                    "Max. hloubka řezu (90°): 135 mm",
+                    "Max. hloubka řezu oboustranný: 155 mm",
+                    "Hmotnost: 78,5 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/expert_400.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-battipav-expert-400s/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "table-construction-saws",
+          "name": "Pily stolové stavební",
+          "description": "Stolové pily pro stavební materiály.",
+          "products": [
+            {
+              "id": "elite-80s",
+              "name": "ELITE 80S",
+              "description": "Stavební pila hliníkové konstrukce s plastovou vodní vanou.",
+              "image": "assets/images/products/elite-80s.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "seriesDescription": "<p>Profesionální stavební pila navržená pro náročné podmínky na stavbě. Ergonomický design v kombinaci s moderními technickými inovacemi a kompaktní, robustní konstrukcí ji předurčují k řezání cihel, kamene, betonových tvárnic, žuly, mramoru i přírodního kamene. Je vybavena posuvným pracovním stolem, naklápěcí hlavou motoru a je určena pro kotouče o průměru 350 mm. Součástí je také laser a kola pro snadnou manipulaci.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy a profesionální řemeslníky, kteří potřebují výkonnou a přesnou pilu pro každodenní práci s různými typy stavebních materiálů.</p><h3>Hlavní přednosti</h3><p>Robustní a kompaktní konstrukce, vysoký řezný výkon, přesné vedení řezu díky laseru, naklápěcí hlava pro flexibilní nastavení a snadná manipulace díky integrovaným kolům.</p>",
+              "features": [
+                "Výkon motoru: 2200 W",
+                "Průměr kotouče: ø350 mm",
+                "Max. délka řezu: 800 mm",
+                "Max. hloubka řezu (90°): 110 mm",
+                "Max. hloubka řezu (45°): 80 mm",
+                "Hmotnost: 68 kg",
+                "Naváděcí laser: ANO",
+                "Podvozek: ANO"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/elite_80_technick___list_.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-blokova-battipav-elite-80s/"
+            },
+            {
+              "id": "eletta",
+              "name": "ELETTA",
+              "description": "Stavební pila ocelové konstrukce s plastovou vodní vanou.",
+              "image": "assets/images/products/eletta.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Výkon motoru: 2200 W",
+                "Průměr kotouče: ø350-400 mm",
+                "Max. délka řezu: 800 mm",
+                "Max. hloubka řezu (90°): 135 mm",
+                "Max. hloubka řezu (45°): 110 mm",
+                "Hmotnost: 65 kg",
+                "Naváděcí laser: NE",
+                "Přepravní kolečka a sklopné nohy"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "",
+              "seriesDescription": "<p>Profesionální pila určená pro stavebnictví, která spojuje jednoduchý design s mimořádným výkonem. Robustní a kompaktní konstrukce zajišťuje přesné řezy do cihel, kamene, betonových tvárnic, žuly, mramoru, přírodního kamene i porcelánové kameniny. Posuvný pracovní stůl, naklápěcí hlava motoru a otočná řezná hlava o 45° poskytují maximální flexibilitu při práci. Pila je kompatibilní s kotouči o průměru 400 mm a 350 mm a je vybavena integrovanými koly pro snadnou přepravu.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy a profesionální řemeslníky, kteří potřebují výkonnou, univerzální a flexibilní pilu pro každodenní použití na stavbě.</p><h3>Na co se nejvíce hodí</h3><p>Pro přesné rovné i úhlové řezy široké škály stavebních materiálů při hrubé i dokončovací výstavbě, zejména tam, kde je důležitá všestrannost a mobilita.</p><h3>Hlavní přednosti</h3><p>Robustní a kompaktní konstrukce, vysoký výkon, posuvný stůl a otočná hlava o 45° pro maximální flexibilitu, kompatibilita s kotouči 400 mm a 350 mm a snadná manipulace díky integrovaným kolům.</p>"
+            },
+            {
+              "id": "ego-plus",
+              "name": "EGO PLUS",
+              "description": "Stavební pila ocelové konstrukce.",
+              "image": "assets/images/products/ego-plus.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Výkon motoru: 2200 W",
+                "Průměr kotouče: ø300-350 mm",
+                "Max. délka řezu: 800 mm",
+                "Max. hloubka řezu (90°): 110 mm",
+                "Max. hloubka řezu (45°): 80 mm",
+                "Hmotnost: 62,5 kg",
+                "Naváděcí laser: NE",
+                "Přepravní kolečka a sklopné nohy"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/ego_plus_technick___list.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-stolova-blokova-battipav-e--go-plus/",
+              "seriesDescription": "<p>Profesionální stavební pila ocelové konstrukce s přepravními kolečky a sklopnými nohami pro snadnou mobilitu na stavbě. Navržena pro každodenní řezání cihel, obkladů, kamene a lehčích stavebních materiálů.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy a řemeslníky, kteří hledají spolehlivou a mobilní pilu pro každodenní práci na stavbě.</p><h3>Hlavní přednosti</h3><p>Ocelová konstrukce, přepravní kolečka a sklopné nohy pro snadný přesun, výkon 2200 W a kompatibilita s kotouči ø300–350 mm.</p>"
+            }
+          ]
+        },
+        {
+          "id": "portal-block-saws",
+          "name": "Pily portálové blokové",
+          "description": "Portálové pily s blokovým designem pro řezání různých materiálů.",
+          "products": [
+            {
+              "id": "prime-700",
+              "name": "PRIME 700",
+              "description": "Portálová bloková pila pro řezání cihel, kamene, pórobetonu a betonu.",
+              "image": "assets/images/products/prime-700.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "features": [
+                "Výkon motoru: 4000 W",
+                "Průměr kotouče: ø700 mm",
+                "Max. hloubka řezu (90°): 275 mm",
+                "Max. hloubka řezu (45°): 180 mm",
+                "Hmotnost: 113 kg",
+                "Podvozek: ANO"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/prime700_technick___list_-1.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-blokova-battipav-prime-700/",
+              "seriesDescription": "<p>Prime 700 je mostová pila určená pro efektivní řezání zdicích bloků, přírodního kamene, porotonu a betonových tvárnic. Řez je prováděn manuálním posuvem motorové jednotky, který zajišťuje vysokou kontrolu a přesnost při práci. Model je navržen pro diamantové kotouče o průměru 700 mm.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy a profesionální řemeslníky, kteří pracují s velkoformátovými a konstrukčními materiály a potřebují výkonný a spolehlivý stroj.</p><h3>Na co se nejvíce hodí</h3><p>Pro hluboké a přesné řezy zdicích prvků a stavebních bloků přímo na stavbě, zejména při hrubé výstavbě a práci s rozměrnými materiály.</p><h3>Hlavní přednosti</h3><p>Výkonná mostová konstrukce, manuální posuv motorové jednotky pro přesnou kontrolu řezu, kompatibilita s velkým kotoučem 700 mm a integrovaný laser pro přesné zaměření.</p>"
+            }
+          ]
+        },
+        {
+          "id": "portal-construction-saws",
+          "name": "Pily portálové stavební",
+          "description": "Robustní portálové pily pro stavebnictví.",
+          "products": [
+            {
+              "id": "prime",
+              "name": "PRIME",
+              "description": "Portálová pila pro řezání cihel, kamene, betonových bloků, žuly a mramoru.",
+              "image": "assets/images/products/prime-150S.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "variants": [
+                {
+                  "id": "200s",
+                  "name": "200S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø350 mm",
+                    "Max. délka řezu: 2000 mm",
+                    "Max. hloubka řezu (90°): 110 mm",
+                    "Max. hloubka řezu (45°): 80 mm",
+                    "Hmotnost: 132 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/prime_technick___list-4.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-battipav-prime-200s/"
+                },
+                {
+                  "id": "150s",
+                  "name": "150S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø350 mm",
+                    "Max. délka řezu: 1500 mm",
+                    "Max. hloubka řezu (90°): 110 mm",
+                    "Max. hloubka řezu (45°): 80 mm",
+                    "Hmotnost: 114,5 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/prime_technick___list-2.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-battipav-prime-150s/"
+                },
+                {
+                  "id": "120s",
+                  "name": "120S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø350 mm",
+                    "Max. délka řezu: 1200 mm",
+                    "Max. hloubka řezu (90°): 110 mm",
+                    "Max. hloubka řezu (45°): 80 mm",
+                    "Hmotnost: 105 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/prime_technick___list-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-battipav-prime-120s/"
+                },
+                {
+                  "id": "100s",
+                  "name": "100S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø350 mm",
+                    "Max. délka řezu: 1000 mm",
+                    "Max. hloubka řezu (90°): 110 mm",
+                    "Max. hloubka řezu (45°): 80 mm",
+                    "Hmotnost: 97,3 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-battipav-prime-100s/"
+                },
+                {
+                  "id": "85s",
+                  "name": "85S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø350 mm",
+                    "Max. délka řezu: 850 mm",
+                    "Max. hloubka řezu (90°): 110 mm",
+                    "Max. hloubka řezu (45°): 80 mm",
+                    "Hmotnost: 85 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/prime_technick___list-5.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-battipav-prime-85s/"
+                }
+              ],
+              "seriesDescription": "<p>Prime je mostová pila určená pro profesionální využití ve stavebnictví. Nový design s moderními technickými inovacemi v kombinaci s robustní a přesnou konstrukcí umožňuje efektivní řezání cihel, kamene, betonových tvárnic, žuly, mramoru i desek. Řez je prováděn manuálním posuvem motorové jednotky. Model je určen pro diamantové kotouče o průměru 350 mm a standardně je vybaven laserovým nástrojem a sadou kol.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy a profesionální řemeslníky, kteří potřebují univerzální, přesný a spolehlivý stroj pro každodenní práci na stavbě.</p><h3>Na co se nejvíce hodí</h3><p>Pro přesné řezání stavebních materiálů při hrubé i dokončovací výstavbě, zejména tam, kde je důležitá stabilita, výkon a mobilita zařízení.</p><h3>Hlavní přednosti</h3><p>Robustní a moderní konstrukce, manuální posuv pro maximální kontrolu řezu, kompatibilita s kotoučem 350 mm, integrovaný laser pro přesné vedení a sada kol pro snadnou manipulaci.</p>"
+            }
+          ]
+        },
+        {
+          "id": "portal-tile-saws",
+          "name": "Pily portálové na obklady a dlažbu",
+          "description": "Portálové pily určené pro řezání obkladů a dlažby.",
+          "products": [
+            {
+              "id": "supreme",
+              "name": "SUPREME",
+              "description": "Portálová řezací pila pro přírodní kámen, žulu a mramor. Laserové zaměření, nastavitelný úhel řezu 0-45°.",
+              "image": "assets/images/products/supreme-150s.jpg",
+              "brochure": "",
+              "topProduct": true,
+              "topVariantIndex": 3,
+              "variants": [
+                {
+                  "id": "260s",
+                  "name": "260S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 2600 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 151 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-4.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-260s/"
+                },
+                {
+                  "id": "200s",
+                  "name": "200S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 2000 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 130 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-3.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-200s/"
+                },
+                {
+                  "id": "150s",
+                  "name": "150S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 1500 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 112,6 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-2.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-150s/"
+                },
+                {
+                  "id": "120s",
+                  "name": "120S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 1200 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 104 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-120s/"
+                },
+                {
+                  "id": "100s",
+                  "name": "100S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 1000 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 97,2 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-100s/"
+                },
+                {
+                  "id": "85s",
+                  "name": "85S",
+                  "features": [
+                    "Výkon motoru: 2200 W",
+                    "Průměr kotouče: ø300 mm",
+                    "Max. délka řezu: 850 mm",
+                    "Max. hloubka řezu (90°): 85 mm",
+                    "Max. hloubka řezu (45°): 60 mm",
+                    "Hmotnost: 93,4 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-5.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-85s/"
+                }
+              ],
+              "seriesDescription": "<p>Supreme je mostová pila navržená pro přesné řezání přírodního kamene, žulových desek a mramoru. Řez je prováděn manuálním posuvem motorové jednotky, což umožňuje vysokou kontrolu a přesnost při práci. Je určena pro diamantové kotouče o průměru 300 mm a standardně je vybavena laserovým kitem a koly pro snadnější manipulaci.</p><h3>Pro koho je určena</h3><p>Pro kameníky, stavební firmy a profesionální řemeslníky, kteří pracují s přírodním kamenem a vyžadují přesnost a spolehlivý výkon.</p><h3>Na co se nejvíce hodí</h3><p>Pro přesné řezání žulových, mramorových a dalších kamenných desek při výrobě i montáži, kde je klíčová stabilita a kontrola řezu.</p><h3>Hlavní přednosti</h3><p>Stabilní mostová konstrukce, přesný manuální posuv motorové jednotky, kompatibilita s kotouči 300 mm, integrovaný laser pro kontrolu řezu a kola pro snadnou manipulaci.</p>"
+            },
+            {
+              "id": "class-plus",
+              "name": "CLASS PLUS",
+              "description": "Elektrická řezačka dlaždic s vodním chlazením.",
+              "image": "assets/images/products/class-plus.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "topVariantIndex": 1,
+              "variants": [
+                {
+                  "id": "1300s",
+                  "name": "1300S",
+                  "features": [
+                    "Výkon motoru: 1400 W",
+                    "Průměr kotouče: ø250 mm",
+                    "Max. délka řezu: 1300 mm",
+                    "Max. hloubka řezu (90°): 65 mm",
+                    "Max. hloubka řezu (45°): 53 mm",
+                    "Hmotnost: 58,5 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/class_plus_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-class-plus-1300s/"
+                },
+                {
+                  "id": "1050s",
+                  "name": "1050S",
+                  "features": [
+                    "Výkon motoru: 1400 W",
+                    "Průměr kotouče: ø250 mm",
+                    "Max. délka řezu: 1050 mm",
+                    "Max. hloubka řezu (90°): 65 mm",
+                    "Max. hloubka řezu (45°): 53 mm",
+                    "Hmotnost: 52 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/class_plus_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-class-plus-1050s/"
+                },
+                {
+                  "id": "850s",
+                  "name": "850S",
+                  "features": [
+                    "Výkon motoru: 1400 W",
+                    "Průměr kotouče: ø250 mm",
+                    "Max. délka řezu: 850 mm",
+                    "Max. hloubka řezu (90°): 65 mm",
+                    "Max. hloubka řezu (45°): 53 mm",
+                    "Hmotnost: 48,5 kg",
+                    "Naváděcí laser: ANO",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/class_plus_technick___list_-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-class-plus-850s/"
+                }
+              ],
+              "seriesDescription": "<p>Class Plus je radiální řezačka na dlažbu navržená pro přesné rovné a 45° řezy do porcelánové kameniny, dlaždic a mramoru. Inovativní a moderní design zajišťuje vysokou robustnost a přesnost při práci. Stroj je vybaven výkonným motorem s posuvnou a naklápěcí řeznou hlavou a je určen pro diamantové kotouče o průměru 250 mm. Standardní výbavou je také laserový kit a kola pro snadnou manipulaci.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a stavební firmy, které požadují vysoký výkon, přesnost a spolehlivost při práci s tvrdými obkladovými materiály.</p><h3>Na co se nejvíce hodí</h3><p>Pro náročné rovné i úhlové řezy při pokládce dlažby a obkladů, zejména při práci s tvrdými a silnějšími materiály vyžadujícími vyšší výkon.</p><h3>Hlavní přednosti</h3><p>Výkonný motor, robustní a moderní konstrukce, přesný posuv a naklápění řezné hlavy, větší průměr kotouče 250 mm, integrovaný laser a snadná mobilita díky kolům.</p>"
+            },
+            {
+              "id": "vip",
+              "name": "VIP",
+              "description": "Profesionální portálová řezačka na obklady a dlažby.",
+              "image": "assets/images/products/vip-2125.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "variants": [
+                {
+                  "id": "2125",
+                  "name": "2125",
+                  "features": [
+                    "Výkon motoru: 1400 W",
+                    "Průměr kotouče: ø200 mm",
+                    "Max. délka řezu: 1250 mm",
+                    "Max. hloubka řezu (90°): 40 mm",
+                    "Max. hloubka řezu (45°): 35 mm",
+                    "Hmotnost: 51,5 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: ANO"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/vip_2125_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-vip-2125/"
+                },
+                {
+                  "id": "2110",
+                  "name": "2110",
+                  "features": [
+                    "Výkon motoru: 1000 W",
+                    "Průměr kotouče: ø200 mm",
+                    "Max. délka řezu: 1100 mm",
+                    "Max. hloubka řezu (90°): 40 mm",
+                    "Max. hloubka řezu (45°): 40 mm",
+                    "Hmotnost: 42 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: NE"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/vip_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-vip-2110/"
+                },
+                {
+                  "id": "290",
+                  "name": "290",
+                  "features": [
+                    "Výkon motoru: 1000 W",
+                    "Průměr kotouče: ø200 mm",
+                    "Max. délka řezu: 900 mm",
+                    "Max. hloubka řezu (90°): 40 mm",
+                    "Max. hloubka řezu (45°): 40 mm",
+                    "Hmotnost: 39 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: NE"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/vip_technick___list.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-vip-290/"
+                },
+                {
+                  "id": "260",
+                  "name": "260",
+                  "features": [
+                    "Výkon motoru: 1000 W",
+                    "Průměr kotouče: ø200 mm",
+                    "Max. délka řezu: 600 mm",
+                    "Max. hloubka řezu (90°): 40 mm",
+                    "Max. hloubka řezu (45°): 40 mm",
+                    "Hmotnost: 34 kg",
+                    "Naváděcí laser: NE",
+                    "Podvozek: NE"
+                  ],
+                  "technicalSheet": "https://www.ntcshop.cz/user/related_files/vip_technick___list-1.pdf",
+                  "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-vip-260/"
+                }
+              ],
+              "seriesDescription": "<p>VIP je radiální řezačka na dlažbu určená pro přesné rovné a 45° řezy do keramiky, jednovýpalových dlaždic a porcelánové kameniny. Nabízí robustní a přesnou konstrukci s posuvnou řeznou hlavou a naklápěcím motorem. Je konstruována pro práci s diamantovými kotouči o průměru 200 mm.</p><h3>Pro koho je určena</h3><p>Pro obkladače, stavební firmy a profesionální řemeslníky, kteří vyžadují spolehlivé a přesné řezy při práci s různými typy obkladových materiálů.</p><h3>Hlavní přednosti</h3><p>Pevná a stabilní konstrukce, přesný a plynulý posuv řezné hlavy, možnost úhlového nastavení a vysoký výkon při práci s kotoučem o průměru 200 mm.</p>"
+            },
+            {
+              "id": "dynamic-1200s",
+              "name": "DYNAMIC 1200S",
+              "description": "Portálová pila s řemenovým převodem pro řezání cihel, kamene, betonových bloků, žuly, mramoru a gresu.",
+              "image": "assets/images/products/dynamic-1200s.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Výkon motoru: 2200 W",
+                "Průměr kotouče: ø300/ø250 mm",
+                "Max. délka řezu: 1200 mm",
+                "Max. hloubka řezu (90°): 110 mm",
+                "Max. hloubka řezu (45°): 65 mm",
+                "Hmotnost: 85 kg",
+                "Naváděcí laser: ANO",
+                "Podvozek: ANO"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/dynamic.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-s-remenovym-prevodem-battipav-dynamic-1200s/",
+              "seriesDescription": "<p>Dynamic je mostová pila vybavená neklouzavým hnacím řemenem POLY V, navržená pro profesionální využití ve stavebnictví. Nový design s moderními technickými inovacemi v kombinaci s robustní a přesnou konstrukcí umožňuje efektivní řezání cihel, kamene, betonových tvárnic, žuly, mramoru i kameniny. Řezy lze provádět manuálním posuvem nebo naklápěním motorové jednotky. Je určena pro diamantové kotouče o průměru 250 mm a 300 mm a standardně je vybavena laserovým kitem a koly.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy a profesionální řemeslníky, kteří vyžadují výkonnou, přesnou a flexibilní pilu pro široké spektrum stavebních materiálů.</p><h3>Na co se nejvíce hodí</h3><p>Pro přesné rovné i úhlové řezy při práci s běžnými i tvrdšími stavebními materiály, zejména tam, kde je důležitá spolehlivost pohonu a kontrola nad řezem.</p><h3>Hlavní přednosti</h3><p>Neklouzavý řemen POLY V pro spolehlivý přenos výkonu, robustní konstrukce, možnost manuálního posuvu i naklápění motorové jednotky, kompatibilita s kotouči 250 a 300 mm, integrovaný laser a kola pro snadnou manipulaci.</p>"
+            }
+          ]
+        },
+        {
+          "id": "portal-large-format-saws",
+          "name": "Pily portálové na velkoformátové obklady",
+          "description": "Pily pro velkoformátové obklady a dlažbu.",
+          "products": [
+            {
+              "id": "extra-superlunga-3300s",
+              "name": "EXTRA SUPERLUNGA 3300S",
+              "description": "Portálová pila na velkoformátové obklady a dlažbu.",
+              "image": "assets/images/products/extra-superlunga-3300s.png",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Výkon motoru: 1400 W",
+                "Průměr kotouče: ø200 mm",
+                "Max. délka řezu: 3300 mm",
+                "Max. hloubka řezu (90°): 40 mm",
+                "Max. hloubka řezu (45°): 35 mm",
+                "Hmotnost: 181 kg",
+                "Naváděcí laser: ANO",
+                "Podvozek: ANO"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/extra_3300s_superlunga.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-obklady-battipav-extra-superlunga-3300s/",
+              "seriesDescription": "<p>Extra 3300S Superlunga je mostová pila na dlažbu určená pro přesné rovné a 45° řezy do kameniny. Nový profil navržený s využitím pokročilých technologií zajišťuje vysokou odolnost a přesnost při práci. Stroj je vybaven výkonným motorem s posuvnou a naklápěcí řeznou hlavou a je určen pro diamantové kotouče o průměru 200 mm. Standardní výbavou je laserový kit a kola pro snadnou manipulaci.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a stavební firmy, kteří vyžadují přesnou a stabilní pilu pro práci s kameninou a velkoformátovou dlažbou.</p><h3>Na co se nejvíce hodí</h3><p>Pro dlouhé a přesné rovné i pokosové řezy při pokládce dlažby, zejména u náročnějších realizací vyžadujících maximální stabilitu a přesnost.</p><h3>Hlavní přednosti</h3><p>Vysoce odolný profil konstrukce, výkonný motor, přesný posuv a naklápění řezné hlavy, kompatibilita s kotoučem 200 mm, integrovaný laser a kola pro snadnou mobilitu.</p>"
+            },
+            {
+              "id": "supreme-260s",
+              "name": "SUPREME 260S",
+              "description": "Portálová řezací pila pro přírodní kámen, žulu a mramor. Laserové zaměření, nastavitelný úhel řezu 0-45°.",
+              "image": "assets/images/products/supreme-260s.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Výkon motoru: 2200 W",
+                "Průměr kotouče: ø300 mm",
+                "Max. délka řezu: 2600 mm",
+                "Max. hloubka řezu (90°): 85 mm",
+                "Max. hloubka řezu (45°): 60 mm",
+                "Hmotnost: 151 kg",
+                "Naváděcí laser: ANO",
+                "Podvozek: ANO"
+              ],
+              "technicalSheet": "https://www.ntcshop.cz/user/related_files/supreme-4.pdf",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-portalova-na-kameninu-battipav-supreme-260s/",
+              "seriesDescription": "<p>Supreme je mostová pila navržená pro přesné řezání přírodního kamene, žulových desek a mramoru. Řez je prováděn manuálním posuvem motorové jednotky, což umožňuje vysokou kontrolu a přesnost při práci. Je určena pro diamantové kotouče o průměru 300 mm a standardně je vybavena laserovým kitem a koly pro snadnější manipulaci.</p><h3>Pro koho je určena</h3><p>Pro kameníky, stavební firmy a profesionální řemeslníky, kteří pracují s přírodním kamenem a vyžadují přesnost a spolehlivý výkon.</p><h3>Na co se nejvíce hodí</h3><p>Pro přesné řezání žulových, mramorových a dalších kamenných desek při výrobě i montáži, kde je klíčová stabilita a kontrola řezu.</p><h3>Hlavní přednosti</h3><p>Stabilní mostová konstrukce, přesný manuální posuv motorové jednotky, kompatibilita s kotouči 300 mm, integrovaný laser pro kontrolu řezu a kola pro snadnou manipulaci.</p>"
+            }
+          ]
+        },
+        {
+          "id": "table-saws",
+          "name": "Pily kompaktní na obklady",
+          "description": "Kompaktní pily pro řezání keramických obkladů a dlažby.",
+          "products": [
+            {
+              "id": "queen-180",
+              "name": "QUEEN 180",
+              "description": "Kompaktní stolová pila pro keramické obklady, dlažby a gres. Snadná údržba a přeprava.",
+              "image": "assets/images/products/queen-180.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Výkon motoru: 550 W",
+                "Průměr kotouče: ø180 mm",
+                "Max. hloubka řezu: 35 mm",
+                "Max. délka řezu: Neomezená",
+                "Objem vodní nádrže: 5 L",
+                "Hmotnost: 12 kg"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/zbozi/pila-kompaktni-na-obklady-battipav-queen-180/",
+              "seriesDescription": "<p>Queen 180 je profesionální radiální řezačka na dlažbu určená pro přesné rovné a 45° úhlové řezy do porcelánové kameniny, dlaždic a mramoru. Nabízí robustní a přesnou konstrukci s posuvnou řeznou hlavou a naklápěcím motorem. Je navržena pro práci s diamantovými kotouči o průměru 180 mm.</p><h3>Pro koho je určena</h3><p>Pro obkladače, stavební firmy a řemeslníky, kteří požadují přesné a spolehlivé řezy při každodenní práci s tvrdými obkladovými materiály.</p><h3>Hlavní přednosti</h3><p>Vysoká přesnost řezu, stabilní a odolná konstrukce, plynulý posuv řezné hlavy a možnost úhlového nastavení pro maximální flexibilitu při práci.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water-pumps",
+      "name": "Vodní čerpadla",
+      "description": "Profesionální ponorná čerpadla pro recirkulaci vody v řezacích strojích.",
+      "image": "assets/images/products/water-pumps.jpg",
+      "products": [
+        {
+          "id": "p3",
+          "name": "P3",
+          "description": "Výkonné ponorné čerpadlo pro recirkulaci vody v řezacích strojích na cihly a dlažbu.",
+          "image": "assets/images/products/P3.jpg",
+          "brochure": "",
+          "topProduct": true,
+          "features": [
+            "Výkon: 60 W",
+            "Napájení: 230 V / 50 Hz",
+            "Průtok: 1560 l/h (26 l/min)",
+            "Krytí: IP X8",
+            "Certifikace TÜV/GS",
+            "Dvojitá samomazná hlava"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+          "seriesDescription": "<p>Profesionální ponorná čerpadla určená pro recirkulaci vody v elektrických pilách. Řada zahrnuje čtyři modely s různým průtokem a výkonem, aby pokryla potřeby různých typů strojů a pracovních podmínek. Na vyžádání jsou k dispozici také varianty pro speciální napětí.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy, kameníky a profesionální uživatele elektrických pil, kteří požadují spolehlivý a efektivní systém chlazení kotouče.</p><h3>Na co se nejvíce hodí</h3><p>Pro zajištění nepřetržité recirkulace vody při řezání, optimalizaci chlazení diamantového kotouče a prodloužení životnosti stroje.</p><h3>Hlavní přednosti</h3><p>Různé varianty výkonu a průtoku, spolehlivý provoz, kompatibilita s elektrickými pilami a možnost dodání ve speciálních napětích dle požadavku.</p>"
+        },
+        {
+          "id": "p2",
+          "name": "P2",
+          "description": "Ponorné čerpadlo střední výkonnosti pro řezací stroje.",
+          "image": "assets/images/products/P2.jpg",
+          "brochure": "",
+          "topProduct": true,
+          "features": [
+            "Výkon: 55 W",
+            "Napájení: 230 V / 50 Hz",
+            "Průtok: 996 l/h (16,6 l/min)",
+            "Krytí: IP X8",
+            "Certifikace TÜV/GS",
+            "Dvojitá samomazná hlava"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+          "seriesDescription": "<p>Profesionální ponorná čerpadla určená pro recirkulaci vody v elektrických pilách. Řada zahrnuje čtyři modely s různým průtokem a výkonem, aby pokryla potřeby různých typů strojů a pracovních podmínek. Na vyžádání jsou k dispozici také varianty pro speciální napětí.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy, kameníky a profesionální uživatele elektrických pil, kteří požadují spolehlivý a efektivní systém chlazení kotouče.</p><h3>Na co se nejvíce hodí</h3><p>Pro zajištění nepřetržité recirkulace vody při řezání, optimalizaci chlazení diamantového kotouče a prodloužení životnosti stroje.</p><h3>Hlavní přednosti</h3><p>Různé varianty výkonu a průtoku, spolehlivý provoz, kompatibilita s elektrickými pilami a možnost dodání ve speciálních napětích dle požadavku.</p>"
+        },
+        {
+          "id": "p1",
+          "name": "P1",
+          "description": "Kompaktní ponorné čerpadlo pro menší řezací stroje.",
+          "image": "assets/images/products/P1.jpg",
+          "brochure": "",
+          "topProduct": true,
+          "features": [
+            "Výkon: 50 W",
+            "Napájení: 230 V / 50 Hz",
+            "Průtok: 846 l/h (14,1 l/min)",
+            "Krytí: IP X8",
+            "Certifikace TÜV/GS",
+            "Dvojitá samomazná hlava"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+          "seriesDescription": "<p>Profesionální ponorná čerpadla určená pro recirkulaci vody v elektrických pilách. Řada zahrnuje čtyři modely s různým průtokem a výkonem, aby pokryla potřeby různých typů strojů a pracovních podmínek. Na vyžádání jsou k dispozici také varianty pro speciální napětí.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy, kameníky a profesionální uživatele elektrických pil, kteří požadují spolehlivý a efektivní systém chlazení kotouče.</p><h3>Na co se nejvíce hodí</h3><p>Pro zajištění nepřetržité recirkulace vody při řezání, optimalizaci chlazení diamantového kotouče a prodloužení životnosti stroje.</p><h3>Hlavní přednosti</h3><p>Různé varianty výkonu a průtoku, spolehlivý provoz, kompatibilita s elektrickými pilami a možnost dodání ve speciálních napětích dle požadavku.</p>"
+        },
+        {
+          "id": "p0",
+          "name": "P0",
+          "description": "Základní ponorné čerpadlo pro menší aplikace.",
+          "image": "assets/images/products/P0.jpg",
+          "brochure": "",
+          "topProduct": true,
+          "features": [
+            "Výkon: 35 W",
+            "Napájení: 230 V / 50 Hz",
+            "Průtok: 696 l/h (11,6 l/min)",
+            "Krytí: IP X8",
+            "Certifikace TÜV/GS",
+            "Dvojitá samomazná hlava"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+          "seriesDescription": "<p>Profesionální ponorná čerpadla určená pro recirkulaci vody v elektrických pilách. Řada zahrnuje čtyři modely s různým průtokem a výkonem, aby pokryla potřeby různých typů strojů a pracovních podmínek. Na vyžádání jsou k dispozici také varianty pro speciální napětí.</p><h3>Pro koho je určena</h3><p>Pro stavební firmy, kameníky a profesionální uživatele elektrických pil, kteří požadují spolehlivý a efektivní systém chlazení kotouče.</p><h3>Na co se nejvíce hodí</h3><p>Pro zajištění nepřetržité recirkulace vody při řezání, optimalizaci chlazení diamantového kotouče a prodloužení životnosti stroje.</p><h3>Hlavní přednosti</h3><p>Různé varianty výkonu a průtoku, spolehlivý provoz, kompatibilita s elektrickými pilami a možnost dodání ve speciálních napětích dle požadavku.</p>"
+        }
+      ]
+    }
+  ]
+}

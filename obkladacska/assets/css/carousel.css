@@ -1,0 +1,263 @@
+/* Carousel Styles - Zjednodušeno */
+
+.hero-carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+}
+
+/* Všechny slides jsou absolutně pozicované přes sebe */
+.carousel__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+}
+
+/* Pouze aktivní slide je viditelný */
+.carousel__slide--active {
+    opacity: 1;
+    z-index: 2;
+}
+
+/* Specifické pozadí pro každý slide BEZ overlay */
+.carousel__slide--1 {
+    background: url('../images/battipav/slide1-bg.jpg') center center / cover no-repeat;
+}
+
+.carousel__slide--2 {
+    background: url('../images/battipav/slide2-bg.jpg') center center / cover no-repeat;
+}
+
+.carousel__slide--3 {
+    background: url('../images/battipav/slide3-bg.jpg') center center / cover no-repeat;
+}
+
+/* Badge (štítek) */
+.carousel__badge {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Obsah slidu */
+.carousel__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding: var(--spacing-xl) 0;
+    position: relative;
+}
+
+.carousel__title {
+    font-size: 56px;
+    color: white;
+    margin-bottom: var(--spacing-md);
+    font-weight: 800;
+    text-shadow:
+        3px 3px 20px rgba(0, 0, 0, 0.9),
+        0 0 40px rgba(0, 0, 0, 0.8),
+        0 0 10px rgba(0, 0, 0, 1);
+    line-height: 1.1;
+}
+
+.carousel__subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: var(--spacing-lg);
+    color: rgba(255, 255, 255, 0.98);
+    text-shadow:
+        2px 2px 15px rgba(0, 0, 0, 0.9),
+        0 0 30px rgba(0, 0, 0, 0.8),
+        0 0 8px rgba(0, 0, 0, 1);
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel__cta {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: white;
+    color: var(--color-primary);
+    font-weight: 700;
+    border-radius: 50px;
+    transition: all var(--transition-fast);
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.carousel__cta:hover {
+    transform: translateX(-50%) translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    color: var(--color-primary-dark);
+    background-color: #fff;
+}
+
+/* Navigation Arrows */
+.carousel__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel__arrow:hover {
+    transform: translateY(-50%) scale(1.2);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.carousel__arrow span {
+    font-size: 48px;
+    line-height: 1;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.carousel__arrow--prev {
+    left: 30px;
+}
+
+.carousel__arrow--next {
+    right: 30px;
+}
+
+/* Dots Navigation */
+.carousel__dots {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+    z-index: 10;
+}
+
+.carousel__dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.carousel__dot:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    transform: scale(1.2);
+}
+
+.carousel__dot--active {
+    background-color: white;
+    border-color: white;
+    transform: scale(1.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .carousel {
+        height: 500px;
+    }
+
+    .carousel__title {
+        font-size: 36px;
+    }
+
+    .carousel__subtitle {
+        font-size: 16px;
+    }
+
+    .carousel__badge {
+        font-size: 12px;
+        padding: 6px 16px;
+    }
+
+    .carousel__cta {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    .carousel__arrow span {
+        font-size: 40px;
+    }
+
+    .carousel__arrow--prev {
+        left: 15px;
+    }
+
+    .carousel__arrow--next {
+        right: 15px;
+    }
+
+    .carousel__dots {
+        bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel {
+        height: 400px;
+    }
+
+    .carousel__title {
+        font-size: 28px;
+    }
+
+    .carousel__subtitle {
+        font-size: 18px;
+    }
+
+    .carousel__arrow span {
+        font-size: 32px;
+    }
+
+    .carousel__arrow--prev {
+        left: 10px;
+    }
+
+    .carousel__arrow--next {
+        right: 10px;
+    }
+}

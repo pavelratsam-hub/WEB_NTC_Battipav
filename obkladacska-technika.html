@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oficiální dovozce profesionálních strojů BATTIPAV do ČR">
+    <title>Obkladačská technika | BATTIPAV | NTC STAVEBNÍ TECHNIKA</title>
+
+    <!-- Critical CSS - okamžité skrytí obsahu během načítání -->
+    <style>
+        .config-loading { opacity: 0; }
+        body { transition: opacity 0.15s ease-in; }
+    </style>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
+
+    <!-- Scripts -->
+    <script src="assets/js/config-loader.js"></script>
+    <script src="assets/js/carousel-loader.js" defer></script>
+    <script src="assets/js/carousel.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body class="config-loading">
+    <!-- Header -->
+    <header class="header">
+        <!-- Main Header -->
+        <div class="header__main">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img id="main-logo" src="assets/images/battipav/logo.svg" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="header__info">
+                        <div class="header__official"><span id="brand-name-header">BATTIPAV</span> Česká republika</div>
+                        <div class="header__distributor" id="distributor-name">NTC STAVEBNÍ TECHNIKA spol. s r.o.</div>
+                        <div class="header__contact">
+                            <a href="tel:" id="header-phone"></a>
+                            <span style="color: #2c2c2c; margin: 0 4px;">|</span>
+                            <a href="mailto:" id="header-email"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__controls">
+                    <button class="nav__toggle" id="nav-toggle">
+                        ☰ Menu
+                    </button>
+                    <button class="nav__header-toggle" id="header-toggle">▲</button>
+                </div>
+                <ul class="nav__list" id="nav-list">
+                    <!-- Navigation will be loaded from config -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Carousel Section -->
+    <section class="hero-carousel">
+        <div class="carousel">
+            <!-- Slide 1 - BATTIPAV Brand -->
+            <div class="carousel__slide carousel__slide--active carousel__slide--1">
+                <div class="carousel__content">
+                    <div class="container">
+                        <div class="carousel__badge">🇮🇹 Made in Italy</div>
+                        <h1 class="carousel__title">
+                            <span id="hero-brand-name">BATTIPAV</span>
+                        </h1>
+                        <p class="carousel__subtitle">
+                            Profesionální řezací stroje a nářadí<br>
+                            pro zpracování keramiky, kamene a betonu
+                        </p>
+                        <a href="products.html" class="carousel__cta">Zobrazit produkty</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 - PERFORMANTE -->
+            <div class="carousel__slide carousel__slide--2">
+                <div class="carousel__content">
+                    <div class="container">
+                        <a href="manual-cutters.html#performante" class="carousel__cta">PERFORMANTE</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 - CARGO -->
+            <div class="carousel__slide carousel__slide--3">
+                <div class="carousel__content">
+                    <div class="container">
+                        <a href="large-format-tools.html#cargo" class="carousel__cta">CARGO</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <button class="carousel__arrow carousel__arrow--prev" aria-label="Předchozí slide">
+                <span>‹</span>
+            </button>
+            <button class="carousel__arrow carousel__arrow--next" aria-label="Další slide">
+                <span>›</span>
+            </button>
+
+            <!-- Dots Navigation -->
+            <div class="carousel__dots">
+                <button class="carousel__dot carousel__dot--active" data-slide="0" aria-label="Slide 1"></button>
+                <button class="carousel__dot" data-slide="1" aria-label="Slide 2"></button>
+                <button class="carousel__dot" data-slide="2" aria-label="Slide 3"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- O značce Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">O značce <span id="about-brand-name">BATTIPAV</span></h2>
+                <p class="section__subtitle">Italská kvalita a preciznost</p>
+            </div>
+
+            <div class="about__content">
+                <div class="about__text">
+                    <p id="brand-description">
+                        Battipav patří mezi špičku ve stavebním průmyslu a zaměřuje se na vývoj a výrobu profesionálních strojů a zařízení pro každodenní nasazení v náročných podmínkách. Spojuje dlouholeté know-how, precizní zpracování a vášeň pro techniku, která skutečně funguje.
+                    </p>
+                    <p>
+                        Inovace, neustálý vývoj a odvaha posouvat hranice jsou základem DNA značky Battipav. Ambicí společnosti je být silným a spolehlivým partnerem pro stavební profesionály po celém světě a přinášet jim špičková technická řešení se 100% výrobou v Itálii.
+                    </p>
+                    <a href="about.html" class="btn btn--primary">Více o značce</a>
+                </div>
+                <div class="about__image-wrapper">
+                    <img src="assets/images/battipav/factory.jpg" alt="Battipav výroba" class="about__image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kategorie produktů -->
+    <section class="section section--gray">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Kategorie produktů</h2>
+                <p class="section__subtitle">Kompletní nabídka profesionálních strojů a nářadí</p>
+            </div>
+
+            <div class="grid grid--4" id="categories-grid">
+                <!-- Categories will be loaded from products.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Proč Battipav -->
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Proč <span id="why-brand-name">BATTIPAV</span>?</h2>
+            </div>
+
+            <div class="grid grid--3">
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">Made in Italy</h3>
+                        <p class="card__description">
+                            Všechny stroje jsou navrženy a vyrobeny v Itálii s použitím
+                            nejmodernějších technologií a materiálů.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">Profesionální kvalita</h3>
+                        <p class="card__description">
+                            Stroje určené pro profesionály s vysokými nároky na přesnost,
+                            výkon a spolehlivost.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card--accent">
+                    <div class="card__content">
+                        <h3 class="card__title">Kompletní servis</h3>
+                        <p class="card__description">
+                            Zajišťujeme kompletní servis, náhradní díly a technickou podporu
+                            pro všechny dodané stroje.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section--gray">
+        <div class="container" style="text-align: center;">
+            <h2 class="section__title">Máte zájem o naše produkty?</h2>
+            <p class="section__subtitle" style="margin-bottom: var(--spacing-lg);">
+                Kontaktujte nás pro více informací, cenovou nabídku nebo osobní předvedení strojů.
+            </p>
+            <a href="contact.html" class="btn btn--primary" style="margin-right: var(--spacing-sm);">Kontaktujte nás</a>
+            <a href="catalogue.html" class="btn btn--outline">Stáhnout katalog</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__main">
+                <div class="grid grid--4">
+                    <div class="footer__col">
+                        <h3 class="footer__title" id="footer-brand-name">BATTIPAV</h3>
+                        <p id="footer-brand-description"></p>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Produkty</h3>
+                        <a href="electric-saws.html" class="footer__link">Elektrické pily</a>
+                        <a href="manual-cutters.html" class="footer__link">Ruční řezačky</a>
+                        <a href="large-format-tools.html" class="footer__link">Velkoformátové nástroje</a>
+                        <a href="mixers.html" class="footer__link">Mixéry</a>
+                        <a href="floor-cleaners.html" class="footer__link">Čističky podlah</a>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Informace</h3>
+                        <a href="about.html" class="footer__link">O společnosti</a>
+                        <a href="catalogue.html" class="footer__link">Katalog</a>
+                        <a href="contact.html" class="footer__link">Kontakt</a>
+                    </div>
+
+                    <div class="footer__col">
+                        <h3 class="footer__title">Kontakt</h3>
+                        <p id="footer-distributor-name"></p>
+                        <p id="footer-address"></p>
+                        <p id="footer-phone"></p>
+                        <p id="footer-email"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; <span id="current-year"></span> <span id="footer-copyright"></span>. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

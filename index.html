@@ -3,255 +3,330 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Oficiální dovozce profesionálních strojů BATTIPAV do ČR">
-    <title>BATTIPAV | NTC STAVEBNÍ TECHNIKA</title>
+    <meta name="description" content="Oficiální stránky BATTIPAV Česká republika – NTC STAVEBNÍ TECHNIKA spol. s r.o. Vyberte zaměření.">
+    <title>BATTIPAV | NTC STAVEBNÍ TECHNIKA – Výběr divize</title>
 
-    <!-- Critical CSS - okamžité skrytí obsahu během načítání -->
-    <style>
-        .config-loading { opacity: 0; }
-        body { transition: opacity 0.15s ease-in; }
-    </style>
-
-    <!-- Styles -->
     <link rel="stylesheet" href="assets/css/variables.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/carousel.css">
 
-    <!-- Scripts -->
-    <script src="assets/js/config-loader.js"></script>
-    <script src="assets/js/carousel-loader.js" defer></script>
-    <script src="assets/js/carousel.js" defer></script>
-    <script src="assets/js/main.js" defer></script>
+    <style>
+        /* ======================================
+           HUB PAGE – Rozcestník divizí
+           Standalone stránka, nezávislá na main.css
+           ====================================== */
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #181818;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ---- HEADER ---- */
+        .hub-header {
+            background-color: #ffffff;
+            border-bottom: 3px solid #ea5b0c;
+            padding: 18px 0;
+            flex-shrink: 0;
+        }
+
+        .hub-header__inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .hub-header__logo img {
+            height: 90px;
+            width: auto;
+            display: block;
+        }
+
+        /* ---- WELCOME ---- */
+        .hub-welcome {
+            text-align: center;
+            padding: 52px 20px 28px;
+        }
+
+        .hub-welcome__title {
+            font-size: 38px;
+            font-weight: 700;
+            line-height: 1.2;
+            color: #ffffff;
+            margin-bottom: 14px;
+        }
+
+        .hub-welcome__title span {
+            color: #ea5b0c;
+        }
+
+        .hub-welcome__text {
+            font-size: 16px;
+            color: #999;
+            max-width: 560px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .hub-welcome__divider {
+            width: 56px;
+            height: 3px;
+            background-color: #ea5b0c;
+            margin: 28px auto 0;
+        }
+
+        /* ---- CHOOSE LABEL ---- */
+        .hub-choose {
+            text-align: center;
+            padding: 28px 20px 16px;
+        }
+
+        .hub-choose__label {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #555;
+            font-weight: 600;
+        }
+
+        /* ---- MAIN ---- */
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ---- CARDS ---- */
+        .hub-cards {
+            display: flex;
+            gap: 24px;
+            padding: 0 20px 52px;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            flex: 1;
+            align-items: stretch;
+        }
+
+        .hub-card {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 360px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hub-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6);
+        }
+
+        .hub-card__bg {
+            position: absolute;
+            inset: 0;
+            background-size: cover;
+            background-position: center;
+            transition: transform 0.45s ease;
+        }
+
+        .hub-card:hover .hub-card__bg {
+            transform: scale(1.05);
+        }
+
+        .hub-card__overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(234, 91, 12, 0.55);
+            transition: background 0.3s ease;
+        }
+
+        .hub-card:hover .hub-card__overlay {
+            background: rgba(234, 91, 12, 0.70);
+        }
+
+        .hub-card__body {
+            position: relative;
+            z-index: 1;
+            padding: 32px 30px;
+            text-align: center;
+        }
+
+        .hub-card__title {
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 1.15;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        /* ---- FOOTER ---- */
+        .hub-footer {
+            background-color: #111;
+            border-top: 1px solid #222;
+            padding: 18px 40px;
+            text-align: center;
+            color: #555;
+            font-size: 13px;
+            flex-shrink: 0;
+        }
+
+        .hub-footer a {
+            color: #777;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .hub-footer a:hover {
+            color: #ea5b0c;
+        }
+
+        .hub-footer__sep {
+            margin: 0 10px;
+            color: #333;
+        }
+
+        /* ---- RESPONSIVE ---- */
+        @media (max-width: 900px) {
+            .hub-cards {
+                padding: 0 24px 40px;
+                gap: 16px;
+            }
+
+            .hub-card {
+                min-height: 320px;
+            }
+
+            .hub-card__title {
+                font-size: 30px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .hub-header {
+                padding: 14px 20px;
+                flex-wrap: wrap;
+                gap: 12px;
+            }
+
+            .hub-header__divider {
+                display: none;
+            }
+
+            .hub-welcome {
+                padding: 36px 20px 20px;
+            }
+
+            .hub-welcome__title {
+                font-size: 26px;
+            }
+
+            .hub-cards {
+                flex-direction: column;
+                padding: 0 20px 32px;
+            }
+
+            .hub-card {
+                min-height: 280px;
+            }
+
+            .hub-footer {
+                padding: 16px 20px;
+            }
+        }
+    </style>
 </head>
-<body class="config-loading">
+<body>
+
     <!-- Header -->
-    <header class="header">
-        <!-- Main Header -->
-        <div class="header__main">
-            <div class="container">
-                <div class="header__content">
-                    <div class="header__logo">
-                        <a href="index.html">
-                            <img id="main-logo" src="assets/images/battipav/logo.svg" alt="Logo">
-                        </a>
-                    </div>
-                    <div class="header__info">
-                        <div class="header__official"><span id="brand-name-header">Battipav</span> Česká republika</div>
-                        <div class="header__distributor" id="distributor-name">NTC STAVEBNÍ TECHNIKA spol. s r.o.</div>
-                        <div class="header__contact">
-                            <a href="tel:" id="header-phone"></a>
-                            <span style="color: var(--color-text-light); margin: 0 4px;">|</span>
-                            <a href="mailto:" id="header-email"></a>
-                        </div>
-                    </div>
-                </div>
+    <header class="hub-header">
+        <div class="hub-header__inner">
+            <div class="hub-header__logo">
+                <img src="assets/images/battipav/Battipav logo.png" alt="BATTIPAV">
             </div>
         </div>
-
-        <!-- Navigation -->
-        <nav class="nav">
-            <div class="container">
-                <div class="nav__controls">
-                    <button class="nav__toggle" id="nav-toggle">
-                        ☰ Menu
-                    </button>
-                    <button class="nav__header-toggle" id="header-toggle">▲</button>
-                </div>
-                <ul class="nav__list" id="nav-list">
-                    <!-- Navigation will be loaded from config -->
-                </ul>
-            </div>
-        </nav>
     </header>
 
-    <!-- Hero Carousel Section -->
-    <section class="hero-carousel">
-        <div class="carousel">
-            <!-- Slide 1 - BATTIPAV Brand -->
-            <div class="carousel__slide carousel__slide--active carousel__slide--1">
-                <div class="carousel__content">
-                    <div class="container">
-                        <div class="carousel__badge">🇮🇹 Made in Italy</div>
-                        <h1 class="carousel__title">
-                            <span id="hero-brand-name">BATTIPAV</span>
-                        </h1>
-                        <p class="carousel__subtitle">
-                            Profesionální řezací stroje a nářadí<br>
-                            pro zpracování keramiky, kamene a betonu
-                        </p>
-                        <a href="products.html" class="carousel__cta">Zobrazit produkty</a>
-                    </div>
+    <!-- Welcome section -->
+    <div class="hub-welcome">
+        <h1 class="hub-welcome__title">
+            Vítejte na oficiálních stránkách<br>
+            <span>BATTIPAV</span> Česká republika
+        </h1>
+        <div class="hub-welcome__divider"></div>
+    </div>
+
+    <!-- Division label -->
+    <div class="hub-choose">
+        <p class="hub-choose__label">Vyberte zaměření</p>
+    </div>
+
+    <!-- Division cards -->
+    <main>
+        <div class="hub-cards">
+
+            <!-- Karta 1: Stavební technika -->
+            <!-- PLACEHOLDER: Pozadí nahradit vlastním obrázkem stavební techniky -->
+            <a href="stavebni/" class="hub-card">
+                <div class="hub-card__bg"
+                     style="background-image: url('assets/images/battipav/battipav-production.jpg');"></div>
+                <div class="hub-card__overlay"></div>
+                <div class="hub-card__body">
+                    <h2 class="hub-card__title">Stavební technika</h2>
                 </div>
-            </div>
+            </a>
 
-            <!-- Slide 2 - PERFORMANTE -->
-            <div class="carousel__slide carousel__slide--2">
-                <div class="carousel__content">
-                    <div class="container">
-                        <a href="manual-cutters.html#performante" class="carousel__cta">PERFORMANTE</a>
-                    </div>
+            <!-- Karta 2: Obkladačská technika -->
+            <!-- PLACEHOLDER: Pozadí nahradit vlastním obrázkem obkladačské techniky -->
+            <a href="obkladacska/" class="hub-card">
+                <div class="hub-card__bg"
+                     style="background-image: url('assets/images/battipav/factory.jpg');"></div>
+                <div class="hub-card__overlay"></div>
+                <div class="hub-card__body">
+                    <h2 class="hub-card__title">Obkladačská technika</h2>
                 </div>
-            </div>
+            </a>
 
-            <!-- Slide 3 - CARGO -->
-            <div class="carousel__slide carousel__slide--3">
-                <div class="carousel__content">
-                    <div class="container">
-                        <a href="large-format-tools.html#cargo" class="carousel__cta">CARGO</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Navigation Arrows -->
-            <button class="carousel__arrow carousel__arrow--prev" aria-label="Předchozí slide">
-                <span>‹</span>
-            </button>
-            <button class="carousel__arrow carousel__arrow--next" aria-label="Další slide">
-                <span>›</span>
-            </button>
-
-            <!-- Dots Navigation -->
-            <div class="carousel__dots">
-                <button class="carousel__dot carousel__dot--active" data-slide="0" aria-label="Slide 1"></button>
-                <button class="carousel__dot" data-slide="1" aria-label="Slide 2"></button>
-                <button class="carousel__dot" data-slide="2" aria-label="Slide 3"></button>
-            </div>
         </div>
-    </section>
-
-    <!-- O značce Section -->
-    <section class="section">
-        <div class="container">
-            <div class="section__header">
-                <h2 class="section__title">O značce <span id="about-brand-name">BATTIPAV</span></h2>
-                <p class="section__subtitle">Italská kvalita a preciznost</p>
-            </div>
-
-            <div class="about__content">
-                <div class="about__text">
-                    <p id="brand-description">
-                        Battipav patří mezi špičku ve stavebním průmyslu a zaměřuje se na vývoj a výrobu profesionálních strojů a zařízení pro každodenní nasazení v náročných podmínkách. Spojuje dlouholeté know-how, precizní zpracování a vášeň pro techniku, která skutečně funguje.
-                    </p>
-                    <p>
-                        Inovace, neustálý vývoj a odvaha posouvat hranice jsou základem DNA značky Battipav. Ambicí společnosti je být silným a spolehlivým partnerem pro stavební profesionály po celém světě a přinášet jim špičková technická řešení se 100% výrobou v Itálii.
-                    </p>
-                    <a href="about.html" class="btn btn--primary">Více o značce</a>
-                </div>
-                <div class="about__image-wrapper">
-                    <img src="assets/images/battipav/factory.jpg" alt="Battipav výroba" class="about__image">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Kategorie produktů -->
-    <section class="section section--gray">
-        <div class="container">
-            <div class="section__header">
-                <h2 class="section__title">Kategorie produktů</h2>
-                <p class="section__subtitle">Kompletní nabídka profesionálních strojů a nářadí</p>
-            </div>
-
-            <div class="grid grid--4" id="categories-grid">
-                <!-- Categories will be loaded from products.json -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Proč Battipav -->
-    <section class="section">
-        <div class="container">
-            <div class="section__header">
-                <h2 class="section__title">Proč <span id="why-brand-name">BATTIPAV</span>?</h2>
-            </div>
-
-            <div class="grid grid--3">
-                <div class="card card--accent">
-                    <div class="card__content">
-                        <h3 class="card__title">Made in Italy</h3>
-                        <p class="card__description">
-                            Všechny stroje jsou navrženy a vyrobeny v Itálii s použitím
-                            nejmodernějších technologií a materiálů.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card card--accent">
-                    <div class="card__content">
-                        <h3 class="card__title">Profesionální kvalita</h3>
-                        <p class="card__description">
-                            Stroje určené pro profesionály s vysokými nároky na přesnost,
-                            výkon a spolehlivost.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card card--accent">
-                    <div class="card__content">
-                        <h3 class="card__title">Kompletní servis</h3>
-                        <p class="card__description">
-                            Zajišťujeme kompletní servis, náhradní díly a technickou podporu
-                            pro všechny dodané stroje.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="section section--gray">
-        <div class="container" style="text-align: center;">
-            <h2 class="section__title">Máte zájem o naše produkty?</h2>
-            <p class="section__subtitle" style="margin-bottom: var(--spacing-lg);">
-                Kontaktujte nás pro více informací, cenovou nabídku nebo osobní předvedení strojů.
-            </p>
-            <a href="contact.html" class="btn btn--primary" style="margin-right: var(--spacing-sm);">Kontaktujte nás</a>
-            <a href="catalogue.html" class="btn btn--outline">Stáhnout katalog</a>
-        </div>
-    </section>
+    </main>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__main">
-                <div class="grid grid--4">
-                    <div class="footer__col">
-                        <h3 class="footer__title" id="footer-brand-name">BATTIPAV</h3>
-                        <p id="footer-brand-description"></p>
-                    </div>
-
-                    <div class="footer__col">
-                        <h3 class="footer__title">Produkty</h3>
-                        <a href="electric-saws.html" class="footer__link">Elektrické pily</a>
-                        <a href="manual-cutters.html" class="footer__link">Ruční řezačky</a>
-                        <a href="large-format-tools.html" class="footer__link">Velkoformátové nástroje</a>
-                        <a href="mixers.html" class="footer__link">Mixéry</a>
-                        <a href="floor-cleaners.html" class="footer__link">Čističky podlah</a>
-                    </div>
-
-                    <div class="footer__col">
-                        <h3 class="footer__title">Informace</h3>
-                        <a href="about.html" class="footer__link">O společnosti</a>
-                        <a href="catalogue.html" class="footer__link">Katalog</a>
-                        <a href="contact.html" class="footer__link">Kontakt</a>
-                    </div>
-
-                    <div class="footer__col">
-                        <h3 class="footer__title">Kontakt</h3>
-                        <p id="footer-distributor-name"></p>
-                        <p id="footer-address"></p>
-                        <p id="footer-phone"></p>
-                        <p id="footer-email"></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer__bottom">
-                <p>&copy; <span id="current-year"></span> <span id="footer-copyright"></span>. Všechna práva vyhrazena.</p>
-            </div>
-        </div>
+    <footer class="hub-footer">
+        <p>
+            &copy; <span id="hub-year"></span> NTC STAVEBNÍ TECHNIKA spol. s r.o.
+            <span class="hub-footer__sep">|</span>
+            Jiřinková 120, 552 03 Česká Skalice
+            <span class="hub-footer__sep">|</span>
+            <a href="tel:+420491452184">+420 491 452 184</a>
+            <span class="hub-footer__sep">|</span>
+            <a href="mailto:info@ntc.cz">info@ntc.cz</a>
+            <span class="hub-footer__sep">|</span>
+            <a href="stavebni/contact.html">Kontakt</a>
+        </p>
     </footer>
+
+    <script>
+        document.getElementById('hub-year').textContent = new Date().getFullYear();
+    </script>
+
 </body>
 </html>
