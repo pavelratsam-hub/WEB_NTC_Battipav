@@ -1143,7 +1143,7 @@
             },
             {
               "id": "agile-system-light",
-              "name": "AGILE SYSTEM LIGHT",
+              "name": "AGILE LIGHT",
               "description": "Lehká verze systému AGILE pro manipulaci s obklady.",
               "image": "assets/images/products/agile-system-light.jpg",
               "brochure": "",
@@ -1209,7 +1209,7 @@
           "products": [
             {
               "id": "lampo-flex-system",
-              "name": "LAMPO FLEX SYSTEM",
+              "name": "LAMPO FLEX",
               "description": "Flexibilní řezací systém pro velkoformátové obklady.",
               "image": "assets/images/products/lampo-flex-system.jpg",
               "brochure": "",
@@ -1222,7 +1222,7 @@
               ],
               "technicalSheet": "",
               "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
-              "seriesDescription": "<p>Lampo Flex System je inovativní systém určený pro přesné řezání velkoformátových desek. Skládá se z hliníkových lišt, přísavek a příslušenství Lampo Flex, které umožňuje praktické a efektivní využití úhlové brusky při práci. Systém je připraven pro připojení odsávání prachu při suchém řezání, čímž zvyšuje komfort i čistotu pracovního prostředí. Je kompatibilní s uchycením M14 a používá kotouče o průměru 115 mm.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a montážní týmy, které pracují s velkoformátovými deskami a vyžadují přesné, flexibilní a mobilní řešení pro řezání.</p><h3>Na co se nejvíce hodí</h3><p>Pro přesné suché řezy velkoformátových materiálů přímo na stavbě, zejména tam, kde je důležitá mobilita, čistota práce a flexibilita použití úhlové brusky.</p><h3>Hlavní přednosti</h3><p>Modulární a flexibilní systém, možnost připojení odsávání prachu, kompatibilita s běžnými úhlovými bruskami M14, přesné vedení řezu a vysoká variabilita použití.</p>"
+              "seriesDescription": "<p>Lampo Flex je inovativní systém určený pro přesné řezání velkoformátových desek. Skládá se z hliníkových lišt, přísavek a příslušenství Lampo Flex, které umožňuje praktické a efektivní využití úhlové brusky při práci. Systém je připraven pro připojení odsávání prachu při suchém řezání, čímž zvyšuje komfort i čistotu pracovního prostředí. Je kompatibilní s uchycením M14 a používá kotouče o průměru 115 mm.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a montážní týmy, které pracují s velkoformátovými deskami a vyžadují přesné, flexibilní a mobilní řešení pro řezání.</p><h3>Na co se nejvíce hodí</h3><p>Pro přesné suché řezy velkoformátových materiálů přímo na stavbě, zejména tam, kde je důležitá mobilita, čistota práce a flexibilita použití úhlové brusky.</p><h3>Hlavní přednosti</h3><p>Modulární a flexibilní systém, možnost připojení odsávání prachu, kompatibilita s běžnými úhlovými bruskami M14, přesné vedení řezu a vysoká variabilita použití.</p>"
             },
             {
               "id": "lampo-cut-evo",

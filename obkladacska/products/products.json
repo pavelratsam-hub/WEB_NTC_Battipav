@@ -783,23 +783,6 @@
               "seriesDescription": "<p>Carico! je transportní vozík navržený pro bezpečnou přepravu a manipulaci s velkoformátovými deskami. Díky systému tlumení vibrací umožňuje plynulý pohyb materiálu i na nerovných površích a přispívá k jeho ochraně během přesunu.</p><h3>Pro koho je určena</h3><p>Pro obkladače, montážní týmy a stavební profesionály, kteří potřebují efektivní a bezpečné řešení pro manipulaci s těžkými a rozměrnými deskami.</p><h3>Na co se nejvíce hodí</h3><p>Pro transport velkoformátových desek na stavbě, mezi jednotlivými pracovišti nebo při jejich usazování, zejména tam, kde je nutná stabilita a snadné řízení pohybu.</p><h3>Hlavní přednosti</h3><p>Systém tlumení vibrací, brzdy pro bezpečné zajištění, kola se směrovým vedením pro snadnou manipulaci a vysoká stabilita při přepravě těžkých desek.</p>"
             },
             {
-              "id": "compact-light-plus",
-              "name": "COMPACT LIGHT PLUS",
-              "description": "Kompaktní manipulační systém s rozšířenými funkcemi.",
-              "image": "assets/images/products/compact-light-plus.jpg",
-              "brochure": "",
-              "topProduct": false,
-              "features": [
-                "Kompaktní rozměry",
-                "Lehká konstrukce",
-                "Rozšířené funkce",
-                "Snadná přeprava"
-              ],
-              "technicalSheet": "",
-              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
-              "seriesDescription": "<p>Compact Light Plus je profesionální manipulační systém určený pro bezpečnou práci s velkoformátovými deskami. Zachovává vysokou tuhost i při zatížení, čímž minimalizuje riziko prohýbání a následného prasknutí materiálu. Oproti předchozím modelům nabízí ještě nižší hmotnost při nosnosti až 80 kg.</p><h3>Pro koho je určena</h3><p>Pro obkladače, montážní týmy a stavební profesionály, kteří pracují s velkoformátovými deskami a vyžadují bezpečnou, přesnou a efektivní manipulaci.</p><h3>Hlavní přednosti</h3><p>Vysoká stabilita při zatížení, snížené riziko poškození desky, velmi nízká hmotnost systému a nosnost až 80 kg pro pohodlnou a bezpečnou manipulaci.</p>"
-            },
-            {
               "id": "agile-light-plus",
               "name": "AGILE LIGHT PLUS",
               "description": "Lehký manipulační systém AGILE s rozšířenými funkcemi.",
@@ -817,6 +800,40 @@
               "seriesDescription": "<p>Agile Light Plus je manipulační systém nejnovější generace navržený pro práci s velkými a těžkými deskami. Konstrukce si zachovává vysokou tuhost i při plném zatížení, čímž minimalizuje riziko prohýbání a následného poškození materiálu. Systém umožňuje bezpečné zvedání až do hmotnosti 160 kg.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a montážní týmy, které pracují s velkoformátovými a těžkými deskami a vyžadují maximální bezpečnost a stabilitu při manipulaci.</p><h3>Na co se nejvíce hodí</h3><p>Pro zvedání, přenášení a přesné usazování velkoformátových desek na stavbě, zejména při práci s těžkými materiály, kde je klíčová pevnost a spolehlivost systému.</p><h3>Hlavní přednosti</h3><p>Nosnost až 160 kg, vysoká tuhost konstrukce, minimalizace rizika prohýbání a prasknutí materiálu a bezpečná manipulace s rozměrnými deskami.</p>"
             },
             {
+              "id": "agile-system-light",
+              "name": "AGILE LIGHT",
+              "description": "Lehká verze systému AGILE pro manipulaci s obklady.",
+              "image": "assets/images/products/agile-system-light.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Lehká konstrukce",
+                "Systém AGILE",
+                "Vakuové přísavky",
+                "Snadná manipulace"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Agile Light je manipulační systém navržený pro bezpečnou práci s velkoformátovými dlaždicemi. Umožňuje snadné zvedání materiálu až do hmotnosti 80 kg a nabízí flexibilní řešení pro každodenní použití. Dvojici jednotek lze rozšířit na verzi Agile Light Plus přidáním sady příčných nosníků.</p><h3>Pro koho je určena</h3><p>Pro obkladače a montážní týmy, kteří pracují s velkoformátovými dlaždicemi a potřebují lehký, variabilní a spolehlivý manipulační systém.</p><h3>Na co se nejvíce hodí</h3><p>Pro bezpečné zvedání, přenášení a přesné usazování velkoformátových dlaždic na stavbě, zejména tam, kde je klíčová flexibilita systému.</p><h3>Hlavní přednosti</h3><p>Nosnost až 80 kg, modulární rozšíření na verzi Plus, snadná manipulace, flexibilní konfigurace a efektivní podpora při práci s velkoformátovými materiály.</p>"
+            },
+            {
+              "id": "compact-light-plus",
+              "name": "COMPACT LIGHT PLUS",
+              "description": "Kompaktní manipulační systém s rozšířenými funkcemi.",
+              "image": "assets/images/products/compact-light-plus.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Kompaktní rozměry",
+                "Lehká konstrukce",
+                "Rozšířené funkce",
+                "Snadná přeprava"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Compact Light Plus je profesionální manipulační systém určený pro bezpečnou práci s velkoformátovými deskami. Zachovává vysokou tuhost i při zatížení, čímž minimalizuje riziko prohýbání a následného prasknutí materiálu. Oproti předchozím modelům nabízí ještě nižší hmotnost při nosnosti až 80 kg.</p><h3>Pro koho je určena</h3><p>Pro obkladače, montážní týmy a stavební profesionály, kteří pracují s velkoformátovými deskami a vyžadují bezpečnou, přesnou a efektivní manipulaci.</p><h3>Hlavní přednosti</h3><p>Vysoká stabilita při zatížení, snížené riziko poškození desky, velmi nízká hmotnost systému a nosnost až 80 kg pro pohodlnou a bezpečnou manipulaci.</p>"
+            },
+            {
               "id": "compact-light",
               "name": "COMPACT LIGHT",
               "description": "Základní kompaktní manipulační systém.",
@@ -831,24 +848,81 @@
               ],
               "technicalSheet": "",
               "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
-              "seriesDescription": "<p>Compact Light je manipulační systém navržený pro bezpečnou a efektivní práci s velkoformátovými dlaždicemi. Oproti předchozí generaci nabízí ještě nižší hmotnost při zachování potřebné stability a odolnosti pro každodenní použití.</p><h3>Pro koho je určena</h3><p>Pro obkladače a montážní týmy, kteří pracují s velkoformátovými dlaždicemi a potřebují lehké, praktické a spolehlivé řešení pro manipulaci.</p><h3>Hlavní přednosti</h3><p>Nízká hmotnost, snadná manipulace, stabilní konstrukce a efektivní podpora při přenášení a usazování velkoformátových dlaždic.</p>"
+              "seriesDescription": "<p>Compact Light je manipulační systém navržený pro bezpečnou a efektivní práci s velkoformátovými dlaždicemi. Oproti předchozí generaci nabízí ještě nižší hmotnost při zachování potřebné stability a odvolnosti pro každodenní použití.</p><h3>Pro koho je určena</h3><p>Pro obkladače a montážní týmy, kteří pracují s velkoformátovými dlaždicemi a potřebují lehké, praktické a spolehlivé řešení pro manipulaci.</p><h3>Hlavní přednosti</h3><p>Nízká hmotnost, snadná manipulace, stabilní konstrukce a efektivní podpora při přenášení a usazování velkoformátových dlaždic.</p>"
             },
             {
-              "id": "agile-system-light",
-              "name": "AGILE SYSTEM LIGHT",
-              "description": "Lehká verze systému AGILE pro manipulaci s obklady.",
-              "image": "assets/images/products/agile-system-light.jpg",
+              "id": "suction-cup",
+              "name": "SUCTION CUP",
+              "description": "Vakuová přísavka pro bezpečnou manipulaci s dlaždicemi.",
+              "image": "assets/images/products/suction-cup.jpg",
               "brochure": "",
               "topProduct": false,
               "features": [
-                "Lehká konstrukce",
-                "Systém AGILE",
-                "Vakuové přísavky",
-                "Snadná manipulace"
+                "Vysoká přísavná síla",
+                "Pro hladké povrchy",
+                "Ergonomická rukojeť",
+                "Rychlé uvolnění"
               ],
               "technicalSheet": "",
               "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
-              "seriesDescription": "<p>Agile Light je manipulační systém navržený pro bezpečnou práci s velkoformátovými dlaždicemi. Umožňuje snadné zvedání materiálu až do hmotnosti 80 kg a nabízí flexibilní řešení pro každodenní použití. Dvojici jednotek lze rozšířit na verzi Agile Light Plus přidáním sady příčných nosníků.</p><h3>Pro koho je určena</h3><p>Pro obkladače a montážní týmy, kteří pracují s velkoformátovými dlaždicemi a potřebují lehký, variabilní a spolehlivý manipulační systém.</p><h3>Na co se nejvíce hodí</h3><p>Pro bezpečné zvedání, přenášení a přesné usazování velkoformátových dlaždic na stavbě, zejména tam, kde je klíčová flexibilita systému.</p><h3>Hlavní přednosti</h3><p>Nosnost až 80 kg, modulární rozšíření na verzi Plus, snadná manipulace, flexibilní konfigurace a efektivní podpora při práci s velkoformátovými materiály.</p>"
+              "seriesDescription": "<p>Praktická přísavka navržená pro snadnou a bezpečnou manipulaci s velkoformátovými dlaždicemi. Usnadňuje práci na stavbě, šetří čas a zvyšuje celkovou produktivitu. Je vybavena kovovou ergonomickou rukojetí, ventilem pro uvolnění tlaku a plastovým přepravním kufrem. Speciální W tvar gumy umožňuje použití i na hrubších površích.</p><h3>Pro koho je určena</h3><p>Pro obkladače, montážní týmy a stavební profesionály, kteří potřebují bezpečný a efektivní nástroj pro manipulaci s velkoformátovými materiály.</p><h3>Hlavní přednosti</h3><p>Silný a spolehlivý úchop, snadná manipulace, ergonomická kovová rukojeť, možnost použití i na hrubém povrchu a praktický transportní kufr.</p>"
+            },
+            {
+              "id": "solleva",
+              "name": "SOLLEVA",
+              "description": "Elektrická akumulátorová vakuová přísavka pro bezpečnou manipulaci s velkoformátovými dlaždicemi.",
+              "image": "assets/images/products/solleva.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Akumulátorový provoz (3,7 V / 1200 mAh)",
+                "Přísavný terč Ø 200 mm",
+                "Nosnost 130 kg vodorovně / 70 kg svisle",
+                "Nabíjení USB-C (3 hodiny)",
+                "Vícevrstvá guma pro dokonalý úchop",
+                "Transportní plastový kufr v ceně"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Solleva je ideální pomocník pro práci s velkoformátovými dlaždicemi. Díky chytrému designu umožňuje rychlou a bezpečnou manipulaci, snižuje fyzickou námahu a zvyšuje pracovní efektivitu. Vícevrstvá guma zajišťuje dokonalý úchop na jakémkoliv povrchu a přísavný terč o průměru 200 mm unese až 130 kg vodorovně nebo 70 kg svisle. Součástí balení je ochranný plastový kufr a USB-C kabel pro pohodlné nabíjení kdekoliv.</p><h3>Pro koho je určena</h3><p>Pro obkladače a montážní týmy pracující s velkoformátovými dlaždicemi, kteří potřebují spolehlivý, výkonný a mobilní nástroj pro každodenní manipulaci na stavbě.</p><h3>Na co se nejvíce hodí</h3><p>Pro zvedání, přenášení a přesné usazování velkoformátových dlaždic a desek, zejména tam, kde je klíčová bezpečnost a snížení fyzické námahy.</p><h3>Hlavní přednosti</h3><p>Akumulátorový provoz bez kabelu, velký přísavný terč Ø 200 mm, vysoká nosnost, snadné ovládání jedním tlačítkem, nabíjení přes USB-C a praktický transportní kufr.</p>"
+            },
+            {
+              "id": "ultra-grip",
+              "name": "ULTRA GRIP",
+              "description": "Výkonná akumulátorová elektrická přísavka pro manipulaci s těžkými velkoformátovými dlaždicemi.",
+              "image": "assets/images/products/ultra-grip.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Baterie 21 V / 2000 mAh",
+                "Přísavka 200×88 mm",
+                "Nosnost 150 kg vodorovně / 80 kg svisle",
+                "Neoprenové těsnění pro všechny povrchy",
+                "Otvory pro závěsné háky",
+                "Transportní plastový kufr v ceně"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Ultra Grip je výkonná akumulátorová elektrická přísavka navržená pro bezpečnou manipulaci s těžkými velkoformátovými dlaždicemi. Díky baterii 21 V a velké přísavné ploše 200×88 mm zvládne zdvihnout až 150 kg vodorovně nebo 80 kg svisle. Neoprenové těsnění zajišťuje dokonalý úchop na jakémkoliv povrchu bez nutnosti výměny. Otvory pro závěsné háky umožňují přesun dlaždic i pomocí vysokozdvižného vozíku. Součástí balení je plastový transportní kufr a nabíječka.</p><h3>Pro koho je určena</h3><p>Pro obkladače a montážní týmy pracující s těžkými velkoformátovými dlaždicemi a deskami, kde je klíčová vysoká nosnost a spolehlivý úchop na různých površích.</p><h3>Na co se nejvíce hodí</h3><p>Pro zvedání a přesné usazování těžkých velkoformátových dlaždic na stavbě, včetně možnosti přepravy pomocí vysokozdvižného vozíku díky integrovaným závěsným otvorům.</p><h3>Hlavní přednosti</h3><p>Vysoká nosnost 150 kg, velká přísavná plocha, neoprenové těsnění bez nutnosti výměny, kompatibilita s baterií Makita 18V, otvory pro háky a praktický transportní kufr.</p>"
+            },
+            {
+              "id": "kit-pumpings",
+              "name": "KIT PUMPINGS",
+              "description": "Sada elektrických pump pro přísavky Battipav — maximální efektivita při práci s velkoformátovými dlaždicemi.",
+              "image": "assets/images/products/kit-pumpings.jpg",
+              "brochure": "",
+              "topProduct": false,
+              "features": [
+                "Elektrická pumpa Ø 150 mm",
+                "Baterie 3,7 V / 900 mAh",
+                "Nosnost 100 kg vodorovně",
+                "Nabíjení USB-C",
+                "6v1 kabel pro simultánní nabíjení",
+                "Kompatibilní se všemi přísavkami Battipav"
+              ],
+              "technicalSheet": "",
+              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+              "seriesDescription": "<p>Kit Pumpings je ideální řešení pro ty, kdo již vlastní přísavkové systémy Battipav a chtějí maximalizovat efektivitu a rychlost práce s velkoformátovými dlaždicemi. Sada obsahuje elektrické pumpy v kompaktním plastovém kufru a 6v1 kabel pro simultánní nabíjení všech pump najednou. Pumpy jsou kompatibilní se všemi přísavkovými systémy Battipav včetně Suction Cup a Solleva.</p><h3>Pro koho je určena</h3><p>Pro obkladače a montážní profesionály, kteří pracují s více přísavkami Battipav najednou a potřebují rychlé, efektivní a mobilní řešení pro jejich napájení a nabíjení.</p><h3>Na co se nejvíce hodí</h3><p>Pro práci na větších projektech, kde je potřeba mít připraveno více přísavek současně a zajistit jejich plynulý provoz bez prostojů způsobených vybytými bateriemi.</p><h3>Hlavní přednosti</h3><p>Kompletní sada v kufru, simultánní nabíjení 6 pump jedním kabelem, USB-C napájení, kompatibilita se všemi přísavkovými systémy Battipav a vysoká nosnost až 100 kg vodorovně.</p>"
             }
           ]
         },
@@ -901,7 +975,7 @@
           "products": [
             {
               "id": "lampo-flex-system",
-              "name": "LAMPO FLEX SYSTEM",
+              "name": "LAMPO FLEX",
               "description": "Flexibilní řezací systém pro velkoformátové obklady.",
               "image": "assets/images/products/lampo-flex-system.jpg",
               "brochure": "",
@@ -914,7 +988,7 @@
               ],
               "technicalSheet": "",
               "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
-              "seriesDescription": "<p>Lampo Flex System je inovativní systém určený pro přesné řezání velkoformátových desek. Skládá se z hliníkových lišt, přísavek a příslušenství Lampo Flex, které umožňuje praktické a efektivní využití úhlové brusky při práci. Systém je připraven pro připojení odsávání prachu při suchém řezání, čímž zvyšuje komfort i čistotu pracovního prostředí. Je kompatibilní s uchycením M14 a používá kotouče o průměru 115 mm.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a montážní týmy, které pracují s velkoformátovými deskami a vyžadují přesné, flexibilní a mobilní řešení pro řezání.</p><h3>Na co se nejvíce hodí</h3><p>Pro přesné suché řezy velkoformátových materiálů přímo na stavbě, zejména tam, kde je důležitá mobilita, čistota práce a flexibilita použití úhlové brusky.</p><h3>Hlavní přednosti</h3><p>Modulární a flexibilní systém, možnost připojení odsávání prachu, kompatibilita s běžnými úhlovými bruskami M14, přesné vedení řezu a vysoká variabilita použití.</p>"
+              "seriesDescription": "<p>Lampo Flex je inovativní systém určený pro přesné řezání velkoformátových desek. Skládá se z hliníkových lišt, přísavek a příslušenství Lampo Flex, které umožňuje praktické a efektivní využití úhlové brusky při práci. Systém je připraven pro připojení odsávání prachu při suchém řezání, čímž zvyšuje komfort i čistotu pracovního prostředí. Je kompatibilní s uchycením M14 a používá kotouče o průměru 115 mm.</p><h3>Pro koho je určena</h3><p>Pro profesionální obkladače a montážní týmy, které pracují s velkoformátovými deskami a vyžadují přesné, flexibilní a mobilní řešení pro řezání.</p><h3>Na co se nejvíce hodí</h3><p>Pro přesné suché řezy velkoformátových materiálů přímo na stavbě, zejména tam, kde je důležitá mobilita, čistota práce a flexibilita použití úhlové brusky.</p><h3>Hlavní přednosti</h3><p>Modulární a flexibilní systém, možnost připojení odsávání prachu, kompatibilita s běžnými úhlovými bruskami M14, přesné vedení řezu a vysoká variabilita použití.</p>"
             },
             {
               "id": "lampo-cut-evo",
@@ -974,23 +1048,6 @@
               "technicalSheet": "",
               "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
               "seriesDescription": "<p>Pulse je profesionální akumulátorový vibrátor navržený pro práci s velkoformátovými dlaždicemi a deskami. Zajišťuje rovnoměrné a efektivní rozprostření lepidla mezi dlaždicí a podkladem, čímž přispívá k maximální přilnavosti a kvalitě instalace.</p><h3>Pro koho je určena</h3><p>Pro obkladače a montážní profesionály, kteří pracují s velkoformátovými materiály a kladou důraz na precizní a spolehlivou pokládku.</p><h3>Na co se nejvíce hodí</h3><p>Pro usazování velkoformátových dlaždic a desek při instalaci, zejména tam, kde je klíčové dokonalé přilnutí k podkladu a eliminace vzduchových mezer.</p><h3>Hlavní přednosti</h3><p>Akumulátorový provoz bez omezení kabelem, rovnoměrné rozprostření lepidla, zvýšení kvality pokládky a efektivní práce s velkoformátovými materiály.</p>"
-            },
-            {
-              "id": "suction-cup",
-              "name": "SUCTION CUP",
-              "description": "Vakuová přísavka pro bezpečnou manipulaci s dlaždicemi.",
-              "image": "assets/images/products/suction-cup.jpg",
-              "brochure": "",
-              "topProduct": false,
-              "features": [
-                "Vysoká přísavná síla",
-                "Pro hladké povrchy",
-                "Ergonomická rukojeť",
-                "Rychlé uvolnění"
-              ],
-              "technicalSheet": "",
-              "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
-              "seriesDescription": "<p>Praktická přísavka navržená pro snadnou a bezpečnou manipulaci s velkoformátovými dlaždicemi. Usnadňuje práci na stavbě, šetří čas a zvyšuje celkovou produktivitu. Je vybavena kovovou ergonomickou rukojetí, ventilem pro uvolnění tlaku a plastovým přepravním kufrem. Speciální W tvar gumy umožňuje použití i na hrubších površích.</p><h3>Pro koho je určena</h3><p>Pro obkladače, montážní týmy a stavební profesionály, kteří potřebují bezpečný a efektivní nástroj pro manipulaci s velkoformátovými materiály.</p><h3>Hlavní přednosti</h3><p>Silný a spolehlivý úchop, snadná manipulace, ergonomická kovová rukojeť, možnost použití i na hrubém povrchu a praktický transportní kufr.</p>"
             }
           ]
         }
@@ -1081,6 +1138,25 @@
           "technicalSheet": "",
           "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
           "seriesDescription": "<p>Master Linda je vysoce výkonný jednokotoučový stroj určený pro leštění, čištění a vyhlazování podlah. Nabízí kompletní řadu příslušenství pro přizpůsobení různým pracovním požadavkům. Stroj je připraven pro připojení odsávání prachu a umožňuje dodatečné přitížení pro zvýšení efektivity podle konkrétního použití.</p><h3>Pro koho je určena</h3><p>Pro podlaháře, specializované realizační týmy a stavební profesionály, kteří vyžadují vysoký výkon a maximální flexibilitu při úpravě podlahových povrchů.</p><h3>Na co se nejvíce hodí</h3><p>Pro profesionální renovace, finální úpravy a intenzivní čištění podlah, zejména tam, kde je potřeba kombinovat výkon, přesnost a kontrolu prašnosti.</p><h3>Hlavní přednosti</h3><p>Vysoký výkon, široká škála příslušenství, možnost připojení odsávání prachu, volitelné přitížení stroje a univerzální využití pro různé typy podlahových úprav.</p>"
+        },
+        {
+          "id": "linda-veloce",
+          "name": "LINDA VELOCE",
+          "description": "Víceúčelový jednokotoučový podlahový stroj pro čištění, leštění, voskování a broušení podlah.",
+          "image": "assets/images/products/linda-veloce.jpg",
+          "brochure": "",
+          "topProduct": false,
+          "features": [
+            "Výkon: 2,5 Hp / 1,9 kW, 9 A",
+            "Nádrž: 8 litrů",
+            "Rychlost: 207 min⁻¹",
+            "Průměr kartáče Ø 420 mm v ceně",
+            "Hmotnost: 23,5 kg",
+            "Rozměry: 57 × 43 × 44 cm"
+          ],
+          "technicalSheet": "",
+          "eshopUrl": "https://www.ntcshop.cz/znacka/battipav/",
+          "seriesDescription": "<p>Linda Veloce je víceúčelový a výkonný jednokotoučový stroj navržený pro celou škálu prací na podlahách — čištění, leštění, voskování i broušení. Díky vysoké rychlosti 207 min⁻¹ a výkonu 1,9 kW zvládne i náročnější aplikace. Standardní součástí je polypropylenový kartáč Ø 420 mm a integrovaná nádrž na 8 litrů kapaliny nebo čisticích prostředků. Výška rukojeti je plynule nastavitelná pomocí křídlové matice, sklon pak přes vícelamelovou spojku.</p><h3>Pro koho je určena</h3><p>Pro podlaháře, úklidové firmy a stavební profesionály, kteří potřebují rychlý, výkonný a snadno ovladatelný stroj pro každodenní údržbu a úpravu podlah.</p><h3>Na co se nejvíce hodí</h3><p>Pro čištění, leštění a povrchovou úpravu podlah na větších plochách, zejména tam, kde je klíčová rychlost práce a flexibilita pro různé typy příslušenství.</p><h3>Hlavní přednosti</h3><p>Vysoká pracovní rychlost, integrovaná nádrž na 8 litrů, nastavitelná výška a sklon rukojeti, kompatibilita s řadou příslušenství a polypropylenový kartáč Ø 420 mm v ceně.</p>"
         }
       ]
     },
