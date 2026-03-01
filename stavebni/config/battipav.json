@@ -4,7 +4,7 @@
     "fullName": "Battipav S.r.l.",
     "country": "Itálie",
     "website": "https://battipav.com",
-    "description": "Battipav patří mezi špičku ve stavebním průmyslu a zaměřuje se na vývoj a výrobu profesionálních strojů a zařízení pro každodenní nasazení v náročných podmínkách. Spojuje dlouholeté know-how, precizní zpracování a vášeň pro techniku, která skutečně funguje."
+    "description": "Stavební pily Battipav jsou navrženy pro každodenní práci v náročných podmínkách stavby. Řeží beton, kámen, pórobeton, cihly i betonové tvárnice — přesně a spolehlivě, den za dnem. Každý stroj vzniká s důrazem na robustnost, výkon a snadnou obsluhu přímo na stavbě."
   },
   "distributor": {
     "name": "NTC STAVEBNÍ TECHNIKA spol. s r.o.",
@@ -135,8 +135,8 @@
     "slides": [
       {
         "id": "slide-1",
-        "title": "BATTIPAV: STROJE A NÁSTROJE PRO PROFESIONÁLY",
-        "subtitle": "Elektriceké pily, řezače obkladů, a další",
+        "title": "STAVEBNÍ PILY BATTIPAV",
+        "subtitle": "Stavební pily pro všechny stavebníky a řemeslníky",
         "ctaText": "Zobrazit produkty",
         "ctaLink": "products.html",
         "background": "assets/images/battipav/Textura BATTIPAV LOGO_ŠEDÁ.jpg",

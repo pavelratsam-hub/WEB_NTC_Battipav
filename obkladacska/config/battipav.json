@@ -4,7 +4,7 @@
     "fullName": "Battipav S.r.l.",
     "country": "Itálie",
     "website": "https://battipav.com",
-    "description": "Battipav patří mezi špičku ve stavebním průmyslu a zaměřuje se na vývoj a výrobu profesionálních strojů a zařízení pro každodenní nasazení v náročných podmínkách. Spojuje dlouholeté know-how, precizní zpracování a vášeň pro techniku, která skutečně funguje."
+    "description": "Battipav nabízí komplexní sortiment nástrojů a strojů pro profesionální pokládku obkladů a dlažeb. Od ručních řezaček přes elektrické portálové pily až po velkoformátové pokládkové systémy — každý produkt je navržen s ohledem na přesnost, výkon a každodenní nasazení v reálných podmínkách."
   },
   "distributor": {
     "name": "NTC STAVEBNÍ TECHNIKA spol. s r.o.",
@@ -184,8 +184,8 @@
     "slides": [
       {
         "id": "slide-1",
-        "title": "BATTIPAV: STROJE A NÁSTROJE PRO PROFESIONÁLY",
-        "subtitle": "Elektriceké pily, řezače obkladů, a další",
+        "title": "OBKLADAČSKÁ TECHNIKA BATTIPAV",
+        "subtitle": "Kompletní sortiment strojů a nástrojů pro obkladače",
         "ctaText": "Zobrazit produkty",
         "ctaLink": "products.html",
         "background": "assets/images/battipav/Textura BATTIPAV LOGO_ŠEDÁ.jpg",
